@@ -103,6 +103,7 @@ dt{color:var(--dim)}dd{margin:0;font-variant-numeric:tabular-nums;text-align:rig
     <details>
       <summary>What am I looking at?</summary>
       <p><strong>Map.</strong> Every recording sits where its ARU stood. Recordings from the same site stack upward through the day, so a station heard at 03:00 and again at 21:00 becomes a short column of light.</p>
+      <p><strong>Community.</strong> Recordings that share more tagged species sit closer together, measured as Jaccard similarity of species lists and laid out with principal coordinates analysis. Clips with nothing tagged, only wind, rain or vehicles, drift in a quiet ring below.</p>
       <p><strong>Season clock.</strong> The same recordings fold into a spiral. Angle is the hour of day, with midnight at the top. Distance from the centre is the date, from early May on the inside to early August on the rim.</p>
       <p id="data-note"><strong>Placeholder data.</strong> Sites, tags and sounds here are simulated, and the sounds are synthesized in your browser. The real version plays 30 s clips pulled from WildTrax, with species lists from the tags.</p>
     </details>
@@ -114,6 +115,7 @@ dt{color:var(--dim)}dd{margin:0;font-variant-numeric:tabular-nums;text-align:rig
       <div class="seg" id="view">
         <button id="v-map" aria-pressed="true" data-v="map">Map</button>
         <button id="v-clock" aria-pressed="false" data-v="clock">Season clock</button>
+        <button id="v-comm" aria-pressed="false" data-v="comm">Community</button>
         <button id="v-emb" aria-pressed="false" disabled title="Embeddings are still being computed">What the model hears · soon</button>
       </div>
     </div>
@@ -268,6 +270,29 @@ const D0=125,D1=220;const rOf=d=>1.4+(d-D0)/(D1-D0)*5.2;
 function clockXYZ(p){const a=p.hour/24*Math.PI*2,r=rOf(p.doy);return [r*Math.sin(a),(p.lat-LAT0)*.04,-r*Math.cos(a)]}
 P.forEach(p=>{p.map=mapXYZ(p);p.clock=clockXYZ(p)});
 
+/* ---------- community similarity: Jaccard on tagged species, PCoA to 3D ---------- */
+P.forEach(p=>p.spSet=new Set(p.species));
+function jaccard(a,b){if(!a.size&&!b.size)return 0;let n=0;a.forEach(x=>{if(b.has(x))n++});return n/(a.size+b.size-n)}
+(function(){
+  const idx=P.map((p,i)=>i).filter(i=>P[i].spSet.size>0),n=idx.length;
+  const D2=new Float64Array(n*n);
+  for(let i=0;i<n;i++)for(let j=i+1;j<n;j++){const d=1-jaccard(P[idx[i]].spSet,P[idx[j]].spSet);D2[i*n+j]=D2[j*n+i]=d*d}
+  // Gower double-centring: B = -1/2 J D² J
+  const rm=new Float64Array(n);let gm=0;for(let i=0;i<n;i++){let s=0;for(let j=0;j<n;j++)s+=D2[i*n+j];rm[i]=s/n;gm+=s}gm/=n*n;
+  const B=new Float64Array(n*n);for(let i=0;i<n;i++)for(let j=0;j<n;j++)B[i*n+j]=-.5*(D2[i*n+j]-rm[i]-rm[j]+gm);
+  const vecs=[],vals=[],rr=mulberry32(99);
+  for(let k=0;k<3;k++){let v=new Float64Array(n).map(()=>rr()-.5),lam=0;
+    for(let it=0;it<150;it++){const w=new Float64Array(n);for(let i=0;i<n;i++){let s=0;const o=i*n;for(let j=0;j<n;j++)s+=B[o+j]*v[j];w[i]=s}
+      for(let q=0;q<k;q++){let d=0;for(let i=0;i<n;i++)d+=w[i]*vecs[q][i];for(let i=0;i<n;i++)w[i]-=d*vecs[q][i]}
+      let nr=0;for(let i=0;i<n;i++)nr+=w[i]*w[i];nr=Math.sqrt(nr)||1;lam=nr;for(let i=0;i<n;i++)v[i]=w[i]/nr}
+    vecs.push(v);vals.push(Math.max(lam,1e-9))}
+  const co=idx.map((_,i)=>[0,1,2].map(k=>vecs[k][i]*Math.sqrt(vals[k])));
+  let mx=0;co.forEach(c=>c.forEach(x=>mx=Math.max(mx,Math.abs(x))));const sc=5.2/(mx||1);
+  idx.forEach((pi,i)=>{const c=co[i];P[pi].comm=[c[0]*sc+gauss(R)*.12,c[1]*sc*.8+1+gauss(R)*.12,c[2]*sc+gauss(R)*.12]});
+  // nothing tagged: a quiet ring underneath
+  const empty=P.filter(p=>!p.spSet.size);empty.forEach((p,k)=>{const a=k/Math.max(1,empty.length)*Math.PI*2;p.comm=[Math.cos(a)*2.4+gauss(R)*.15,-3.6+gauss(R)*.1,Math.sin(a)*2.4+gauss(R)*.15]});
+})();
+
 /* ---------- colour ---------- */
 const C=h=>new THREE.Color(h);
 function ramp(stops,x){if(x<=stops[0][0])return C(stops[0][1]);for(let i=1;i<stops.length;i++)if(x<=stops[i][0]){const t=(x-stops[i-1][0])/(stops[i][0]-stops[i-1][0]);return C(stops[i-1][1]).lerp(C(stops[i][1]),t)}return C(stops[stops.length-1][1])}
@@ -340,7 +365,7 @@ mk.visible=false;scene.add(mk);
 const thr=lines(new Array(18).fill(0),.35);thr.material.color=C('#d9e4df');thr.visible=false;scene.add(thr);
 
 /* ---------- camera rig ---------- */
-const VIEWCAM={map:{ph:1.02,r:14},clock:{ph:.42,r:15}};
+const VIEWCAM={map:{ph:1.02,r:14},clock:{ph:.42,r:15},comm:{ph:1.2,r:15}};
 const rig={th:0,ph:1.02,r:14,tg:new THREE.Vector3()},goal={th:0,ph:1.02,r:14,tg:new THREE.Vector3()};
 let lastInteract=0;
 function placeCam(){rig.th+=(goal.th-rig.th)*.07;rig.ph+=(goal.ph-rig.ph)*.06;rig.r+=(goal.r-rig.r)*.06;rig.tg.lerp(goal.tg,.06);
@@ -369,7 +394,7 @@ function hover(e){const i=pick(e);if(i<0){tip.hidden=true;canvas.style.cursor=''
 function tap(e){const i=pick(e);if(i>=0){stopJourney();select(i)}}
 
 /* ---------- views ---------- */
-let view='map',cmode='tod',mFrom=null,mTo=null,mT=1,guideMix=0;
+let view='map',cmode='tod',mFrom=null,mTo=null,mT=1,mapMix=1,clockMix=0;
 function setView(v){if(v===view)return;view=v;mFrom=pos.slice();mTo=new Float32Array(N*3);P.forEach((p,i)=>mTo.set(p[v],i*3));mT=reduce?.999:0;
   document.querySelectorAll('#view button[data-v]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===v));
   goal.ph=VIEWCAM[v].ph;goal.r=sel>=0?Math.min(VIEWCAM[v].r,8):VIEWCAM[v].r;goal.tg.set(0,0,0);if(sel>=0){goal.tg.fromArray(P[sel][v]);renderNN()}}
@@ -404,10 +429,12 @@ function select(i,fly=true){sel=i;const p=P[i],c=colourOf(p,cmode),hex='#'+c.get
   $('label').hidden=false;mk.visible=true;mk.material.uniforms.uCol.value=c;
   renderNN();if(fly){goal.tg.fromArray(p[view]);goal.r=Math.min(goal.r,8)}play(i);clearSpec()}
 function renderNN(){if(sel<0)return;const a=P[sel][view];
-  const d=P.map((p,i)=>[i,Math.hypot(p[view][0]-a[0],p[view][1]-a[1],p[view][2]-a[2])]).filter(x=>x[0]!==sel).sort((x,y)=>x[1]-y[1]).slice(0,3);
-  nnIdx=d.map(x=>x[0]);thr.visible=true;$('nn-title').textContent=view==='map'?'Nearest on the map':'Nearest on the clock';
-  $('nn').innerHTML=d.map(([i])=>{const q=P[i],c='#'+colourOf(q,cmode).getHexString();
-    const meta=view==='map'?(q.site===P[sel].site?'same site':(Math.hypot((q.lat-P[sel].lat)*111,(q.lon-P[sel].lon)*111*Math.cos(q.lat*Math.PI/180))).toFixed(0)+' km'):fmtDate(q.doy)+' '+fmtH(q.hour);
+  const ps=P[sel].spSet;
+  const d=view==='comm'&&ps.size?P.map((p,i)=>[i,1-jaccard(ps,p.spSet)]).filter(x=>x[0]!==sel).sort((x,y)=>x[1]-y[1]).slice(0,3)
+    :P.map((p,i)=>[i,Math.hypot(p[view][0]-a[0],p[view][1]-a[1],p[view][2]-a[2])]).filter(x=>x[0]!==sel).sort((x,y)=>x[1]-y[1]).slice(0,3);
+  nnIdx=d.map(x=>x[0]);thr.visible=true;$('nn-title').textContent=view==='map'?'Nearest on the map':view==='clock'?'Nearest on the clock':'Most similar communities';
+  $('nn').innerHTML=d.map(([i,dist])=>{const q=P[i],c='#'+colourOf(q,cmode).getHexString();
+    const meta=view==='comm'?(ps.size?Math.round((1-dist)*100)+'% shared':(q.spSet.size?'':'nothing tagged')):view==='map'?(q.site===P[sel].site?'same site':(Math.hypot((q.lat-P[sel].lat)*111,(q.lon-P[sel].lon)*111*Math.cos(q.lat*Math.PI/180))).toFixed(0)+' km'):fmtDate(q.doy)+' '+fmtH(q.hour);
     return `<li><button data-i="${i}"><span class="dot" style="background:${c};color:${c}"></span>${q.site}<span class="d">${meta}</span></button></li>`}).join('');
   $('nn').querySelectorAll('button').forEach(b=>b.onclick=()=>{stopJourney();select(+b.dataset.i)})}
 function deselect(){sel=-1;$('label').hidden=true;mk.visible=false;thr.visible=false;goal.tg.set(0,0,0);goal.r=VIEWCAM[view].r;fadeVoice()}
@@ -494,14 +521,14 @@ addEventListener('resize',resize);resize();paint();
 const clock=new THREE.Clock(),tmp=new THREE.Vector3();
 function frame(){const dt=clock.getDelta();uni.uTime.value+=reduce?0:dt;
   if(mT<1&&mTo){mT=Math.min(1,mT+dt/1.9);const e=ease(mT);for(let k=0;k<pos.length;k++)pos[k]=mFrom[k]+(mTo[k]-mFrom[k])*e;geo.attributes.position.needsUpdate=true}
-  const tgtMix=view==='clock'?1:0;guideMix+=(tgtMix-guideMix)*(reduce?1:.05);
-  mapGuide.material.opacity=.12*(1-guideMix);stalks.material.opacity=view==='map'?.18*Math.pow(mT,4):0;clockGuide.material.opacity=.16*guideMix;
+  const k=reduce?1:.05;mapMix+=((view==='map'?1:0)-mapMix)*k;clockMix+=((view==='clock'?1:0)-clockMix)*k;
+  mapGuide.material.opacity=.12*mapMix;stalks.material.opacity=view==='map'?.18*Math.pow(mT,4):0;clockGuide.material.opacity=.16*clockMix;
   if(!reduce&&performance.now()-lastInteract>3500&&!ptrs.size)goal.th+=.0008;
   if(sel>=0){const m=mk.geometry.attributes.position;m.array.set(pos.subarray(sel*3,sel*3+3));m.needsUpdate=true;
     const l=thr.geometry.attributes.position;nnIdx.forEach((j,k)=>{l.array.set(pos.subarray(sel*3,sel*3+3),k*6);l.array.set(pos.subarray(j*3,j*3+3),k*6+3)});l.needsUpdate=true;drawSpec()}
   placeCam();renderer.render(scene,cam);
   const w=innerWidth,h=innerHeight;GL.forEach(g=>{tmp.copy(g.v).project(cam);const vis=tmp.z<1&&Math.abs(tmp.x)<1.05&&Math.abs(tmp.y)<1.05;
-    const mix=g.view==='map'?1-guideMix:guideMix;g.el.style.opacity=vis?(mix*.85).toFixed(2):0;
+    const mix=g.view==='map'?mapMix:clockMix;g.el.style.opacity=vis?(mix*.85).toFixed(2):0;
     g.el.style.left=((tmp.x+1)/2*w)+'px';g.el.style.top=((1-tmp.y)/2*h)+'px'});
   requestAnimationFrame(frame)}
 frame();
