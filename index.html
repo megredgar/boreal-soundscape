@@ -263,9 +263,9 @@ if(usingReal){const dn=$('data-note');if(dn)dn.innerHTML='<strong>The recordings
 /* ---------- layouts ---------- */
 const LON0=-102,LAT0=56.5;
 function mapXYZ(p){const x=(p.lon-LON0)*.3*Math.cos(p.lat*Math.PI/180)/Math.cos(LAT0*Math.PI/180);
-  return [x,-1.6+p.hour/24*2.6,-(p.lat-LAT0)*.55]}
+  return [x,.12+p.hour/24*1.5,-(p.lat-LAT0)*.55]}  // sits just above the map surface (y=0), rising with hour
 const D0=125,D1=220;const rOf=d=>1.4+(d-D0)/(D1-D0)*5.2;
-function clockXYZ(p){const a=p.hour/24*Math.PI*2,r=rOf(p.doy);return [r*Math.sin(a),(p.lat-LAT0)*.12,-r*Math.cos(a)]}
+function clockXYZ(p){const a=p.hour/24*Math.PI*2,r=rOf(p.doy);return [r*Math.sin(a),(p.lat-LAT0)*.04,-r*Math.cos(a)]}
 P.forEach(p=>{p.map=mapXYZ(p);p.clock=clockXYZ(p)});
 
 /* ---------- colour ---------- */
@@ -308,11 +308,15 @@ scene.add(cloud);
 /* guides: graticule for the map, rings and hour spokes for the clock */
 function lines(arr,op){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(new Float32Array(arr),3));
   return new THREE.LineSegments(g,new THREE.LineBasicMaterial({color:0x9fc7bb,transparent:true,opacity:op,depthWrite:false}))}
-const GY=-1.75;
+const GY=0;
 const grat=[];
 for(let lat=50;lat<=64;lat+=2){for(let lon=-124;lon<-80;lon+=1){const a=mapXYZ({lat,lon,hour:0}),b=mapXYZ({lat,lon:lon+1,hour:0});grat.push(a[0],GY,a[2],b[0],GY,b[2])}}
 for(let lon=-124;lon<=-80;lon+=4){for(let lat=50;lat<64;lat+=.5){const a=mapXYZ({lat,lon,hour:0}),b=mapXYZ({lat:lat+.5,lon,hour:0});grat.push(a[0],GY,a[2],b[0],GY,b[2])}}
 const mapGuide=lines(grat,.12);scene.add(mapGuide);
+// faint stalks tie each site's column of recordings to its spot on the map
+const siteTop={};P.forEach(p=>{const m=p.map,t=siteTop[p.site];if(!t||m[1]>t[1])siteTop[p.site]=m});
+const stalkArr=[];Object.values(siteTop).forEach(m=>stalkArr.push(m[0],GY,m[2],m[0],m[1],m[2]));
+const stalks=lines(stalkArr,.18);scene.add(stalks);
 const ring=[];const MONTHS=[[121,'MAY'],[152,'JUN'],[182,'JUL'],[213,'AUG']];
 MONTHS.forEach(([d])=>{const r=rOf(d);for(let k=0;k<96;k++){const a0=k/96*6.283,a1=(k+1)/96*6.283;ring.push(r*Math.sin(a0),0,-r*Math.cos(a0),r*Math.sin(a1),0,-r*Math.cos(a1))}});
 for(let h=0;h<24;h+=3){const a=h/24*6.283,r0=rOf(D0)-.4,r1=rOf(D1)+.5;ring.push(r0*Math.sin(a),0,-r0*Math.cos(a),r1*Math.sin(a),0,-r1*Math.cos(a))}
@@ -491,7 +495,7 @@ const clock=new THREE.Clock(),tmp=new THREE.Vector3();
 function frame(){const dt=clock.getDelta();uni.uTime.value+=reduce?0:dt;
   if(mT<1&&mTo){mT=Math.min(1,mT+dt/1.9);const e=ease(mT);for(let k=0;k<pos.length;k++)pos[k]=mFrom[k]+(mTo[k]-mFrom[k])*e;geo.attributes.position.needsUpdate=true}
   const tgtMix=view==='clock'?1:0;guideMix+=(tgtMix-guideMix)*(reduce?1:.05);
-  mapGuide.material.opacity=.12*(1-guideMix);clockGuide.material.opacity=.16*guideMix;
+  mapGuide.material.opacity=.12*(1-guideMix);stalks.material.opacity=view==='map'?.18*Math.pow(mT,4):0;clockGuide.material.opacity=.16*guideMix;
   if(!reduce&&performance.now()-lastInteract>3500&&!ptrs.size)goal.th+=.0008;
   if(sel>=0){const m=mk.geometry.attributes.position;m.array.set(pos.subarray(sel*3,sel*3+3));m.needsUpdate=true;
     const l=thr.geometry.attributes.position;nnIdx.forEach((j,k)=>{l.array.set(pos.subarray(sel*3,sel*3+3),k*6);l.array.set(pos.subarray(j*3,j*3+3),k*6+3)});l.needsUpdate=true;drawSpec()}
