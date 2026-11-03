@@ -17,7 +17,7 @@
 }
 html,body{height:100%;overflow:hidden}
 body{background:radial-gradient(120% 90% at 50% 110%,#0d2a24 0%,#071713 45%,var(--night) 80%);color:var(--mist);font-family:var(--body);font-size:14px}
-#stage{position:fixed;inset:0;display:block;touch-action:none;cursor:grab}
+#stage{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}
 #stage.dragging{cursor:grabbing}
 .ui{position:fixed;inset:0;pointer-events:none;
   padding-block:calc(18px + env(safe-area-inset-top,0px)) calc(18px + env(safe-area-inset-bottom,0px));
@@ -489,7 +489,7 @@ document.querySelectorAll('#view button[data-v]').forEach(b=>b.onclick=()=>setVi
 document.querySelectorAll('#colour button').forEach(b=>b.onclick=()=>{cmode=b.dataset.c;paint();if(sel>=0)select(sel,false)});
 
 /* ---------- loop ---------- */
-function resize(){const w=innerWidth,h=innerHeight;renderer.setSize(w,h,false);cam.aspect=w/h;cam.fov=w<720?64:50;cam.updateProjectionMatrix()}
+function resize(){const w=innerWidth,h=innerHeight;renderer.setSize(w,h);cam.aspect=w/h;cam.fov=w<720?64:50;cam.updateProjectionMatrix()}
 addEventListener('resize',resize);resize();paint();
 const clock=new THREE.Clock(),tmp=new THREE.Vector3();
 function frame(){const dt=clock.getDelta();uni.uTime.value+=reduce?0:dt;
