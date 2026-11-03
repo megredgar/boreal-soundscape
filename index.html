@@ -66,7 +66,12 @@ details strong{color:var(--mist);font-weight:500}
 #lab-close{all:unset;cursor:pointer;color:var(--dim);font-size:18px;line-height:1;padding:2px 4px}
 #label h2{font-family:var(--display);font-weight:400;font-size:28px;line-height:1.05;margin:0;text-wrap:balance}
 #lab-sub{margin:-6px 0 0;color:var(--dim);font-style:italic;font-family:var(--display);font-size:15px}
-#spec{width:100%;height:70px;display:block;border-top:1px solid var(--faint);border-bottom:1px solid var(--faint)}
+.specwrap{position:relative;margin-bottom:12px}
+#spec{width:100%;height:104px;display:block;cursor:pointer;border:1px solid var(--faint);border-radius:2px;background:var(--night)}
+.sax{position:absolute;font-family:var(--mono);font-size:8.5px;color:var(--dim);pointer-events:none;letter-spacing:.04em;font-variant-numeric:tabular-nums}
+.sax.fy{left:5px;color:rgba(217,228,223,.55)}.sax.f12{top:3px}.sax.f6{top:calc(50% - 6px)}
+.sax.tx{bottom:-14px}.sax.t0{left:0}.sax.tN{right:0}
+.sax.load{top:50%;left:50%;transform:translate(-50%,-50%);font-size:10px}
 .chips{display:flex;flex-wrap:wrap;gap:5px}
 .chips span{font-size:11.5px;padding:3px 8px;border:1px solid var(--faint);border-radius:999px;color:var(--mist)}
 .chips span.ab{color:var(--dim);font-style:italic}
@@ -151,7 +156,12 @@ dt{color:var(--dim)}dd{margin:0;font-variant-numeric:tabular-nums;text-align:rig
   <div class="lab-top"><span class="dot" id="lab-dot"></span><span class="mono" id="lab-id"></span><button id="lab-close" aria-label="Close label">×</button></div>
   <h2 id="lab-name"></h2>
   <p id="lab-sub"></p>
-  <canvas id="spec" width="600" height="140" aria-label="Live spectrogram"></canvas>
+  <div class="specwrap">
+    <canvas id="spec" width="640" height="200" aria-label="Spectrogram of the clip. Click to jump to a moment."></canvas>
+    <span class="sax fy f12">12 kHz</span><span class="sax fy f6">6</span>
+    <span class="sax tx t0">0 s</span><span class="sax tx tN" id="spec-dur">30 s</span>
+    <span class="sax load" id="spec-load" hidden>Drawing spectrogram…</span>
+  </div>
   <div>
     <span class="eyebrow">Tagged in this clip</span>
     <div class="chips" id="lab-species" style="margin-top:6px"></div>
@@ -427,7 +437,7 @@ function select(i,fly=true){sel=i;const p=P[i],c=colourOf(p,cmode),hex='#'+c.get
   $('lab-zone').textContent=ZONES[p.zone].name;$('lab-coord').textContent=p.lat.toFixed(2)+'°N, '+Math.abs(p.lon).toFixed(2)+'°W';
   $('lab-proj').textContent=p.proj;$('lab-note').textContent=p.file?'WildTrax recording · 30 s clip':'Placeholder · the WildTrax clip plays here once loaded';
   $('label').hidden=false;mk.visible=true;mk.material.uniforms.uCol.value=c;
-  renderNN();if(fly){goal.tg.fromArray(p[view]);goal.r=Math.min(goal.r,8)}play(i);clearSpec()}
+  renderNN();if(fly){goal.tg.fromArray(p[view]);goal.r=Math.min(goal.r,8)}clearSpec();play(i)}
 function renderNN(){if(sel<0)return;const a=P[sel][view];
   const ps=P[sel].spSet;
   const d=view==='comm'&&ps.size?P.map((p,i)=>[i,1-jaccard(ps,p.spSet)]).filter(x=>x[0]!==sel).sort((x,y)=>x[1]-y[1]).slice(0,3)
@@ -439,7 +449,7 @@ function renderNN(){if(sel<0)return;const a=P[sel][view];
   $('nn').querySelectorAll('button').forEach(b=>b.onclick=()=>{stopJourney();select(+b.dataset.i)})}
 function deselect(){sel=-1;$('label').hidden=true;mk.visible=false;thr.visible=false;goal.tg.set(0,0,0);goal.r=VIEWCAM[view].r;fadeVoice()}
 $('lab-close').onclick=()=>{stopJourney();deselect()};
-$('replay').onclick=()=>{if(sel>=0){play(sel);clearSpec()}};
+$('replay').onclick=()=>{if(sel>=0){clearSpec();play(sel)}};
 addEventListener('keydown',e=>{if(e.key==='Escape'){stopJourney();deselect()}});
 
 /* ---------- placeholder audio (synthesized) ---------- */
@@ -450,7 +460,7 @@ function audio(){if(ac)return;ac=new(window.AudioContext||window.webkitAudioCont
   verb.buffer=ir;const wet=ac.createGain();wet.gain.value=.32;analyser=ac.createAnalyser();analyser.fftSize=1024;analyser.smoothingTimeConstant=.2;
   master.connect(comp);master.connect(verb);verb.connect(wet);wet.connect(comp);comp.connect(analyser);analyser.connect(ac.destination);
   noiseBuf=ac.createBuffer(1,ac.sampleRate*2,ac.sampleRate);const nd=noiseBuf.getChannelData(0);for(let i=0;i<nd.length;i++)nd[i]=Math.random()*2-1}
-function fadeVoice(){if(!voice||!ac)return;const v=voice;v.gain.cancelScheduledValues(ac.currentTime);v.gain.setValueAtTime(v.gain.value,ac.currentTime);v.gain.linearRampToValueAtTime(0,ac.currentTime+.25);setTimeout(()=>{if(v.el){v.el.pause();v.el.src=''}v.disconnect()},400);voice=null}
+function fadeVoice(){if(!voice||!ac)return;const v=voice;v.gain.cancelScheduledValues(ac.currentTime);v.gain.setValueAtTime(v.gain.value,ac.currentTime);v.gain.linearRampToValueAtTime(0,ac.currentTime+.25);setTimeout(()=>{if(v.el){v.el.pause();v.el.src=''}if(v.src){try{v.src.stop()}catch(e){}}v.disconnect()},400);voice=null}
 function env(g,t,a,pk,d){g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(pk,t+a);g.gain.exponentialRampToValueAtTime(.0001,t+a+d)}
 function tone(o,type,f0,f1,t,dur,pk,fq,Q){const s=ac.createOscillator(),g=ac.createGain();s.type=type;s.frequency.setValueAtTime(f0,t);s.frequency.exponentialRampToValueAtTime(f1,t+dur);
   env(g,t,Math.min(.02,dur*.3),pk,dur);let n=s;if(fq){const f=ac.createBiquadFilter();f.type='bandpass';f.frequency.value=fq;f.Q.value=Q||2;s.connect(f);n=f}n.connect(g);g.connect(o);s.start(t);s.stop(t+dur+.1)}
@@ -489,18 +499,67 @@ const SY={
    f.connect(g);g.connect(o);[62,124,187].forEach((fq,k)=>{const s=ac.createOscillator();s.type=k?'square':'sawtooth';s.frequency.setValueAtTime(fq*.94,t);s.frequency.linearRampToValueAtTime(fq*1.08,t+2.1);
    s.frequency.linearRampToValueAtTime(fq*.86,t+2.5);s.frequency.linearRampToValueAtTime(fq*.82,t+4.6);const sg=ac.createGain();sg.gain.value=k?.12:.5;s.connect(sg);sg.connect(f);s.start(t);s.stop(t+4.7)})},
 };
-function play(i){audio();if(ac.state==='suspended')ac.resume();fadeVoice();voice=ac.createGain();voice.connect(master);const p=P[i];
-  if(p.file){const el=new Audio(p.file);el.preload='auto';const v=voice;v.el=el;v.gain.value=1.4;
-    ac.createMediaElementSource(el).connect(v);el.play().catch(()=>{if(voice===v)SY[p.type](v,ac.currentTime+.05,mulberry32(p.seed))});return}
-  SY[p.type](voice,ac.currentTime+.05,mulberry32(p.seed))}
+const bufCache=new Map();
+async function getBuf(url){if(bufCache.has(url))return bufCache.get(url);
+  const ab=await(await fetch(url)).arrayBuffer();const b=await ac.decodeAudioData(ab);
+  bufCache.set(url,b);if(bufCache.size>12)bufCache.delete(bufCache.keys().next().value);return b}
+function play(i,offset=0){audio();if(ac.state==='suspended')ac.resume();fadeVoice();voice=ac.createGain();voice.connect(master);
+  const p=P[i],v=voice;
+  if(p.file){v.gain.value=1.4;$('spec-load').hidden=false;
+    getBuf(p.file).then(b=>{if(voice!==v)return;
+      specImg=specImage(b);specDur=b.duration;$('spec-dur').textContent=Math.round(b.duration)+' s';$('spec-load').hidden=true;
+      const src=ac.createBufferSource();src.buffer=b;src.connect(v);const t0=ac.currentTime+.03;src.start(t0,offset);
+      specStart=t0-offset;v.src=src;src.onended=()=>{if(voice===v)v.done=true}})
+    .catch(()=>{if(voice!==v)return;$('spec-load').hidden=true;specImg=null;SY[p.type](v,ac.currentTime+.05,mulberry32(p.seed))});
+    return}
+  specImg=null;$('spec-dur').textContent='5 s';SY[p.type](voice,ac.currentTime+.05,mulberry32(p.seed))}
 
 /* ---------- spectrogram ---------- */
-const sc=$('spec'),sx=sc.getContext('2d');let fbuf=null;
-function clearSpec(){sx.clearRect(0,0,sc.width,sc.height)}
-function drawSpec(){if(!analyser||sel<0)return;if(!fbuf)fbuf=new Uint8Array(analyser.frequencyBinCount);analyser.getByteFrequencyData(fbuf);
-  const W=sc.width,H=sc.height;sx.drawImage(sc,-2,0);sx.clearRect(W-2,0,2,H);const c=colourOf(P[sel],cmode),hz=ac.sampleRate/analyser.fftSize;
-  for(let y=0;y<H;y+=2){const f=150*Math.pow(11000/150,1-y/H),b=Math.min(fbuf.length-1,Math.round(f/hz)),v=fbuf[b]/255;if(v<.18)continue;
-   sx.fillStyle=`rgba(${c.r*255|0},${c.g*255|0},${c.b*255|0},${Math.min(1,(v-.18)*1.6)})`;sx.fillRect(W-2,y,2,2)}}
+// Real clips: the whole clip is drawn up front (Hann-windowed FFT, 0-12 kHz linear,
+// as in WildTrax), with a playhead. Placeholder sounds scroll in live.
+const sc=$('spec'),sx=sc.getContext('2d'),SPEC_FMAX=12000;
+const CMAP=[[0,[5,16,14]],[.28,[12,52,54]],[.52,[34,128,118]],[.72,[134,227,195]],[.88,[244,213,141]],[1,[255,255,255]]];
+const LUT=new Uint8ClampedArray(256*3);
+for(let i=0;i<256;i++){const x=i/255;let k=1;while(k<CMAP.length-1&&x>CMAP[k][0])k++;const [x0,c0]=CMAP[k-1],[x1,c1]=CMAP[k],t=(x-x0)/((x1-x0)||1);
+  for(let j=0;j<3;j++)LUT[i*3+j]=c0[j]+(c1[j]-c0[j])*t}
+function fft(re,im){const n=re.length;
+  for(let i=1,j=0;i<n;i++){let b=n>>1;for(;j&b;b>>=1)j^=b;j^=b;if(i<j){let t=re[i];re[i]=re[j];re[j]=t;t=im[i];im[i]=im[j];im[j]=t}}
+  for(let len=2;len<=n;len<<=1){const a=-2*Math.PI/len,wr=Math.cos(a),wi=Math.sin(a),h=len>>1;
+    for(let i=0;i<n;i+=len){let cr=1,ci=0;for(let j=0;j<h;j++){const k=i+j+h,vr=re[k]*cr-im[k]*ci,vi=re[k]*ci+im[k]*cr;
+      re[k]=re[i+j]-vr;im[k]=im[i+j]-vi;re[i+j]+=vr;im[i+j]+=vi;const t=cr*wr-ci*wi;ci=cr*wi+ci*wr;cr=t}}}}
+function specImage(buf){
+  const W=sc.width,H=sc.height,data=buf.getChannelData(0),sr=buf.sampleRate,N=1024;
+  const win=new Float32Array(N);for(let i=0;i<N;i++)win[i]=.5-.5*Math.cos(2*Math.PI*i/(N-1));
+  const maxBin=Math.min(N/2-1,Math.floor(SPEC_FMAX/(sr/N))),db=new Float32Array(W*H),re=new Float32Array(N),im=new Float32Array(N);
+  for(let x=0;x<W;x++){const c=Math.floor((x+.5)/W*data.length)-N/2;
+    for(let i=0;i<N;i++){const k=c+i;re[i]=(k>=0&&k<data.length?data[k]:0)*win[i];im[i]=0}
+    fft(re,im);
+    for(let y=0;y<H;y++){const b0=Math.floor((H-1-y)/H*maxBin),b1=Math.max(b0+1,Math.floor((H-y)/H*maxBin));let m=0;
+      for(let b=b0;b<b1;b++){const pw=re[b]*re[b]+im[b]*im[b];if(pw>m)m=pw}db[y*W+x]=10*Math.log10(m+1e-14)}}
+  // contrast: noise floor at the 40th percentile, top at the 99.8th, so calls stand out from background hiss
+  const srt=Float32Array.from(db).sort(),lo=srt[Math.floor(srt.length*.4)],hi=srt[Math.floor(srt.length*.998)];
+  const img=sx.createImageData(W,H);
+  for(let i=0;i<db.length;i++){let v=(db[i]-lo)/((hi-lo)||1);v=v<0?0:v>1?1:Math.pow(v,1.3);const k=(v*255|0)*3;
+    img.data[i*4]=LUT[k];img.data[i*4+1]=LUT[k+1];img.data[i*4+2]=LUT[k+2];img.data[i*4+3]=255}
+  const cv=document.createElement('canvas');cv.width=W;cv.height=H;cv.getContext('2d').putImageData(img,0,0);return cv}
+let specImg=null,specDur=30,specStart=0,fbuf=null;
+function clearSpec(){specImg=null;sx.fillStyle='#05100e';sx.fillRect(0,0,sc.width,sc.height)}
+function drawSpec(){if(sel<0)return;const W=sc.width,H=sc.height;
+  if(specImg){
+    const playing=voice&&voice.src&&!voice.done,t=playing?Math.max(0,ac.currentTime-specStart):(voice&&voice.done?specDur:0),px=Math.min(W,t/specDur*W);
+    sx.globalAlpha=1;sx.fillStyle='#05100e';sx.fillRect(0,0,W,H);
+    sx.globalAlpha=.42;sx.drawImage(specImg,0,0);                      // not yet heard: dimmed
+    sx.globalAlpha=1;if(px>0)sx.drawImage(specImg,0,0,px,H,0,0,px,H);  // heard: full brightness
+    for(const f of[3000,6000,9000]){const y=H-f/SPEC_FMAX*H;sx.fillStyle='rgba(217,228,223,.07)';sx.fillRect(0,y,W,1)}
+    if(playing){sx.fillStyle='#86e3c3';sx.fillRect(px-1,0,2,H)}
+    return}
+  if(!analyser)return;                                                 // placeholder: scroll in live
+  if(!fbuf)fbuf=new Uint8Array(analyser.frequencyBinCount);analyser.getByteFrequencyData(fbuf);
+  const hz=ac.sampleRate/analyser.fftSize;sx.drawImage(sc,-2,0);
+  for(let y=0;y<H;y++){const b=Math.min(fbuf.length-1,Math.round((H-1-y)/H*SPEC_FMAX/hz)),k=fbuf[b]*3;
+    sx.fillStyle=`rgb(${LUT[k]},${LUT[k+1]},${LUT[k+2]})`;sx.fillRect(W-2,y,2,1)}}
+sc.addEventListener('click',e=>{if(sel<0||!specImg||!P[sel].file)return;const r=sc.getBoundingClientRect();
+  play(sel,Math.max(0,Math.min(specDur-.1,(e.clientX-r.left)/r.width*specDur)))});
 
 /* ---------- journey: one night at one site, then across the land ---------- */
 let jTimer=null;
@@ -513,7 +572,7 @@ $('journey').onclick=()=>{if(jTimer){stopJourney();return}$('journey').textConte
 $('surprise').onclick=()=>{stopJourney();select(Math.floor(Math.random()*N))};
 $('reset').onclick=()=>{stopJourney();deselect();goal.ph=VIEWCAM[view].ph};
 document.querySelectorAll('#view button[data-v]').forEach(b=>b.onclick=()=>setView(b.dataset.v));
-document.querySelectorAll('#colour button').forEach(b=>b.onclick=()=>{cmode=b.dataset.c;paint();if(sel>=0)select(sel,false)});
+document.querySelectorAll('#colour button').forEach(b=>b.onclick=()=>{cmode=b.dataset.c;paint();if(sel>=0){const c=colourOf(P[sel],cmode),hex='#'+c.getHexString();$('lab-dot').style.background=hex;$('lab-dot').style.color=hex;mk.material.uniforms.uCol.value=c;renderNN()}});
 
 /* ---------- loop ---------- */
 function resize(){const w=innerWidth,h=innerHeight;renderer.setSize(w,h);cam.aspect=w/h;cam.fov=w<720?64:50;cam.updateProjectionMatrix()}
