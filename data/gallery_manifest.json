@@ -13,8 +13,27 @@
     "doy": 187,
     "richness": 8,
     "abiotic": "LIWI",
-    "species": ["AMCR", "CAWA", "GRAJ", "MOAI", "OVEN", "PBGR", "REVI", "WISN"],
-    "common_names": ["American Crow", "Canada Warbler", "Gray Jay", "Moderate aircraft", "Ovenbird", "Pied-billed Grebe", "Red-eyed Vireo", "Wilson's Snipe"]
+    "species": [
+      "AMCR",
+      "CAWA",
+      "GRAJ",
+      "MOAI",
+      "OVEN",
+      "PBGR",
+      "REVI",
+      "WISN"
+    ],
+    "common_names": [
+      "American Crow",
+      "Canada Warbler",
+      "Gray Jay",
+      "Moderate aircraft",
+      "Ovenbird",
+      "Pied-billed Grebe",
+      "Red-eyed Vireo",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1014-09_20170614_033000",
@@ -30,8 +49,27 @@
     "doy": 165,
     "richness": 8,
     "abiotic": "",
-    "species": ["AMRE", "AMRO", "MOWA", "RWBL", "SORA", "UNWA", "UNWO", "WTSP"],
-    "common_names": ["American Redstart", "American Robin", "Mourning Warbler", "Red-winged Blackbird", "Sora", "Unidentified Warbler", "Unidentified Woodpecker", "White-throated Sparrow"]
+    "species": [
+      "AMRE",
+      "AMRO",
+      "MOWA",
+      "RWBL",
+      "SORA",
+      "UNWA",
+      "UNWO",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Redstart",
+      "American Robin",
+      "Mourning Warbler",
+      "Red-winged Blackbird",
+      "Sora",
+      "Unidentified Warbler",
+      "Unidentified Woodpecker",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "06-1213-07_20230603_063400",
@@ -47,8 +85,29 @@
     "doy": 154,
     "richness": 9,
     "abiotic": "",
-    "species": ["CHSP", "GRYE", "HETH", "MOBA", "PAWA", "RCKI", "SACR", "WIWA", "YRWA"],
-    "common_names": ["Chipping Sparrow", "Greater Yellowlegs", "Hermit Thrush", "Moderate Background Noise", "Palm Warbler", "Ruby-crowned Kinglet", "Sandhill Crane", "Wilson's Warbler", "Yellow-rumped Warbler"]
+    "species": [
+      "CHSP",
+      "GRYE",
+      "HETH",
+      "MOBA",
+      "PAWA",
+      "RCKI",
+      "SACR",
+      "WIWA",
+      "YRWA"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Greater Yellowlegs",
+      "Hermit Thrush",
+      "Moderate Background Noise",
+      "Palm Warbler",
+      "Ruby-crowned Kinglet",
+      "Sandhill Crane",
+      "Wilson's Warbler",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU51-82_20180622_032800",
@@ -64,8 +123,21 @@
     "doy": 173,
     "richness": 5,
     "abiotic": "",
-    "species": ["COYE", "HETH", "MOBA", "SWTH", "WTSP"],
-    "common_names": ["Common Yellowthroat", "Hermit Thrush", "Moderate Background Noise", "Swainson's Thrush", "White-throated Sparrow"]
+    "species": [
+      "COYE",
+      "HETH",
+      "MOBA",
+      "SWTH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Common Yellowthroat",
+      "Hermit Thrush",
+      "Moderate Background Noise",
+      "Swainson's Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-UXG59-54_20190604_083400",
@@ -81,8 +153,23 @@
     "doy": 155,
     "richness": 6,
     "abiotic": "",
-    "species": ["BBWA", "CMWA", "MAWA", "RCKI", "UNGU", "UNWA"],
-    "common_names": ["Bay-breasted Warbler", "Cape May Warbler", "Magnolia Warbler", "Ruby-crowned Kinglet", "Unidentified Gull", "Unidentified Warbler"]
+    "species": [
+      "BBWA",
+      "CMWA",
+      "MAWA",
+      "RCKI",
+      "UNGU",
+      "UNWA"
+    ],
+    "common_names": [
+      "Bay-breasted Warbler",
+      "Cape May Warbler",
+      "Magnolia Warbler",
+      "Ruby-crowned Kinglet",
+      "Unidentified Gull",
+      "Unidentified Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "630--305-3-5_20230615_081400",
@@ -99,7 +186,8 @@
     "richness": 0,
     "abiotic": "NONE",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-88_20190328_225700",
@@ -115,8 +203,15 @@
     "doy": 87,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "GGOW"],
-    "common_names": ["Boreal Owl", "Great Gray Owl"]
+    "species": [
+      "BOOW",
+      "GGOW"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Great Gray Owl"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "12-VXM23-33_20210701_230200",
@@ -133,7 +228,8 @@
     "richness": 0,
     "abiotic": "NONE",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "637--315-3-7_20230606_213800",
@@ -149,8 +245,21 @@
     "doy": 157,
     "richness": 5,
     "abiotic": "",
-    "species": ["CHSP", "MAWA", "SWTH", "UNBI", "UNBT"],
-    "common_names": ["Chipping Sparrow", "Magnolia Warbler", "Swainson's Thrush", "Unidentified Bird", "Unidentified Black-backed / American Three-toed Woodpecker"]
+    "species": [
+      "CHSP",
+      "MAWA",
+      "SWTH",
+      "UNBI",
+      "UNBT"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Magnolia Warbler",
+      "Swainson's Thrush",
+      "Unidentified Bird",
+      "Unidentified Black-backed / American Three-toed Woodpecker"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU59-32_20190618_212000",
@@ -167,7 +276,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GRYE",
-    "common_names": "Greater Yellowlegs"
+    "common_names": "Greater Yellowlegs",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD26-33_20190610_222100",
@@ -183,8 +293,19 @@
     "doy": 161,
     "richness": 4,
     "abiotic": "",
-    "species": ["COLO", "GWTE", "HETH", "WISN"],
-    "common_names": ["Common Loon", "Green-winged Teal", "Hermit Thrush", "Wilson's Snipe"]
+    "species": [
+      "COLO",
+      "GWTE",
+      "HETH",
+      "WISN"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Green-winged Teal",
+      "Hermit Thrush",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-89_20190330_210100",
@@ -200,8 +321,15 @@
     "doy": 89,
     "richness": 2,
     "abiotic": "",
-    "species": ["BAOW", "BOOW"],
-    "common_names": ["Barred Owl", "Boreal Owl"]
+    "species": [
+      "BAOW",
+      "BOOW"
+    ],
+    "common_names": [
+      "Barred Owl",
+      "Boreal Owl"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1240-01_20190403_005600",
@@ -218,7 +346,8 @@
     "richness": 0,
     "abiotic": "LIWI",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1063-02_20200628_132900",
@@ -234,8 +363,25 @@
     "doy": 180,
     "richness": 7,
     "abiotic": "",
-    "species": ["AMCR", "BAWW", "CAWA", "NAWA", "NOWA", "REVI", "WISN"],
-    "common_names": ["American Crow", "Black-and-white Warbler", "Canada Warbler", "Nashville Warbler", "Northern Waterthrush", "Red-eyed Vireo", "Wilson's Snipe"]
+    "species": [
+      "AMCR",
+      "BAWW",
+      "CAWA",
+      "NAWA",
+      "NOWA",
+      "REVI",
+      "WISN"
+    ],
+    "common_names": [
+      "American Crow",
+      "Black-and-white Warbler",
+      "Canada Warbler",
+      "Nashville Warbler",
+      "Northern Waterthrush",
+      "Red-eyed Vireo",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1251-05_20190401_050000",
@@ -252,7 +398,8 @@
     "richness": 0,
     "abiotic": "LIWI",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-05-1290-09_20170712_071800",
@@ -268,8 +415,23 @@
     "doy": 193,
     "richness": 6,
     "abiotic": "",
-    "species": ["ALFL", "HETH", "RCKI", "WIWA", "WTSP", "YBSA"],
-    "common_names": ["Alder Flycatcher", "Hermit Thrush", "Ruby-crowned Kinglet", "White-throated Sparrow", "Wilson's Warbler", "Yellow-bellied Sapsucker"]
+    "species": [
+      "ALFL",
+      "HETH",
+      "RCKI",
+      "WIWA",
+      "WTSP",
+      "YBSA"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Hermit Thrush",
+      "Ruby-crowned Kinglet",
+      "White-throated Sparrow",
+      "Wilson's Warbler",
+      "Yellow-bellied Sapsucker"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-05-1290-09_20170712_081800",
@@ -285,8 +447,21 @@
     "doy": 193,
     "richness": 5,
     "abiotic": "",
-    "species": ["ALFL", "MOTF", "MOWI", "RCKI", "WTSP"],
-    "common_names": ["Alder Flycatcher", "Moderate traffic", "Moderate wind", "Ruby-crowned Kinglet", "White-throated Sparrow"]
+    "species": [
+      "ALFL",
+      "MOTF",
+      "MOWI",
+      "RCKI",
+      "WTSP"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Moderate traffic",
+      "Moderate wind",
+      "Ruby-crowned Kinglet",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB638-311-38_20220626_041200",
@@ -302,8 +477,27 @@
     "doy": 177,
     "richness": 8,
     "abiotic": "",
-    "species": ["CHSP", "CONI", "EWPW", "HETH", "TEWA", "UNKN", "UNPA", "WIWR"],
-    "common_names": ["Chipping Sparrow", "Common Nighthawk", "Eastern Whip-poor-will", "Hermit Thrush", "Tennessee Warbler", "Unidentified Passerine", "Unidentified signal", "Winter Wren"]
+    "species": [
+      "CHSP",
+      "CONI",
+      "EWPW",
+      "HETH",
+      "TEWA",
+      "UNKN",
+      "UNPA",
+      "WIWR"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Common Nighthawk",
+      "Eastern Whip-poor-will",
+      "Hermit Thrush",
+      "Tennessee Warbler",
+      "Unidentified Passerine",
+      "Unidentified signal",
+      "Winter Wren"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB-25336-62_20200603_032600",
@@ -319,8 +513,33 @@
     "doy": 155,
     "richness": 11,
     "abiotic": "",
-    "species": ["ALFL", "AMRO", "AMWO", "CHSP", "CONI", "LEFL", "LISP", "MAWA", "NAWA", "OCWA", "WTSP"],
-    "common_names": ["Alder Flycatcher", "American Robin", "American Woodcock", "Chipping Sparrow", "Common Nighthawk", "Least Flycatcher", "Lincoln's Sparrow", "Magnolia Warbler", "Nashville Warbler", "Orange-crowned Warbler", "White-throated Sparrow"]
+    "species": [
+      "ALFL",
+      "AMRO",
+      "AMWO",
+      "CHSP",
+      "CONI",
+      "LEFL",
+      "LISP",
+      "MAWA",
+      "NAWA",
+      "OCWA",
+      "WTSP"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "American Robin",
+      "American Woodcock",
+      "Chipping Sparrow",
+      "Common Nighthawk",
+      "Least Flycatcher",
+      "Lincoln's Sparrow",
+      "Magnolia Warbler",
+      "Nashville Warbler",
+      "Orange-crowned Warbler",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFA88-41_20210527_052300",
@@ -336,8 +555,19 @@
     "doy": 147,
     "richness": 4,
     "abiotic": "",
-    "species": ["BAWW", "CANG", "CHSP", "OVEN"],
-    "common_names": ["Black-and-white Warbler", "Canada Goose", "Chipping Sparrow", "Ovenbird"]
+    "species": [
+      "BAWW",
+      "CANG",
+      "CHSP",
+      "OVEN"
+    ],
+    "common_names": [
+      "Black-and-white Warbler",
+      "Canada Goose",
+      "Chipping Sparrow",
+      "Ovenbird"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UDU26-33_20210620_000300",
@@ -353,8 +583,17 @@
     "doy": 171,
     "richness": 3,
     "abiotic": "",
-    "species": ["LEFL", "SORA", "UNBI"],
-    "common_names": ["Least Flycatcher", "Sora", "Unidentified Bird"]
+    "species": [
+      "LEFL",
+      "SORA",
+      "UNBI"
+    ],
+    "common_names": [
+      "Least Flycatcher",
+      "Sora",
+      "Unidentified Bird"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-05-253-04_20200619_081500",
@@ -370,8 +609,25 @@
     "doy": 171,
     "richness": 7,
     "abiotic": "",
-    "species": ["CORA", "DEJU", "LIBA", "OSFL", "RCKI", "RESQ", "YRWA"],
-    "common_names": ["Common Raven", "Dark-eyed Junco", "Light Background Noise", "Olive-sided Flycatcher", "Red Squirrel", "Ruby-crowned Kinglet", "Yellow-rumped Warbler"]
+    "species": [
+      "CORA",
+      "DEJU",
+      "LIBA",
+      "OSFL",
+      "RCKI",
+      "RESQ",
+      "YRWA"
+    ],
+    "common_names": [
+      "Common Raven",
+      "Dark-eyed Junco",
+      "Light Background Noise",
+      "Olive-sided Flycatcher",
+      "Red Squirrel",
+      "Ruby-crowned Kinglet",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VEE65-54_20180607_081400",
@@ -387,8 +643,23 @@
     "doy": 158,
     "richness": 6,
     "abiotic": "LIWI",
-    "species": ["BCFR", "CANG", "RCKI", "UNAM", "UNKN", "UNSP"],
-    "common_names": ["Boreal Chorus Frog", "Canada Goose", "Ruby-crowned Kinglet", "Unidentified passerine in the American Robin Song Complex", "Unidentified signal", "Unidentified Sparrow"]
+    "species": [
+      "BCFR",
+      "CANG",
+      "RCKI",
+      "UNAM",
+      "UNKN",
+      "UNSP"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Canada Goose",
+      "Ruby-crowned Kinglet",
+      "Unidentified passerine in the American Robin Song Complex",
+      "Unidentified signal",
+      "Unidentified Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD27-57_20190608_215500",
@@ -405,7 +676,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "COLO",
-    "common_names": "Common Loon"
+    "common_names": "Common Loon",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU59-34_20190617_215000",
@@ -421,8 +693,15 @@
     "doy": 168,
     "richness": 2,
     "abiotic": "",
-    "species": ["CONW", "HETH"],
-    "common_names": ["Connecticut Warbler", "Hermit Thrush"]
+    "species": [
+      "CONW",
+      "HETH"
+    ],
+    "common_names": [
+      "Connecticut Warbler",
+      "Hermit Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-VWL64-35_20210625_223311",
@@ -438,8 +717,19 @@
     "doy": 176,
     "richness": 4,
     "abiotic": "",
-    "species": ["CONI", "HETH", "SWTH", "YRWA"],
-    "common_names": ["Common Nighthawk", "Hermit Thrush", "Swainson's Thrush", "Yellow-rumped Warbler"]
+    "species": [
+      "CONI",
+      "HETH",
+      "SWTH",
+      "YRWA"
+    ],
+    "common_names": [
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Swainson's Thrush",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1241-03_20190329_224800",
@@ -456,7 +746,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "MOTF",
-    "common_names": "Moderate traffic"
+    "common_names": "Moderate traffic",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD78-41_20190608_220300",
@@ -472,8 +763,19 @@
     "doy": 159,
     "richness": 4,
     "abiotic": "",
-    "species": ["HETH", "PAWA", "SORA", "WTSP"],
-    "common_names": ["Hermit Thrush", "Palm Warbler", "Sora", "White-throated Sparrow"]
+    "species": [
+      "HETH",
+      "PAWA",
+      "SORA",
+      "WTSP"
+    ],
+    "common_names": [
+      "Hermit Thrush",
+      "Palm Warbler",
+      "Sora",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-82_20190329_215900",
@@ -489,8 +791,15 @@
     "doy": 88,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "UNKN"],
-    "common_names": ["Boreal Owl", "Unidentified signal"]
+    "species": [
+      "BOOW",
+      "UNKN"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1241-05_20190403_015600",
@@ -507,7 +816,8 @@
     "richness": 0,
     "abiotic": "LIWI",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1063-01_20200705_124500",
@@ -523,8 +833,33 @@
     "doy": 187,
     "richness": 11,
     "abiotic": "",
-    "species": ["AMCR", "AMRE", "BAWW", "CEDW", "GRAJ", "OVEN", "PBGR", "REVI", "TEWA", "WISN", "WTSP"],
-    "common_names": ["American Crow", "American Redstart", "Black-and-white Warbler", "Cedar Waxwing", "Gray Jay", "Ovenbird", "Pied-billed Grebe", "Red-eyed Vireo", "Tennessee Warbler", "White-throated Sparrow", "Wilson's Snipe"]
+    "species": [
+      "AMCR",
+      "AMRE",
+      "BAWW",
+      "CEDW",
+      "GRAJ",
+      "OVEN",
+      "PBGR",
+      "REVI",
+      "TEWA",
+      "WISN",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Crow",
+      "American Redstart",
+      "Black-and-white Warbler",
+      "Cedar Waxwing",
+      "Gray Jay",
+      "Ovenbird",
+      "Pied-billed Grebe",
+      "Red-eyed Vireo",
+      "Tennessee Warbler",
+      "White-throated Sparrow",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-05-1290-09_20170712_041800",
@@ -540,8 +875,25 @@
     "doy": 193,
     "richness": 7,
     "abiotic": "",
-    "species": ["ALFL", "COLO", "DEJU", "HETH", "WIWR", "WTSP", "YBSA"],
-    "common_names": ["Alder Flycatcher", "Common Loon", "Dark-eyed Junco", "Hermit Thrush", "White-throated Sparrow", "Winter Wren", "Yellow-bellied Sapsucker"]
+    "species": [
+      "ALFL",
+      "COLO",
+      "DEJU",
+      "HETH",
+      "WIWR",
+      "WTSP",
+      "YBSA"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Common Loon",
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "White-throated Sparrow",
+      "Winter Wren",
+      "Yellow-bellied Sapsucker"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU72-41_20200602_033100",
@@ -557,8 +909,47 @@
     "doy": 154,
     "richness": 18,
     "abiotic": "",
-    "species": ["AMBI", "AMRO", "BCFR", "CANG", "CATO", "CONI", "CORA", "HOME", "MYWA", "PBGR", "RUGR", "SORA", "SWTH", "TEWA", "UNPA", "WISN", "WIWR", "WTSP"],
-    "common_names": ["American Bittern", "American Robin", "Boreal Chorus Frog", "Canada Goose", "Canadian Toad", "Common Nighthawk", "Common Raven", "Hooded Merganser", "Myrtle Warbler", "Pied-billed Grebe", "Ruffed Grouse", "Sora", "Swainson's Thrush", "Tennessee Warbler", "Unidentified Passerine", "White-throated Sparrow", "Wilson's Snipe", "Winter Wren"]
+    "species": [
+      "AMBI",
+      "AMRO",
+      "BCFR",
+      "CANG",
+      "CATO",
+      "CONI",
+      "CORA",
+      "HOME",
+      "MYWA",
+      "PBGR",
+      "RUGR",
+      "SORA",
+      "SWTH",
+      "TEWA",
+      "UNPA",
+      "WISN",
+      "WIWR",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Bittern",
+      "American Robin",
+      "Boreal Chorus Frog",
+      "Canada Goose",
+      "Canadian Toad",
+      "Common Nighthawk",
+      "Common Raven",
+      "Hooded Merganser",
+      "Myrtle Warbler",
+      "Pied-billed Grebe",
+      "Ruffed Grouse",
+      "Sora",
+      "Swainson's Thrush",
+      "Tennessee Warbler",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "Wilson's Snipe",
+      "Winter Wren"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UCV57-126_20180703_042300",
@@ -574,8 +965,29 @@
     "doy": 184,
     "richness": 9,
     "abiotic": "LIWI",
-    "species": ["CCSP", "LCSP", "RWBL", "SEWR", "SWSP", "UNKN", "WISN", "WTSP", "YERA"],
-    "common_names": ["Clay-colored Sparrow", "LeConte's Sparrow", "Red-winged Blackbird", "Sedge Wren", "Swamp Sparrow", "Unidentified signal", "White-throated Sparrow", "Wilson's Snipe", "Yellow Rail"]
+    "species": [
+      "CCSP",
+      "LCSP",
+      "RWBL",
+      "SEWR",
+      "SWSP",
+      "UNKN",
+      "WISN",
+      "WTSP",
+      "YERA"
+    ],
+    "common_names": [
+      "Clay-colored Sparrow",
+      "LeConte's Sparrow",
+      "Red-winged Blackbird",
+      "Sedge Wren",
+      "Swamp Sparrow",
+      "Unidentified signal",
+      "White-throated Sparrow",
+      "Wilson's Snipe",
+      "Yellow Rail"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "05-1292-09_20230608_052300",
@@ -591,8 +1003,25 @@
     "doy": 159,
     "richness": 7,
     "abiotic": "",
-    "species": ["BCCH", "CEDW", "HETH", "NAWA", "OCWA", "WIWA", "WTSP"],
-    "common_names": ["Black-capped Chickadee", "Cedar Waxwing", "Hermit Thrush", "Nashville Warbler", "Orange-crowned Warbler", "White-throated Sparrow", "Wilson's Warbler"]
+    "species": [
+      "BCCH",
+      "CEDW",
+      "HETH",
+      "NAWA",
+      "OCWA",
+      "WIWA",
+      "WTSP"
+    ],
+    "common_names": [
+      "Black-capped Chickadee",
+      "Cedar Waxwing",
+      "Hermit Thrush",
+      "Nashville Warbler",
+      "Orange-crowned Warbler",
+      "White-throated Sparrow",
+      "Wilson's Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-05-1292-04_20170620_024600",
@@ -608,8 +1037,17 @@
     "doy": 171,
     "richness": 3,
     "abiotic": "",
-    "species": ["COLO", "CONI", "WBBE"],
-    "common_names": ["Common Loon", "Common Nighthawk", "Woodborer Beetle"]
+    "species": [
+      "COLO",
+      "CONI",
+      "WBBE"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Common Nighthawk",
+      "Woodborer Beetle"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD24-49_20190603_082200",
@@ -625,8 +1063,31 @@
     "doy": 154,
     "richness": 10,
     "abiotic": "LIWI",
-    "species": ["AMRO", "COLO", "CORA", "GRAJ", "MOWI", "PAWA", "SACR", "SWSP", "UNKN", "YRWA"],
-    "common_names": ["American Robin", "Common Loon", "Common Raven", "Gray Jay", "Moderate wind", "Palm Warbler", "Sandhill Crane", "Swamp Sparrow", "Unidentified signal", "Yellow-rumped Warbler"]
+    "species": [
+      "AMRO",
+      "COLO",
+      "CORA",
+      "GRAJ",
+      "MOWI",
+      "PAWA",
+      "SACR",
+      "SWSP",
+      "UNKN",
+      "YRWA"
+    ],
+    "common_names": [
+      "American Robin",
+      "Common Loon",
+      "Common Raven",
+      "Gray Jay",
+      "Moderate wind",
+      "Palm Warbler",
+      "Sandhill Crane",
+      "Swamp Sparrow",
+      "Unidentified signal",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UDA30-71_20190624_081100",
@@ -642,8 +1103,23 @@
     "doy": 175,
     "richness": 6,
     "abiotic": "",
-    "species": ["AMRO", "CCSP", "CHSP", "LISP", "SWSP", "WTSP"],
-    "common_names": ["American Robin", "Chipping Sparrow", "Clay-colored Sparrow", "Lincoln's Sparrow", "Swamp Sparrow", "White-throated Sparrow"]
+    "species": [
+      "AMRO",
+      "CCSP",
+      "CHSP",
+      "LISP",
+      "SWSP",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Robin",
+      "Chipping Sparrow",
+      "Clay-colored Sparrow",
+      "Lincoln's Sparrow",
+      "Swamp Sparrow",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "AB-169275-07_20210625_230000",
@@ -659,8 +1135,21 @@
     "doy": 176,
     "richness": 5,
     "abiotic": "",
-    "species": ["CONI", "HETH", "MOBA", "SWTH", "WTSP"],
-    "common_names": ["Common Nighthawk", "Hermit Thrush", "Moderate Background Noise", "Swainson's Thrush", "White-throated Sparrow"]
+    "species": [
+      "CONI",
+      "HETH",
+      "MOBA",
+      "SWTH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Moderate Background Noise",
+      "Swainson's Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB671-316-2-1_20230628_214900",
@@ -676,8 +1165,23 @@
     "doy": 179,
     "richness": 6,
     "abiotic": "",
-    "species": ["CHSP", "HETH", "SACR", "SWTH", "UNBI", "WTSP"],
-    "common_names": ["Chipping Sparrow", "Hermit Thrush", "Sandhill Crane", "Swainson's Thrush", "Unidentified Bird", "White-throated Sparrow"]
+    "species": [
+      "CHSP",
+      "HETH",
+      "SACR",
+      "SWTH",
+      "UNBI",
+      "WTSP"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Hermit Thrush",
+      "Sandhill Crane",
+      "Swainson's Thrush",
+      "Unidentified Bird",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "667--316-3-3_20230602_213600",
@@ -693,8 +1197,37 @@
     "doy": 153,
     "richness": 13,
     "abiotic": "",
-    "species": ["CHSP", "CONI", "HETH", "LISP", "OCWA", "SPGR", "SPPE", "SWSP", "SWTH", "UGRS", "UNBI", "UNPA", "WTSP"],
-    "common_names": ["Chipping Sparrow", "Common Nighthawk", "Hermit Thrush", "Lincoln's Sparrow", "Orange-crowned Warbler", "Spring peeper", "Spruce Grouse", "Swainson's Thrush", "Swamp Sparrow", "Unidentified Bird", "Unidentified Grouse", "Unidentified Passerine", "White-throated Sparrow"]
+    "species": [
+      "CHSP",
+      "CONI",
+      "HETH",
+      "LISP",
+      "OCWA",
+      "SPGR",
+      "SPPE",
+      "SWSP",
+      "SWTH",
+      "UGRS",
+      "UNBI",
+      "UNPA",
+      "WTSP"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Lincoln's Sparrow",
+      "Orange-crowned Warbler",
+      "Spring peeper",
+      "Spruce Grouse",
+      "Swainson's Thrush",
+      "Swamp Sparrow",
+      "Unidentified Bird",
+      "Unidentified Grouse",
+      "Unidentified Passerine",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFB54-51_20210529_234700",
@@ -710,8 +1243,21 @@
     "doy": 149,
     "richness": 5,
     "abiotic": "",
-    "species": ["LCSP", "SPPE", "UNKN", "UNWO", "VIRA"],
-    "common_names": ["LeConte's Sparrow", "Spring peeper", "Unidentified signal", "Unidentified Woodpecker", "Virginia Rail"]
+    "species": [
+      "LCSP",
+      "SPPE",
+      "UNKN",
+      "UNWO",
+      "VIRA"
+    ],
+    "common_names": [
+      "LeConte's Sparrow",
+      "Spring peeper",
+      "Unidentified signal",
+      "Unidentified Woodpecker",
+      "Virginia Rail"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-78_20190327_225400",
@@ -727,8 +1273,15 @@
     "doy": 86,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "UNKN"],
-    "common_names": ["Boreal Owl", "Unidentified signal"]
+    "species": [
+      "BOOW",
+      "UNKN"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-36_20190316_215800",
@@ -744,8 +1297,15 @@
     "doy": 75,
     "richness": 2,
     "abiotic": "",
-    "species": ["COLO", "GHOW"],
-    "common_names": ["Common Loon", "Great Horned Owl"]
+    "species": [
+      "COLO",
+      "GHOW"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Great Horned Owl"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD43-38_20190331_001500",
@@ -762,7 +1322,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "UNKN",
-    "common_names": "Unidentified signal"
+    "common_names": "Unidentified signal",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1063-02_20200705_124500",
@@ -778,8 +1339,23 @@
     "doy": 187,
     "richness": 6,
     "abiotic": "",
-    "species": ["NAWA", "OVEN", "REVI", "TEWA", "WISN", "YBSA"],
-    "common_names": ["Nashville Warbler", "Ovenbird", "Red-eyed Vireo", "Tennessee Warbler", "Wilson's Snipe", "Yellow-bellied Sapsucker"]
+    "species": [
+      "NAWA",
+      "OVEN",
+      "REVI",
+      "TEWA",
+      "WISN",
+      "YBSA"
+    ],
+    "common_names": [
+      "Nashville Warbler",
+      "Ovenbird",
+      "Red-eyed Vireo",
+      "Tennessee Warbler",
+      "Wilson's Snipe",
+      "Yellow-bellied Sapsucker"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UEA73-35_20230620_064900",
@@ -795,8 +1371,35 @@
     "doy": 171,
     "richness": 12,
     "abiotic": "",
-    "species": ["ALFL", "CHSP", "HETH", "MAWA", "OSFL", "OVEN", "RCKI", "SWSP", "UNPA", "WIWA", "WTSP", "YRWA"],
-    "common_names": ["Alder Flycatcher", "Chipping Sparrow", "Hermit Thrush", "Magnolia Warbler", "Olive-sided Flycatcher", "Ovenbird", "Ruby-crowned Kinglet", "Swamp Sparrow", "Unidentified Passerine", "White-throated Sparrow", "Wilson's Warbler", "Yellow-rumped Warbler"]
+    "species": [
+      "ALFL",
+      "CHSP",
+      "HETH",
+      "MAWA",
+      "OSFL",
+      "OVEN",
+      "RCKI",
+      "SWSP",
+      "UNPA",
+      "WIWA",
+      "WTSP",
+      "YRWA"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Chipping Sparrow",
+      "Hermit Thrush",
+      "Magnolia Warbler",
+      "Olive-sided Flycatcher",
+      "Ovenbird",
+      "Ruby-crowned Kinglet",
+      "Swamp Sparrow",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "Wilson's Warbler",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV01-71_20210614_033100",
@@ -812,8 +1415,35 @@
     "doy": 165,
     "richness": 12,
     "abiotic": "",
-    "species": ["AMRO", "CCSP", "CHSP", "CONI", "DEJU", "HETH", "LECH", "MODO", "REVI", "SWTH", "WISN", "WTSP"],
-    "common_names": ["American Robin", "Chipping Sparrow", "Clay-colored Sparrow", "Common Nighthawk", "Dark-eyed Junco", "Hermit Thrush", "Least Chipmunk", "Mourning Dove", "Red-eyed Vireo", "Swainson's Thrush", "White-throated Sparrow", "Wilson's Snipe"]
+    "species": [
+      "AMRO",
+      "CCSP",
+      "CHSP",
+      "CONI",
+      "DEJU",
+      "HETH",
+      "LECH",
+      "MODO",
+      "REVI",
+      "SWTH",
+      "WISN",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Robin",
+      "Chipping Sparrow",
+      "Clay-colored Sparrow",
+      "Common Nighthawk",
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Least Chipmunk",
+      "Mourning Dove",
+      "Red-eyed Vireo",
+      "Swainson's Thrush",
+      "White-throated Sparrow",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-171-01_20180613_040100",
@@ -829,8 +1459,35 @@
     "doy": 164,
     "richness": 12,
     "abiotic": "",
-    "species": ["CANG", "CHSP", "COLO", "DEJU", "LEYE", "LISP", "LITF", "RBNU", "SWSP", "SWTH", "WIWR", "WTSP"],
-    "common_names": ["Canada Goose", "Chipping Sparrow", "Common Loon", "Dark-eyed Junco", "Lesser Yellowlegs", "Light traffic", "Lincoln's Sparrow", "Red-breasted Nuthatch", "Swainson's Thrush", "Swamp Sparrow", "White-throated Sparrow", "Winter Wren"]
+    "species": [
+      "CANG",
+      "CHSP",
+      "COLO",
+      "DEJU",
+      "LEYE",
+      "LISP",
+      "LITF",
+      "RBNU",
+      "SWSP",
+      "SWTH",
+      "WIWR",
+      "WTSP"
+    ],
+    "common_names": [
+      "Canada Goose",
+      "Chipping Sparrow",
+      "Common Loon",
+      "Dark-eyed Junco",
+      "Lesser Yellowlegs",
+      "Light traffic",
+      "Lincoln's Sparrow",
+      "Red-breasted Nuthatch",
+      "Swainson's Thrush",
+      "Swamp Sparrow",
+      "White-throated Sparrow",
+      "Winter Wren"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDG52-47_20190704_025100",
@@ -846,8 +1503,19 @@
     "doy": 185,
     "richness": 4,
     "abiotic": "",
-    "species": ["FOSP", "HETH", "OSFL", "YRWA"],
-    "common_names": ["Fox Sparrow", "Hermit Thrush", "Olive-sided Flycatcher", "Yellow-rumped Warbler"]
+    "species": [
+      "FOSP",
+      "HETH",
+      "OSFL",
+      "YRWA"
+    ],
+    "common_names": [
+      "Fox Sparrow",
+      "Hermit Thrush",
+      "Olive-sided Flycatcher",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1001-04_20170612_081800",
@@ -863,8 +1531,39 @@
     "doy": 163,
     "richness": 14,
     "abiotic": "LIWI",
-    "species": ["AMCR", "BAWW", "COLO", "COYE", "HETH", "MOBA", "NHWR", "RBNU", "REVI", "RWBL", "UNWA", "WIWA", "WTSP", "YBSA"],
-    "common_names": ["American Crow", "Black-and-white Warbler", "Common Loon", "Common Yellowthroat", "Hermit Thrush", "Moderate Background Noise", "Northern House Wren", "Red-breasted Nuthatch", "Red-eyed Vireo", "Red-winged Blackbird", "Unidentified Warbler", "White-throated Sparrow", "Wilson's Warbler", "Yellow-bellied Sapsucker"]
+    "species": [
+      "AMCR",
+      "BAWW",
+      "COLO",
+      "COYE",
+      "HETH",
+      "MOBA",
+      "NHWR",
+      "RBNU",
+      "REVI",
+      "RWBL",
+      "UNWA",
+      "WIWA",
+      "WTSP",
+      "YBSA"
+    ],
+    "common_names": [
+      "American Crow",
+      "Black-and-white Warbler",
+      "Common Loon",
+      "Common Yellowthroat",
+      "Hermit Thrush",
+      "Moderate Background Noise",
+      "Northern House Wren",
+      "Red-breasted Nuthatch",
+      "Red-eyed Vireo",
+      "Red-winged Blackbird",
+      "Unidentified Warbler",
+      "White-throated Sparrow",
+      "Wilson's Warbler",
+      "Yellow-bellied Sapsucker"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1015-08_20180622_082300",
@@ -880,8 +1579,25 @@
     "doy": 173,
     "richness": 7,
     "abiotic": "LIWI",
-    "species": ["DEJU", "HETH", "LEYE", "LIBA", "MOBA", "WIWA", "YRWA"],
-    "common_names": ["Dark-eyed Junco", "Hermit Thrush", "Lesser Yellowlegs", "Light Background Noise", "Moderate Background Noise", "Wilson's Warbler", "Yellow-rumped Warbler"]
+    "species": [
+      "DEJU",
+      "HETH",
+      "LEYE",
+      "LIBA",
+      "MOBA",
+      "WIWA",
+      "YRWA"
+    ],
+    "common_names": [
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Lesser Yellowlegs",
+      "Light Background Noise",
+      "Moderate Background Noise",
+      "Wilson's Warbler",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB629-307-2-1_20230622_215100",
@@ -897,8 +1613,23 @@
     "doy": 173,
     "richness": 6,
     "abiotic": "",
-    "species": ["CONI", "OVEN", "RWBL", "SORA", "SWTH", "UNBI"],
-    "common_names": ["Common Nighthawk", "Ovenbird", "Red-winged Blackbird", "Sora", "Swainson's Thrush", "Unidentified Bird"]
+    "species": [
+      "CONI",
+      "OVEN",
+      "RWBL",
+      "SORA",
+      "SWTH",
+      "UNBI"
+    ],
+    "common_names": [
+      "Common Nighthawk",
+      "Ovenbird",
+      "Red-winged Blackbird",
+      "Sora",
+      "Swainson's Thrush",
+      "Unidentified Bird"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "630--305-3-1_20230607_214400",
@@ -914,8 +1645,41 @@
     "doy": 158,
     "richness": 15,
     "abiotic": "",
-    "species": ["ALFL", "AMRE", "AMRO", "BAWW", "CAWA", "COYE", "FOSP", "NOWA", "SWSP", "SWTH", "TRUS", "VEER", "WISN", "WOFR", "YEWA"],
-    "common_names": ["Alder Flycatcher", "American Redstart", "American Robin", "Black-and-white Warbler", "Canada Warbler", "Common Yellowthroat", "Fox Sparrow", "Northern Waterthrush", "Swainson's Thrush", "Swamp Sparrow", "Trumpeter Swan", "Veery", "Wilson's Snipe", "Wood Frog", "Yellow Warbler"]
+    "species": [
+      "ALFL",
+      "AMRE",
+      "AMRO",
+      "BAWW",
+      "CAWA",
+      "COYE",
+      "FOSP",
+      "NOWA",
+      "SWSP",
+      "SWTH",
+      "TRUS",
+      "VEER",
+      "WISN",
+      "WOFR",
+      "YEWA"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "American Redstart",
+      "American Robin",
+      "Black-and-white Warbler",
+      "Canada Warbler",
+      "Common Yellowthroat",
+      "Fox Sparrow",
+      "Northern Waterthrush",
+      "Swainson's Thrush",
+      "Swamp Sparrow",
+      "Trumpeter Swan",
+      "Veery",
+      "Wilson's Snipe",
+      "Wood Frog",
+      "Yellow Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VEG93-55_20190703_224500",
@@ -931,8 +1695,15 @@
     "doy": 184,
     "richness": 2,
     "abiotic": "",
-    "species": ["AMRO", "HETH"],
-    "common_names": ["American Robin", "Hermit Thrush"]
+    "species": [
+      "AMRO",
+      "HETH"
+    ],
+    "common_names": [
+      "American Robin",
+      "Hermit Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB-38190-3-9_20210605_223600",
@@ -948,8 +1719,23 @@
     "doy": 156,
     "richness": 6,
     "abiotic": "LIWI",
-    "species": ["BCFR", "CCSP", "GRTF", "LCSP", "MOWI", "WISN"],
-    "common_names": ["Boreal Chorus Frog", "Clay-colored Sparrow", "Gray Treefrog", "LeConte's Sparrow", "Moderate wind", "Wilson's Snipe"]
+    "species": [
+      "BCFR",
+      "CCSP",
+      "GRTF",
+      "LCSP",
+      "MOWI",
+      "WISN"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Clay-colored Sparrow",
+      "Gray Treefrog",
+      "LeConte's Sparrow",
+      "Moderate wind",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-81_20190329_225800",
@@ -966,7 +1752,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GGOW",
-    "common_names": "Great Gray Owl"
+    "common_names": "Great Gray Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-33_20190315_205700",
@@ -983,7 +1770,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "UNWA",
-    "common_names": "Unidentified Warbler"
+    "common_names": "Unidentified Warbler",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-UXG59-64_20190331_004800",
@@ -1000,7 +1788,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "UNKN",
-    "common_names": "Unidentified signal"
+    "common_names": "Unidentified signal",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-05-1313-06_20160702_055300",
@@ -1016,8 +1805,21 @@
     "doy": 184,
     "richness": 5,
     "abiotic": "",
-    "species": ["CORA", "PIWO", "RESQ", "SWTH", "WTSP"],
-    "common_names": ["Common Raven", "Pileated Woodpecker", "Red Squirrel", "Swainson's Thrush", "White-throated Sparrow"]
+    "species": [
+      "CORA",
+      "PIWO",
+      "RESQ",
+      "SWTH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Common Raven",
+      "Pileated Woodpecker",
+      "Red Squirrel",
+      "Swainson's Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UDB07-51_20190606_011300",
@@ -1033,8 +1835,15 @@
     "doy": 157,
     "richness": 2,
     "abiotic": "",
-    "species": ["CONI", "WTSP"],
-    "common_names": ["Common Nighthawk", "White-throated Sparrow"]
+    "species": [
+      "CONI",
+      "WTSP"
+    ],
+    "common_names": [
+      "Common Nighthawk",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD43-40_20190610_074900",
@@ -1051,7 +1860,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "LISP",
-    "common_names": "Lincoln's Sparrow"
+    "common_names": "Lincoln's Sparrow",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VEE46-67_20180620_033000",
@@ -1067,8 +1877,21 @@
     "doy": 171,
     "richness": 5,
     "abiotic": "",
-    "species": ["DEJU", "HETH", "PAWA", "WWCR", "YBFL"],
-    "common_names": ["Dark-eyed Junco", "Hermit Thrush", "Palm Warbler", "White-winged Crossbill", "Yellow-bellied Flycatcher"]
+    "species": [
+      "DEJU",
+      "HETH",
+      "PAWA",
+      "WWCR",
+      "YBFL"
+    ],
+    "common_names": [
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Palm Warbler",
+      "White-winged Crossbill",
+      "Yellow-bellied Flycatcher"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-UXF84-32_20210608_083900",
@@ -1084,8 +1907,25 @@
     "doy": 159,
     "richness": 7,
     "abiotic": "LIWI",
-    "species": ["CANG", "COLO", "MOWI", "OVEN", "REVI", "TEWA", "WTSP"],
-    "common_names": ["Canada Goose", "Common Loon", "Moderate wind", "Ovenbird", "Red-eyed Vireo", "Tennessee Warbler", "White-throated Sparrow"]
+    "species": [
+      "CANG",
+      "COLO",
+      "MOWI",
+      "OVEN",
+      "REVI",
+      "TEWA",
+      "WTSP"
+    ],
+    "common_names": [
+      "Canada Goose",
+      "Common Loon",
+      "Moderate wind",
+      "Ovenbird",
+      "Red-eyed Vireo",
+      "Tennessee Warbler",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD42-62_20190619_081400",
@@ -1101,8 +1941,33 @@
     "doy": 170,
     "richness": 11,
     "abiotic": "",
-    "species": ["CAGU", "CANG", "CORA", "GRYE", "OCWA", "PAWA", "PISI", "RCKI", "SWTH", "WISN", "YRWA"],
-    "common_names": ["California Gull", "Canada Goose", "Common Raven", "Greater Yellowlegs", "Orange-crowned Warbler", "Palm Warbler", "Pine Siskin", "Ruby-crowned Kinglet", "Swainson's Thrush", "Wilson's Snipe", "Yellow-rumped Warbler"]
+    "species": [
+      "CAGU",
+      "CANG",
+      "CORA",
+      "GRYE",
+      "OCWA",
+      "PAWA",
+      "PISI",
+      "RCKI",
+      "SWTH",
+      "WISN",
+      "YRWA"
+    ],
+    "common_names": [
+      "California Gull",
+      "Canada Goose",
+      "Common Raven",
+      "Greater Yellowlegs",
+      "Orange-crowned Warbler",
+      "Palm Warbler",
+      "Pine Siskin",
+      "Ruby-crowned Kinglet",
+      "Swainson's Thrush",
+      "Wilson's Snipe",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UFU67-69_20190705_214700",
@@ -1118,8 +1983,17 @@
     "doy": 186,
     "richness": 3,
     "abiotic": "",
-    "species": ["RUGR", "SWTH", "UNKN"],
-    "common_names": ["Ruffed Grouse", "Swainson's Thrush", "Unidentified signal"]
+    "species": [
+      "RUGR",
+      "SWTH",
+      "UNKN"
+    ],
+    "common_names": [
+      "Ruffed Grouse",
+      "Swainson's Thrush",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "12-VXM23-35_20210701_223500",
@@ -1136,7 +2010,8 @@
     "richness": 0,
     "abiotic": "NONE",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-85_20190604_215100",
@@ -1152,8 +2027,21 @@
     "doy": 155,
     "richness": 5,
     "abiotic": "",
-    "species": ["BCFR", "CONI", "HETH", "SWTH", "UNPA"],
-    "common_names": ["Boreal Chorus Frog", "Common Nighthawk", "Hermit Thrush", "Swainson's Thrush", "Unidentified Passerine"]
+    "species": [
+      "BCFR",
+      "CONI",
+      "HETH",
+      "SWTH",
+      "UNPA"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Swainson's Thrush",
+      "Unidentified Passerine"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "669--317-1-7_20230601_220500",
@@ -1169,8 +2057,29 @@
     "doy": 152,
     "richness": 9,
     "abiotic": "",
-    "species": ["CHSP", "CONI", "CORA", "DEJU", "HETH", "LISP", "UNPA", "VEER", "WTSP"],
-    "common_names": ["Chipping Sparrow", "Common Nighthawk", "Common Raven", "Dark-eyed Junco", "Hermit Thrush", "Lincoln's Sparrow", "Unidentified Passerine", "Veery", "White-throated Sparrow"]
+    "species": [
+      "CHSP",
+      "CONI",
+      "CORA",
+      "DEJU",
+      "HETH",
+      "LISP",
+      "UNPA",
+      "VEER",
+      "WTSP"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Common Nighthawk",
+      "Common Raven",
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Lincoln's Sparrow",
+      "Unidentified Passerine",
+      "Veery",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-199-05_20190329_235100",
@@ -1187,7 +2096,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "BOOW",
-    "common_names": "Boreal Owl"
+    "common_names": "Boreal Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-83_20190329_215900",
@@ -1203,8 +2113,15 @@
     "doy": 88,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "UNKN"],
-    "common_names": ["Boreal Owl", "Unidentified signal"]
+    "species": [
+      "BOOW",
+      "UNKN"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1251-07_20190331_015900",
@@ -1221,7 +2138,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GHOW",
-    "common_names": "Great Horned Owl"
+    "common_names": "Great Horned Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU18-48_20200626_073800",
@@ -1237,8 +2155,35 @@
     "doy": 178,
     "richness": 12,
     "abiotic": "",
-    "species": ["AMRE", "AMRO", "BLJA", "CAWA", "CSWA", "MOWA", "OVEN", "RESQ", "REVI", "UNKN", "UNWA", "WISN"],
-    "common_names": ["American Redstart", "American Robin", "Blue Jay", "Canada Warbler", "Chestnut-sided Warbler", "Mourning Warbler", "Ovenbird", "Red-eyed Vireo", "Red Squirrel", "Unidentified signal", "Unidentified Warbler", "Wilson's Snipe"]
+    "species": [
+      "AMRE",
+      "AMRO",
+      "BLJA",
+      "CAWA",
+      "CSWA",
+      "MOWA",
+      "OVEN",
+      "RESQ",
+      "REVI",
+      "UNKN",
+      "UNWA",
+      "WISN"
+    ],
+    "common_names": [
+      "American Redstart",
+      "American Robin",
+      "Blue Jay",
+      "Canada Warbler",
+      "Chestnut-sided Warbler",
+      "Mourning Warbler",
+      "Ovenbird",
+      "Red-eyed Vireo",
+      "Red Squirrel",
+      "Unidentified signal",
+      "Unidentified Warbler",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD26-33_20190611_002700",
@@ -1254,8 +2199,15 @@
     "doy": 162,
     "richness": 2,
     "abiotic": "",
-    "species": ["CANG", "WISN"],
-    "common_names": ["Canada Goose", "Wilson's Snipe"]
+    "species": [
+      "CANG",
+      "WISN"
+    ],
+    "common_names": [
+      "Canada Goose",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB638-311-14_20220607_041300",
@@ -1271,8 +2223,33 @@
     "doy": 158,
     "richness": 11,
     "abiotic": "",
-    "species": ["AMRO", "BCCH", "BCFR", "CANG", "CONI", "OVEN", "RUGR", "STGR", "SWTH", "UNBI", "WISN"],
-    "common_names": ["American Robin", "Black-capped Chickadee", "Boreal Chorus Frog", "Canada Goose", "Common Nighthawk", "Ovenbird", "Ruffed Grouse", "Sharp-tailed Grouse", "Swainson's Thrush", "Unidentified Bird", "Wilson's Snipe"]
+    "species": [
+      "AMRO",
+      "BCCH",
+      "BCFR",
+      "CANG",
+      "CONI",
+      "OVEN",
+      "RUGR",
+      "STGR",
+      "SWTH",
+      "UNBI",
+      "WISN"
+    ],
+    "common_names": [
+      "American Robin",
+      "Black-capped Chickadee",
+      "Boreal Chorus Frog",
+      "Canada Goose",
+      "Common Nighthawk",
+      "Ovenbird",
+      "Ruffed Grouse",
+      "Sharp-tailed Grouse",
+      "Swainson's Thrush",
+      "Unidentified Bird",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCF88-38_20200618_035000",
@@ -1288,8 +2265,43 @@
     "doy": 170,
     "richness": 16,
     "abiotic": "",
-    "species": ["ALFL", "BAWW", "DEJU", "HETH", "MAWA", "MYWA", "NOWA", "REVI", "RUGR", "SWSP", "SWTH", "TEWA", "UNVI", "UNWA", "WIWA", "WTSP"],
-    "common_names": ["Alder Flycatcher", "Black-and-white Warbler", "Dark-eyed Junco", "Hermit Thrush", "Magnolia Warbler", "Myrtle Warbler", "Northern Waterthrush", "Red-eyed Vireo", "Ruffed Grouse", "Swainson's Thrush", "Swamp Sparrow", "Tennessee Warbler", "Unidentified Vireo", "Unidentified Warbler", "White-throated Sparrow", "Wilson's Warbler"]
+    "species": [
+      "ALFL",
+      "BAWW",
+      "DEJU",
+      "HETH",
+      "MAWA",
+      "MYWA",
+      "NOWA",
+      "REVI",
+      "RUGR",
+      "SWSP",
+      "SWTH",
+      "TEWA",
+      "UNVI",
+      "UNWA",
+      "WIWA",
+      "WTSP"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Black-and-white Warbler",
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Magnolia Warbler",
+      "Myrtle Warbler",
+      "Northern Waterthrush",
+      "Red-eyed Vireo",
+      "Ruffed Grouse",
+      "Swainson's Thrush",
+      "Swamp Sparrow",
+      "Tennessee Warbler",
+      "Unidentified Vireo",
+      "Unidentified Warbler",
+      "White-throated Sparrow",
+      "Wilson's Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB638-311-15_20220607_091300",
@@ -1305,8 +2317,21 @@
     "doy": 158,
     "richness": 5,
     "abiotic": "",
-    "species": ["BCFR", "NAWA", "OVEN", "TEWA", "UNBI"],
-    "common_names": ["Boreal Chorus Frog", "Nashville Warbler", "Ovenbird", "Tennessee Warbler", "Unidentified Bird"]
+    "species": [
+      "BCFR",
+      "NAWA",
+      "OVEN",
+      "TEWA",
+      "UNBI"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Nashville Warbler",
+      "Ovenbird",
+      "Tennessee Warbler",
+      "Unidentified Bird"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1002-04_20170624_082419",
@@ -1322,8 +2347,27 @@
     "doy": 175,
     "richness": 8,
     "abiotic": "LIRA;HEWI",
-    "species": ["AMRE", "CHSP", "OVEN", "RESQ", "REVI", "WISN", "WTSP", "YRWA"],
-    "common_names": ["American Redstart", "Chipping Sparrow", "Ovenbird", "Red-eyed Vireo", "Red Squirrel", "White-throated Sparrow", "Wilson's Snipe", "Yellow-rumped Warbler"]
+    "species": [
+      "AMRE",
+      "CHSP",
+      "OVEN",
+      "RESQ",
+      "REVI",
+      "WISN",
+      "WTSP",
+      "YRWA"
+    ],
+    "common_names": [
+      "American Redstart",
+      "Chipping Sparrow",
+      "Ovenbird",
+      "Red-eyed Vireo",
+      "Red Squirrel",
+      "White-throated Sparrow",
+      "Wilson's Snipe",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-33_20190609_211200",
@@ -1339,8 +2383,29 @@
     "doy": 160,
     "richness": 9,
     "abiotic": "",
-    "species": ["ALFL", "AMRO", "GHOW", "OVEN", "RWBL", "SWSP", "WISN", "WTSP", "YBSA"],
-    "common_names": ["Alder Flycatcher", "American Robin", "Great Horned Owl", "Ovenbird", "Red-winged Blackbird", "Swamp Sparrow", "White-throated Sparrow", "Wilson's Snipe", "Yellow-bellied Sapsucker"]
+    "species": [
+      "ALFL",
+      "AMRO",
+      "GHOW",
+      "OVEN",
+      "RWBL",
+      "SWSP",
+      "WISN",
+      "WTSP",
+      "YBSA"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "American Robin",
+      "Great Horned Owl",
+      "Ovenbird",
+      "Red-winged Blackbird",
+      "Swamp Sparrow",
+      "White-throated Sparrow",
+      "Wilson's Snipe",
+      "Yellow-bellied Sapsucker"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU59-43_20190618_215000",
@@ -1357,7 +2422,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "HETH",
-    "common_names": "Hermit Thrush"
+    "common_names": "Hermit Thrush",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD26-35_20190610_222100",
@@ -1373,8 +2439,19 @@
     "doy": 161,
     "richness": 4,
     "abiotic": "",
-    "species": ["COLO", "GWTE", "HETH", "SPGR"],
-    "common_names": ["Common Loon", "Green-winged Teal", "Hermit Thrush", "Spruce Grouse"]
+    "species": [
+      "COLO",
+      "GWTE",
+      "HETH",
+      "SPGR"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Green-winged Teal",
+      "Hermit Thrush",
+      "Spruce Grouse"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB785-294-45_20230626_221700",
@@ -1390,8 +2467,21 @@
     "doy": 177,
     "richness": 5,
     "abiotic": "",
-    "species": ["COLO", "CONI", "OSPR", "VIRA", "YRWA"],
-    "common_names": ["Common Loon", "Common Nighthawk", "Osprey", "Virginia Rail", "Yellow-rumped Warbler"]
+    "species": [
+      "COLO",
+      "CONI",
+      "OSPR",
+      "VIRA",
+      "YRWA"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Common Nighthawk",
+      "Osprey",
+      "Virginia Rail",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-57_20190316_225800",
@@ -1407,8 +2497,15 @@
     "doy": 75,
     "richness": 2,
     "abiotic": "",
-    "species": ["GHOW", "UNFR"],
-    "common_names": ["Great Horned Owl", "Unidentified Frog"]
+    "species": [
+      "GHOW",
+      "UNFR"
+    ],
+    "common_names": [
+      "Great Horned Owl",
+      "Unidentified Frog"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-61_20190320_200500",
@@ -1425,7 +2522,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GHOW",
-    "common_names": "Great Horned Owl"
+    "common_names": "Great Horned Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-199-09_20190403_025900",
@@ -1442,7 +2540,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "BOOW",
-    "common_names": "Boreal Owl"
+    "common_names": "Boreal Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "629--309-4-5_20230623_064300",
@@ -1458,8 +2557,29 @@
     "doy": 174,
     "richness": 9,
     "abiotic": "",
-    "species": ["ALFL", "CCSP", "COLO", "COYE", "LISP", "PAWA", "SORA", "SWSP", "WISN"],
-    "common_names": ["Alder Flycatcher", "Clay-colored Sparrow", "Common Loon", "Common Yellowthroat", "Lincoln's Sparrow", "Palm Warbler", "Sora", "Swamp Sparrow", "Wilson's Snipe"]
+    "species": [
+      "ALFL",
+      "CCSP",
+      "COLO",
+      "COYE",
+      "LISP",
+      "PAWA",
+      "SORA",
+      "SWSP",
+      "WISN"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Clay-colored Sparrow",
+      "Common Loon",
+      "Common Yellowthroat",
+      "Lincoln's Sparrow",
+      "Palm Warbler",
+      "Sora",
+      "Swamp Sparrow",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-14-ULD05-79_20180611_045300",
@@ -1475,8 +2595,33 @@
     "doy": 162,
     "richness": 11,
     "abiotic": "",
-    "species": ["BLBW", "COYE", "MAWA", "MORA", "MOWA", "OVEN", "RBNU", "REVI", "SWTH", "WIWR", "WTSP"],
-    "common_names": ["Blackburnian Warbler", "Common Yellowthroat", "Magnolia Warbler", "Moderate rain", "Mourning Warbler", "Ovenbird", "Red-breasted Nuthatch", "Red-eyed Vireo", "Swainson's Thrush", "White-throated Sparrow", "Winter Wren"]
+    "species": [
+      "BLBW",
+      "COYE",
+      "MAWA",
+      "MORA",
+      "MOWA",
+      "OVEN",
+      "RBNU",
+      "REVI",
+      "SWTH",
+      "WIWR",
+      "WTSP"
+    ],
+    "common_names": [
+      "Blackburnian Warbler",
+      "Common Yellowthroat",
+      "Magnolia Warbler",
+      "Moderate rain",
+      "Mourning Warbler",
+      "Ovenbird",
+      "Red-breasted Nuthatch",
+      "Red-eyed Vireo",
+      "Swainson's Thrush",
+      "White-throated Sparrow",
+      "Winter Wren"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-88_20190614_025900",
@@ -1492,8 +2637,19 @@
     "doy": 165,
     "richness": 4,
     "abiotic": "",
-    "species": ["AMBI", "BCFR", "BEAV", "UNBI"],
-    "common_names": ["American Beaver", "American Bittern", "Boreal Chorus Frog", "Unidentified Bird"]
+    "species": [
+      "AMBI",
+      "BCFR",
+      "BEAV",
+      "UNBI"
+    ],
+    "common_names": [
+      "American Beaver",
+      "American Bittern",
+      "Boreal Chorus Frog",
+      "Unidentified Bird"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "12-VXL35-86_20210624_030000",
@@ -1509,8 +2665,19 @@
     "doy": 175,
     "richness": 4,
     "abiotic": "LIWI",
-    "species": ["CHSP", "MOBA", "MOWI", "UNPA"],
-    "common_names": ["Chipping Sparrow", "Moderate Background Noise", "Moderate wind", "Unidentified Passerine"]
+    "species": [
+      "CHSP",
+      "MOBA",
+      "MOWI",
+      "UNPA"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Moderate Background Noise",
+      "Moderate wind",
+      "Unidentified Passerine"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFA88-41_20210527_082300",
@@ -1527,7 +2694,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "UNKN",
-    "common_names": "Unidentified signal"
+    "common_names": "Unidentified signal",
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB629-307-2-3_20230629_081600",
@@ -1543,8 +2711,35 @@
     "doy": 180,
     "richness": 12,
     "abiotic": "",
-    "species": ["BCCH", "MAWA", "NAWA", "OVEN", "PISI", "RESQ", "SWTH", "TEWA", "UNPA", "WTSP", "WWCR", "YRWA"],
-    "common_names": ["Black-capped Chickadee", "Magnolia Warbler", "Nashville Warbler", "Ovenbird", "Pine Siskin", "Red Squirrel", "Swainson's Thrush", "Tennessee Warbler", "Unidentified Passerine", "White-throated Sparrow", "White-winged Crossbill", "Yellow-rumped Warbler"]
+    "species": [
+      "BCCH",
+      "MAWA",
+      "NAWA",
+      "OVEN",
+      "PISI",
+      "RESQ",
+      "SWTH",
+      "TEWA",
+      "UNPA",
+      "WTSP",
+      "WWCR",
+      "YRWA"
+    ],
+    "common_names": [
+      "Black-capped Chickadee",
+      "Magnolia Warbler",
+      "Nashville Warbler",
+      "Ovenbird",
+      "Pine Siskin",
+      "Red Squirrel",
+      "Swainson's Thrush",
+      "Tennessee Warbler",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "White-winged Crossbill",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "637--315-4-3_20230608_214000",
@@ -1560,8 +2755,25 @@
     "doy": 159,
     "richness": 7,
     "abiotic": "",
-    "species": ["CAJA", "CONI", "LIAI", "OVEN", "RUGR", "SWTH", "WTSP"],
-    "common_names": ["Canada Jay", "Common Nighthawk", "Light aircraft", "Ovenbird", "Ruffed Grouse", "Swainson's Thrush", "White-throated Sparrow"]
+    "species": [
+      "CAJA",
+      "CONI",
+      "LIAI",
+      "OVEN",
+      "RUGR",
+      "SWTH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Canada Jay",
+      "Common Nighthawk",
+      "Light aircraft",
+      "Ovenbird",
+      "Ruffed Grouse",
+      "Swainson's Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB746-307-178_20230625_231800",
@@ -1577,8 +2789,19 @@
     "doy": 176,
     "richness": 4,
     "abiotic": "",
-    "species": ["CONI", "HETH", "SWTH", "UNBI"],
-    "common_names": ["Common Nighthawk", "Hermit Thrush", "Swainson's Thrush", "Unidentified Bird"]
+    "species": [
+      "CONI",
+      "HETH",
+      "SWTH",
+      "UNBI"
+    ],
+    "common_names": [
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Swainson's Thrush",
+      "Unidentified Bird"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "511--355-1-9_20240616_201400",
@@ -1594,8 +2817,31 @@
     "doy": 168,
     "richness": 10,
     "abiotic": "",
-    "species": ["AMCR", "CHSP", "GRTF", "OCWA", "RESQ", "RUGR", "SWTH", "UNPA", "WBBE", "WTSP"],
-    "common_names": ["American Crow", "Chipping Sparrow", "Gray Treefrog", "Orange-crowned Warbler", "Red Squirrel", "Ruffed Grouse", "Swainson's Thrush", "Unidentified Passerine", "White-throated Sparrow", "Woodborer Beetle"]
+    "species": [
+      "AMCR",
+      "CHSP",
+      "GRTF",
+      "OCWA",
+      "RESQ",
+      "RUGR",
+      "SWTH",
+      "UNPA",
+      "WBBE",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Crow",
+      "Chipping Sparrow",
+      "Gray Treefrog",
+      "Orange-crowned Warbler",
+      "Red Squirrel",
+      "Ruffed Grouse",
+      "Swainson's Thrush",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "Woodborer Beetle"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD86-50_20190614_220600",
@@ -1611,8 +2857,21 @@
     "doy": 165,
     "richness": 5,
     "abiotic": "",
-    "species": ["COLO", "CONI", "HETH", "SWTH", "WTSP"],
-    "common_names": ["Common Loon", "Common Nighthawk", "Hermit Thrush", "Swainson's Thrush", "White-throated Sparrow"]
+    "species": [
+      "COLO",
+      "CONI",
+      "HETH",
+      "SWTH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Swainson's Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1241-01_20190329_224800",
@@ -1629,7 +2888,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "LITF",
-    "common_names": "Light traffic"
+    "common_names": "Light traffic",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-81_20190328_205600",
@@ -1645,8 +2905,15 @@
     "doy": 87,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "GGOW"],
-    "common_names": ["Boreal Owl", "Great Gray Owl"]
+    "species": [
+      "BOOW",
+      "GGOW"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Great Gray Owl"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UCC25-67_20190401_004800",
@@ -1663,7 +2930,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "BOOW",
-    "common_names": "Boreal Owl"
+    "common_names": "Boreal Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UDA30-70_20190625_045100",
@@ -1679,8 +2947,25 @@
     "doy": 176,
     "richness": 7,
     "abiotic": "",
-    "species": ["AMCR", "CCSP", "LISP", "PISI", "RCKI", "SOSP", "WTSP"],
-    "common_names": ["American Crow", "Clay-colored Sparrow", "Lincoln's Sparrow", "Pine Siskin", "Ruby-crowned Kinglet", "Song Sparrow", "White-throated Sparrow"]
+    "species": [
+      "AMCR",
+      "CCSP",
+      "LISP",
+      "PISI",
+      "RCKI",
+      "SOSP",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Crow",
+      "Clay-colored Sparrow",
+      "Lincoln's Sparrow",
+      "Pine Siskin",
+      "Ruby-crowned Kinglet",
+      "Song Sparrow",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-14-ULE08-52_20210530_042400",
@@ -1696,8 +2981,25 @@
     "doy": 150,
     "richness": 7,
     "abiotic": "",
-    "species": ["HETH", "OVEN", "PISI", "RUGR", "TEWA", "WTSP", "YRWA"],
-    "common_names": ["Hermit Thrush", "Ovenbird", "Pine Siskin", "Ruffed Grouse", "Tennessee Warbler", "White-throated Sparrow", "Yellow-rumped Warbler"]
+    "species": [
+      "HETH",
+      "OVEN",
+      "PISI",
+      "RUGR",
+      "TEWA",
+      "WTSP",
+      "YRWA"
+    ],
+    "common_names": [
+      "Hermit Thrush",
+      "Ovenbird",
+      "Pine Siskin",
+      "Ruffed Grouse",
+      "Tennessee Warbler",
+      "White-throated Sparrow",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "511--355-3-1_20240603_010400",
@@ -1713,8 +3015,21 @@
     "doy": 155,
     "richness": 5,
     "abiotic": "",
-    "species": ["BCFR", "CATO", "GRTF", "SORA", "SPPE"],
-    "common_names": ["Boreal Chorus Frog", "Canadian Toad", "Gray Treefrog", "Sora", "Spring peeper"]
+    "species": [
+      "BCFR",
+      "CATO",
+      "GRTF",
+      "SORA",
+      "SPPE"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Canadian Toad",
+      "Gray Treefrog",
+      "Sora",
+      "Spring peeper"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UDU18-37_20210622_000500",
@@ -1730,8 +3045,19 @@
     "doy": 173,
     "richness": 4,
     "abiotic": "",
-    "species": ["DOGG", "UNBI", "UNKN", "WTSP"],
-    "common_names": ["Domestic Dog", "Unidentified Bird", "Unidentified signal", "White-throated Sparrow"]
+    "species": [
+      "DOGG",
+      "UNBI",
+      "UNKN",
+      "WTSP"
+    ],
+    "common_names": [
+      "Domestic Dog",
+      "Unidentified Bird",
+      "Unidentified signal",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "591--357-1-5_20240610_080100",
@@ -1747,8 +3073,39 @@
     "doy": 162,
     "richness": 14,
     "abiotic": "HEWI",
-    "species": ["ALFL", "BAWW", "COYE", "DEJU", "KILL", "LCSP", "LISP", "MAWA", "REVI", "SACR", "SWSP", "UNKN", "WIWA", "WTSP"],
-    "common_names": ["Alder Flycatcher", "Black-and-white Warbler", "Common Yellowthroat", "Dark-eyed Junco", "Killdeer", "LeConte's Sparrow", "Lincoln's Sparrow", "Magnolia Warbler", "Red-eyed Vireo", "Sandhill Crane", "Swamp Sparrow", "Unidentified signal", "White-throated Sparrow", "Wilson's Warbler"]
+    "species": [
+      "ALFL",
+      "BAWW",
+      "COYE",
+      "DEJU",
+      "KILL",
+      "LCSP",
+      "LISP",
+      "MAWA",
+      "REVI",
+      "SACR",
+      "SWSP",
+      "UNKN",
+      "WIWA",
+      "WTSP"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Black-and-white Warbler",
+      "Common Yellowthroat",
+      "Dark-eyed Junco",
+      "Killdeer",
+      "LeConte's Sparrow",
+      "Lincoln's Sparrow",
+      "Magnolia Warbler",
+      "Red-eyed Vireo",
+      "Sandhill Crane",
+      "Swamp Sparrow",
+      "Unidentified signal",
+      "White-throated Sparrow",
+      "Wilson's Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1013-04_20170615_093000",
@@ -1764,8 +3121,29 @@
     "doy": 166,
     "richness": 9,
     "abiotic": "",
-    "species": ["AMRE", "CAWA", "CORA", "COYE", "OVEN", "REVI", "UNBL", "VEER", "WTSP"],
-    "common_names": ["American Redstart", "Canada Warbler", "Common Raven", "Common Yellowthroat", "Ovenbird", "Red-eyed Vireo", "Unidentified Blackbird", "Veery", "White-throated Sparrow"]
+    "species": [
+      "AMRE",
+      "CAWA",
+      "CORA",
+      "COYE",
+      "OVEN",
+      "REVI",
+      "UNBL",
+      "VEER",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Redstart",
+      "Canada Warbler",
+      "Common Raven",
+      "Common Yellowthroat",
+      "Ovenbird",
+      "Red-eyed Vireo",
+      "Unidentified Blackbird",
+      "Veery",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD26-39_20190610_215700",
@@ -1781,8 +3159,17 @@
     "doy": 161,
     "richness": 3,
     "abiotic": "",
-    "species": ["AMRO", "COLO", "UNKN"],
-    "common_names": ["American Robin", "Common Loon", "Unidentified signal"]
+    "species": [
+      "AMRO",
+      "COLO",
+      "UNKN"
+    ],
+    "common_names": [
+      "American Robin",
+      "Common Loon",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "AB-169275-18_20210625_220600",
@@ -1798,8 +3185,29 @@
     "doy": 176,
     "richness": 9,
     "abiotic": "",
-    "species": ["BCFR", "CONI", "HETH", "LIBA", "SWTH", "TEWA", "UNWA", "WISN", "YBFL"],
-    "common_names": ["Boreal Chorus Frog", "Common Nighthawk", "Hermit Thrush", "Light Background Noise", "Swainson's Thrush", "Tennessee Warbler", "Unidentified Warbler", "Wilson's Snipe", "Yellow-bellied Flycatcher"]
+    "species": [
+      "BCFR",
+      "CONI",
+      "HETH",
+      "LIBA",
+      "SWTH",
+      "TEWA",
+      "UNWA",
+      "WISN",
+      "YBFL"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Light Background Noise",
+      "Swainson's Thrush",
+      "Tennessee Warbler",
+      "Unidentified Warbler",
+      "Wilson's Snipe",
+      "Yellow-bellied Flycatcher"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD26-33_20190610_224800",
@@ -1815,8 +3223,17 @@
     "doy": 161,
     "richness": 3,
     "abiotic": "",
-    "species": ["CANG", "COLO", "WISN"],
-    "common_names": ["Canada Goose", "Common Loon", "Wilson's Snipe"]
+    "species": [
+      "CANG",
+      "COLO",
+      "WISN"
+    ],
+    "common_names": [
+      "Canada Goose",
+      "Common Loon",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UFU67-72_20190702_214900",
@@ -1832,8 +3249,15 @@
     "doy": 183,
     "richness": 2,
     "abiotic": "",
-    "species": ["COLO", "RUGR"],
-    "common_names": ["Common Loon", "Ruffed Grouse"]
+    "species": [
+      "COLO",
+      "RUGR"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Ruffed Grouse"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-83_20190331_220200",
@@ -1849,8 +3273,15 @@
     "doy": 90,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "GGOW"],
-    "common_names": ["Boreal Owl", "Great Gray Owl"]
+    "species": [
+      "BOOW",
+      "GGOW"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Great Gray Owl"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-79_20190510_201500",
@@ -1866,8 +3297,15 @@
     "doy": 130,
     "richness": 2,
     "abiotic": "",
-    "species": ["AMRO", "UNKN"],
-    "common_names": ["American Robin", "Unidentified signal"]
+    "species": [
+      "AMRO",
+      "UNKN"
+    ],
+    "common_names": [
+      "American Robin",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-199-05_20190403_025900",
@@ -1884,7 +3322,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "BOOW",
-    "common_names": "Boreal Owl"
+    "common_names": "Boreal Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "669--317-4-1_20230612_070400",
@@ -1900,8 +3339,31 @@
     "doy": 163,
     "richness": 10,
     "abiotic": "",
-    "species": ["DEJU", "HETH", "LITF", "NAWA", "PAWA", "SWTH", "UNPA", "WTSP", "YBFL", "YRWA"],
-    "common_names": ["Dark-eyed Junco", "Hermit Thrush", "Light traffic", "Nashville Warbler", "Palm Warbler", "Swainson's Thrush", "Unidentified Passerine", "White-throated Sparrow", "Yellow-bellied Flycatcher", "Yellow-rumped Warbler"]
+    "species": [
+      "DEJU",
+      "HETH",
+      "LITF",
+      "NAWA",
+      "PAWA",
+      "SWTH",
+      "UNPA",
+      "WTSP",
+      "YBFL",
+      "YRWA"
+    ],
+    "common_names": [
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Light traffic",
+      "Nashville Warbler",
+      "Palm Warbler",
+      "Swainson's Thrush",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "Yellow-bellied Flycatcher",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-05-1469-09_20220617_075000",
@@ -1917,8 +3379,17 @@
     "doy": 168,
     "richness": 3,
     "abiotic": "",
-    "species": ["BCFR", "CAJA", "SOSA"],
-    "common_names": ["Boreal Chorus Frog", "Canada Jay", "Solitary Sandpiper"]
+    "species": [
+      "BCFR",
+      "CAJA",
+      "SOSA"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Canada Jay",
+      "Solitary Sandpiper"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEA21-51_20210607_032600",
@@ -1934,8 +3405,19 @@
     "doy": 158,
     "richness": 4,
     "abiotic": "",
-    "species": ["SWTH", "UNKN", "UNWA", "WTSP"],
-    "common_names": ["Swainson's Thrush", "Unidentified signal", "Unidentified Warbler", "White-throated Sparrow"]
+    "species": [
+      "SWTH",
+      "UNKN",
+      "UNWA",
+      "WTSP"
+    ],
+    "common_names": [
+      "Swainson's Thrush",
+      "Unidentified signal",
+      "Unidentified Warbler",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-171-07_20180625_031100",
@@ -1951,8 +3433,31 @@
     "doy": 176,
     "richness": 10,
     "abiotic": "",
-    "species": ["CCSP", "CHSP", "CONI", "LCSP", "LISP", "PISI", "RNDU", "SWSP", "UNBI", "WOFR"],
-    "common_names": ["Chipping Sparrow", "Clay-colored Sparrow", "Common Nighthawk", "LeConte's Sparrow", "Lincoln's Sparrow", "Pine Siskin", "Ring-necked Duck", "Swamp Sparrow", "Unidentified Bird", "Wood Frog"]
+    "species": [
+      "CCSP",
+      "CHSP",
+      "CONI",
+      "LCSP",
+      "LISP",
+      "PISI",
+      "RNDU",
+      "SWSP",
+      "UNBI",
+      "WOFR"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Clay-colored Sparrow",
+      "Common Nighthawk",
+      "LeConte's Sparrow",
+      "Lincoln's Sparrow",
+      "Pine Siskin",
+      "Ring-necked Duck",
+      "Swamp Sparrow",
+      "Unidentified Bird",
+      "Wood Frog"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV40-42_20190625_083000",
@@ -1968,8 +3473,29 @@
     "doy": 176,
     "richness": 9,
     "abiotic": "",
-    "species": ["AMRE", "BBWO", "CSWA", "HAWO", "HETH", "NAWA", "OVEN", "SWTH", "WTSP"],
-    "common_names": ["American Redstart", "Black-backed Woodpecker", "Chestnut-sided Warbler", "Hairy Woodpecker", "Hermit Thrush", "Nashville Warbler", "Ovenbird", "Swainson's Thrush", "White-throated Sparrow"]
+    "species": [
+      "AMRE",
+      "BBWO",
+      "CSWA",
+      "HAWO",
+      "HETH",
+      "NAWA",
+      "OVEN",
+      "SWTH",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Redstart",
+      "Black-backed Woodpecker",
+      "Chestnut-sided Warbler",
+      "Hairy Woodpecker",
+      "Hermit Thrush",
+      "Nashville Warbler",
+      "Ovenbird",
+      "Swainson's Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD78-41_20190609_081100",
@@ -1985,8 +3511,17 @@
     "doy": 160,
     "richness": 3,
     "abiotic": "",
-    "species": ["AMRO", "CHSP", "HETH"],
-    "common_names": ["American Robin", "Chipping Sparrow", "Hermit Thrush"]
+    "species": [
+      "AMRO",
+      "CHSP",
+      "HETH"
+    ],
+    "common_names": [
+      "American Robin",
+      "Chipping Sparrow",
+      "Hermit Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-64_20190612_214500",
@@ -2002,8 +3537,21 @@
     "doy": 163,
     "richness": 5,
     "abiotic": "",
-    "species": ["AMRO", "BCFR", "RNGR", "WOLF", "WTSP"],
-    "common_names": ["American Robin", "Boreal Chorus Frog", "Red-necked Grebe", "White-throated Sparrow", "Wolf"]
+    "species": [
+      "AMRO",
+      "BCFR",
+      "RNGR",
+      "WOLF",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Robin",
+      "Boreal Chorus Frog",
+      "Red-necked Grebe",
+      "White-throated Sparrow",
+      "Wolf"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "12-VWL68-38_20210622_221139",
@@ -2019,8 +3567,17 @@
     "doy": 173,
     "richness": 3,
     "abiotic": "",
-    "species": ["HETH", "MOBA", "UNPA"],
-    "common_names": ["Hermit Thrush", "Moderate Background Noise", "Unidentified Passerine"]
+    "species": [
+      "HETH",
+      "MOBA",
+      "UNPA"
+    ],
+    "common_names": [
+      "Hermit Thrush",
+      "Moderate Background Noise",
+      "Unidentified Passerine"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UFU67-65_20190627_212000",
@@ -2036,8 +3593,19 @@
     "doy": 178,
     "richness": 4,
     "abiotic": "",
-    "species": ["BTNW", "OVEN", "RUGR", "WTSP"],
-    "common_names": ["Black-throated Green Warbler", "Ovenbird", "Ruffed Grouse", "White-throated Sparrow"]
+    "species": [
+      "BTNW",
+      "OVEN",
+      "RUGR",
+      "WTSP"
+    ],
+    "common_names": [
+      "Black-throated Green Warbler",
+      "Ovenbird",
+      "Ruffed Grouse",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "669--317-1-3_20230601_220400",
@@ -2053,8 +3621,29 @@
     "doy": 152,
     "richness": 9,
     "abiotic": "LIWI",
-    "species": ["CONI", "CONW", "HETH", "LIBA", "LISP", "SWSP", "SWTH", "WTSP", "YRWA"],
-    "common_names": ["Common Nighthawk", "Connecticut Warbler", "Hermit Thrush", "Light Background Noise", "Lincoln's Sparrow", "Swainson's Thrush", "Swamp Sparrow", "White-throated Sparrow", "Yellow-rumped Warbler"]
+    "species": [
+      "CONI",
+      "CONW",
+      "HETH",
+      "LIBA",
+      "LISP",
+      "SWSP",
+      "SWTH",
+      "WTSP",
+      "YRWA"
+    ],
+    "common_names": [
+      "Common Nighthawk",
+      "Connecticut Warbler",
+      "Hermit Thrush",
+      "Light Background Noise",
+      "Lincoln's Sparrow",
+      "Swainson's Thrush",
+      "Swamp Sparrow",
+      "White-throated Sparrow",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-84_20190327_225400",
@@ -2071,7 +3660,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "BOOW",
-    "common_names": "Boreal Owl"
+    "common_names": "Boreal Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-85_20190502_203000",
@@ -2087,8 +3677,15 @@
     "doy": 122,
     "richness": 2,
     "abiotic": "",
-    "species": ["COLO", "LEOW"],
-    "common_names": ["Common Loon", "Long-eared Owl"]
+    "species": [
+      "COLO",
+      "LEOW"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Long-eared Owl"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-55_20190331_002300",
@@ -2105,7 +3702,8 @@
     "richness": 0,
     "abiotic": "LIWI",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-UXE76-55_20190619_042200",
@@ -2121,8 +3719,17 @@
     "doy": 170,
     "richness": 3,
     "abiotic": "HEWI",
-    "species": ["DEJU", "PAWA", "UNTR"],
-    "common_names": ["Dark-eyed Junco", "Palm Warbler", "Unidentified Trill"]
+    "species": [
+      "DEJU",
+      "PAWA",
+      "UNTR"
+    ],
+    "common_names": [
+      "Dark-eyed Junco",
+      "Palm Warbler",
+      "Unidentified Trill"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UDA44-90_20190530_061700",
@@ -2138,8 +3745,43 @@
     "doy": 150,
     "richness": 16,
     "abiotic": "",
-    "species": ["AMCR", "CHSP", "COLO", "GRAJ", "HETH", "MYWA", "NAWA", "OVEN", "PAWA", "PIWO", "RCKI", "RNDU", "SWSP", "TEWA", "WISN", "WTSP"],
-    "common_names": ["American Crow", "Chipping Sparrow", "Common Loon", "Gray Jay", "Hermit Thrush", "Myrtle Warbler", "Nashville Warbler", "Ovenbird", "Palm Warbler", "Pileated Woodpecker", "Ring-necked Duck", "Ruby-crowned Kinglet", "Swamp Sparrow", "Tennessee Warbler", "White-throated Sparrow", "Wilson's Snipe"]
+    "species": [
+      "AMCR",
+      "CHSP",
+      "COLO",
+      "GRAJ",
+      "HETH",
+      "MYWA",
+      "NAWA",
+      "OVEN",
+      "PAWA",
+      "PIWO",
+      "RCKI",
+      "RNDU",
+      "SWSP",
+      "TEWA",
+      "WISN",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Crow",
+      "Chipping Sparrow",
+      "Common Loon",
+      "Gray Jay",
+      "Hermit Thrush",
+      "Myrtle Warbler",
+      "Nashville Warbler",
+      "Ovenbird",
+      "Palm Warbler",
+      "Pileated Woodpecker",
+      "Ring-necked Duck",
+      "Ruby-crowned Kinglet",
+      "Swamp Sparrow",
+      "Tennessee Warbler",
+      "White-throated Sparrow",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1011-01_20170613_002700",
@@ -2155,8 +3797,17 @@
     "doy": 164,
     "richness": 3,
     "abiotic": "HEWI",
-    "species": ["COYO", "UNBI", "VIRA"],
-    "common_names": ["Coyote", "Unidentified Bird", "Virginia Rail"]
+    "species": [
+      "COYO",
+      "UNBI",
+      "VIRA"
+    ],
+    "common_names": [
+      "Coyote",
+      "Unidentified Bird",
+      "Virginia Rail"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-VXJ38-65_20210626_034700",
@@ -2172,8 +3823,17 @@
     "doy": 177,
     "richness": 3,
     "abiotic": "",
-    "species": ["DEJU", "OSFL", "SACR"],
-    "common_names": ["Dark-eyed Junco", "Olive-sided Flycatcher", "Sandhill Crane"]
+    "species": [
+      "DEJU",
+      "OSFL",
+      "SACR"
+    ],
+    "common_names": [
+      "Dark-eyed Junco",
+      "Olive-sided Flycatcher",
+      "Sandhill Crane"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFV73-99_20170706_080900",
@@ -2189,8 +3849,29 @@
     "doy": 187,
     "richness": 9,
     "abiotic": "",
-    "species": ["BTNW", "NAWA", "OVEN", "REVI", "RUGR", "SWTH", "TEWA", "UNWO", "WISN"],
-    "common_names": ["Black-throated Green Warbler", "Nashville Warbler", "Ovenbird", "Red-eyed Vireo", "Ruffed Grouse", "Swainson's Thrush", "Tennessee Warbler", "Unidentified Woodpecker", "Wilson's Snipe"]
+    "species": [
+      "BTNW",
+      "NAWA",
+      "OVEN",
+      "REVI",
+      "RUGR",
+      "SWTH",
+      "TEWA",
+      "UNWO",
+      "WISN"
+    ],
+    "common_names": [
+      "Black-throated Green Warbler",
+      "Nashville Warbler",
+      "Ovenbird",
+      "Red-eyed Vireo",
+      "Ruffed Grouse",
+      "Swainson's Thrush",
+      "Tennessee Warbler",
+      "Unidentified Woodpecker",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB-45969-25_20200530_082500",
@@ -2206,8 +3887,47 @@
     "doy": 151,
     "richness": 18,
     "abiotic": "",
-    "species": ["AMRE", "BAWW", "CANG", "CAWA", "COYE", "NOWA", "OVEN", "RBGR", "REVI", "RUGR", "SWSP", "TEWA", "TRUS", "VEER", "WISN", "WTSP", "YBSA", "YEWA"],
-    "common_names": ["American Redstart", "Black-and-white Warbler", "Canada Goose", "Canada Warbler", "Common Yellowthroat", "Northern Waterthrush", "Ovenbird", "Red-eyed Vireo", "Rose-breasted Grosbeak", "Ruffed Grouse", "Swamp Sparrow", "Tennessee Warbler", "Trumpeter Swan", "Veery", "White-throated Sparrow", "Wilson's Snipe", "Yellow-bellied Sapsucker", "Yellow Warbler"]
+    "species": [
+      "AMRE",
+      "BAWW",
+      "CANG",
+      "CAWA",
+      "COYE",
+      "NOWA",
+      "OVEN",
+      "RBGR",
+      "REVI",
+      "RUGR",
+      "SWSP",
+      "TEWA",
+      "TRUS",
+      "VEER",
+      "WISN",
+      "WTSP",
+      "YBSA",
+      "YEWA"
+    ],
+    "common_names": [
+      "American Redstart",
+      "Black-and-white Warbler",
+      "Canada Goose",
+      "Canada Warbler",
+      "Common Yellowthroat",
+      "Northern Waterthrush",
+      "Ovenbird",
+      "Red-eyed Vireo",
+      "Rose-breasted Grosbeak",
+      "Ruffed Grouse",
+      "Swamp Sparrow",
+      "Tennessee Warbler",
+      "Trumpeter Swan",
+      "Veery",
+      "White-throated Sparrow",
+      "Wilson's Snipe",
+      "Yellow-bellied Sapsucker",
+      "Yellow Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-35_20190612_211500",
@@ -2223,8 +3943,25 @@
     "doy": 163,
     "richness": 7,
     "abiotic": "",
-    "species": ["AMRO", "CCSP", "HETH", "MALL", "RNGR", "RUGR", "WTSP"],
-    "common_names": ["American Robin", "Clay-colored Sparrow", "Hermit Thrush", "Mallard", "Red-necked Grebe", "Ruffed Grouse", "White-throated Sparrow"]
+    "species": [
+      "AMRO",
+      "CCSP",
+      "HETH",
+      "MALL",
+      "RNGR",
+      "RUGR",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Robin",
+      "Clay-colored Sparrow",
+      "Hermit Thrush",
+      "Mallard",
+      "Red-necked Grebe",
+      "Ruffed Grouse",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU59-34_20190617_225000",
@@ -2241,7 +3978,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "COLO",
-    "common_names": "Common Loon"
+    "common_names": "Common Loon",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD26-44_20190610_222100",
@@ -2257,8 +3995,15 @@
     "doy": 161,
     "richness": 2,
     "abiotic": "",
-    "species": ["COLO", "HETH"],
-    "common_names": ["Common Loon", "Hermit Thrush"]
+    "species": [
+      "COLO",
+      "HETH"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Hermit Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU59-42_20190618_212000",
@@ -2274,8 +4019,15 @@
     "doy": 169,
     "richness": 2,
     "abiotic": "",
-    "species": ["GRYE", "WBBE"],
-    "common_names": ["Greater Yellowlegs", "Woodborer Beetle"]
+    "species": [
+      "GRYE",
+      "WBBE"
+    ],
+    "common_names": [
+      "Greater Yellowlegs",
+      "Woodborer Beetle"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-83_20190330_210000",
@@ -2291,8 +4043,15 @@
     "doy": 89,
     "richness": 2,
     "abiotic": "",
-    "species": ["GHOW", "UNKN"],
-    "common_names": ["Great Horned Owl", "Unidentified signal"]
+    "species": [
+      "GHOW",
+      "UNKN"
+    ],
+    "common_names": [
+      "Great Horned Owl",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-87_20190328_225700",
@@ -2308,8 +4067,17 @@
     "doy": 87,
     "richness": 3,
     "abiotic": "",
-    "species": ["BOOW", "HETH", "UNKN"],
-    "common_names": ["Boreal Owl", "Hermit Thrush", "Unidentified signal"]
+    "species": [
+      "BOOW",
+      "HETH",
+      "UNKN"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Hermit Thrush",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD43-40_20190331_001500",
@@ -2326,7 +4094,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "LIBA",
-    "common_names": "Light Background Noise"
+    "common_names": "Light Background Noise",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-VWL64-42_20210626_053800",
@@ -2342,8 +4111,25 @@
     "doy": 177,
     "richness": 7,
     "abiotic": "",
-    "species": ["BHVI", "RCKI", "RESQ", "SWTH", "UNKN", "WWCR", "YRWA"],
-    "common_names": ["Blue-headed Vireo", "Red Squirrel", "Ruby-crowned Kinglet", "Swainson's Thrush", "Unidentified signal", "White-winged Crossbill", "Yellow-rumped Warbler"]
+    "species": [
+      "BHVI",
+      "RCKI",
+      "RESQ",
+      "SWTH",
+      "UNKN",
+      "WWCR",
+      "YRWA"
+    ],
+    "common_names": [
+      "Blue-headed Vireo",
+      "Red Squirrel",
+      "Ruby-crowned Kinglet",
+      "Swainson's Thrush",
+      "Unidentified signal",
+      "White-winged Crossbill",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-14-ULD05-83_20180601_055900",
@@ -2359,8 +4145,31 @@
     "doy": 152,
     "richness": 10,
     "abiotic": "LIRA;LIWI",
-    "species": ["AMRO", "BRCR", "CHSP", "GCKI", "GRAJ", "LEYE", "NAWA", "RCKI", "WIWA", "YRWA"],
-    "common_names": ["American Robin", "Brown Creeper", "Chipping Sparrow", "Golden-crowned Kinglet", "Gray Jay", "Lesser Yellowlegs", "Nashville Warbler", "Ruby-crowned Kinglet", "Wilson's Warbler", "Yellow-rumped Warbler"]
+    "species": [
+      "AMRO",
+      "BRCR",
+      "CHSP",
+      "GCKI",
+      "GRAJ",
+      "LEYE",
+      "NAWA",
+      "RCKI",
+      "WIWA",
+      "YRWA"
+    ],
+    "common_names": [
+      "American Robin",
+      "Brown Creeper",
+      "Chipping Sparrow",
+      "Golden-crowned Kinglet",
+      "Gray Jay",
+      "Lesser Yellowlegs",
+      "Nashville Warbler",
+      "Ruby-crowned Kinglet",
+      "Wilson's Warbler",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-162-04_20200610_033100",
@@ -2376,8 +4185,37 @@
     "doy": 162,
     "richness": 13,
     "abiotic": "LIRA",
-    "species": ["BCFR", "CHSP", "COLO", "CONI", "CONW", "HETH", "LISP", "RUGR", "SORA", "SWTH", "UNTR", "WISN", "WIWR"],
-    "common_names": ["Boreal Chorus Frog", "Chipping Sparrow", "Common Loon", "Common Nighthawk", "Connecticut Warbler", "Hermit Thrush", "Lincoln's Sparrow", "Ruffed Grouse", "Sora", "Swainson's Thrush", "Unidentified Trill", "Wilson's Snipe", "Winter Wren"]
+    "species": [
+      "BCFR",
+      "CHSP",
+      "COLO",
+      "CONI",
+      "CONW",
+      "HETH",
+      "LISP",
+      "RUGR",
+      "SORA",
+      "SWTH",
+      "UNTR",
+      "WISN",
+      "WIWR"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Chipping Sparrow",
+      "Common Loon",
+      "Common Nighthawk",
+      "Connecticut Warbler",
+      "Hermit Thrush",
+      "Lincoln's Sparrow",
+      "Ruffed Grouse",
+      "Sora",
+      "Swainson's Thrush",
+      "Unidentified Trill",
+      "Wilson's Snipe",
+      "Winter Wren"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VEE46-66_20180620_033000",
@@ -2393,8 +4231,25 @@
     "doy": 171,
     "richness": 7,
     "abiotic": "",
-    "species": ["CHSP", "DEJU", "HETH", "PAWA", "UNKN", "WWCR", "YBFL"],
-    "common_names": ["Chipping Sparrow", "Dark-eyed Junco", "Hermit Thrush", "Palm Warbler", "Unidentified signal", "White-winged Crossbill", "Yellow-bellied Flycatcher"]
+    "species": [
+      "CHSP",
+      "DEJU",
+      "HETH",
+      "PAWA",
+      "UNKN",
+      "WWCR",
+      "YBFL"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Palm Warbler",
+      "Unidentified signal",
+      "White-winged Crossbill",
+      "Yellow-bellied Flycatcher"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VEE46-68_20180623_085100",
@@ -2411,7 +4266,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "DEJU",
-    "common_names": "Dark-eyed Junco"
+    "common_names": "Dark-eyed Junco",
+    "organization": "CWS-PRA"
   },
   {
     "id": "563--366-3-9_20240608_080300",
@@ -2427,8 +4283,51 @@
     "doy": 160,
     "richness": 20,
     "abiotic": "",
-    "species": ["ALFL", "AMRE", "BAWW", "BCCH", "BRCR", "CHSP", "COYE", "GCKI", "MAWA", "NAWA", "RCKI", "REVI", "SWSP", "SWTH", "TEWA", "UNPA", "UNWA", "WIWA", "WTSP", "YRWA"],
-    "common_names": ["Alder Flycatcher", "American Redstart", "Black-and-white Warbler", "Black-capped Chickadee", "Brown Creeper", "Chipping Sparrow", "Common Yellowthroat", "Golden-crowned Kinglet", "Magnolia Warbler", "Nashville Warbler", "Red-eyed Vireo", "Ruby-crowned Kinglet", "Swainson's Thrush", "Swamp Sparrow", "Tennessee Warbler", "Unidentified Passerine", "Unidentified Warbler", "White-throated Sparrow", "Wilson's Warbler", "Yellow-rumped Warbler"]
+    "species": [
+      "ALFL",
+      "AMRE",
+      "BAWW",
+      "BCCH",
+      "BRCR",
+      "CHSP",
+      "COYE",
+      "GCKI",
+      "MAWA",
+      "NAWA",
+      "RCKI",
+      "REVI",
+      "SWSP",
+      "SWTH",
+      "TEWA",
+      "UNPA",
+      "UNWA",
+      "WIWA",
+      "WTSP",
+      "YRWA"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "American Redstart",
+      "Black-and-white Warbler",
+      "Black-capped Chickadee",
+      "Brown Creeper",
+      "Chipping Sparrow",
+      "Common Yellowthroat",
+      "Golden-crowned Kinglet",
+      "Magnolia Warbler",
+      "Nashville Warbler",
+      "Red-eyed Vireo",
+      "Ruby-crowned Kinglet",
+      "Swainson's Thrush",
+      "Swamp Sparrow",
+      "Tennessee Warbler",
+      "Unidentified Passerine",
+      "Unidentified Warbler",
+      "White-throated Sparrow",
+      "Wilson's Warbler",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-38_20190609_214200",
@@ -2444,8 +4343,19 @@
     "doy": 160,
     "richness": 4,
     "abiotic": "",
-    "species": ["AMRO", "RNGR", "WISN", "WTSP"],
-    "common_names": ["American Robin", "Red-necked Grebe", "White-throated Sparrow", "Wilson's Snipe"]
+    "species": [
+      "AMRO",
+      "RNGR",
+      "WISN",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Robin",
+      "Red-necked Grebe",
+      "White-throated Sparrow",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDG52-51_20190703_225300",
@@ -2461,8 +4371,19 @@
     "doy": 184,
     "richness": 4,
     "abiotic": "",
-    "species": ["COLO", "CONI", "HETH", "UNKN"],
-    "common_names": ["Common Loon", "Common Nighthawk", "Hermit Thrush", "Unidentified signal"]
+    "species": [
+      "COLO",
+      "CONI",
+      "HETH",
+      "UNKN"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD24-55_20190606_220100",
@@ -2478,8 +4399,15 @@
     "doy": 157,
     "richness": 2,
     "abiotic": "",
-    "species": ["CONI", "HETH"],
-    "common_names": ["Common Nighthawk", "Hermit Thrush"]
+    "species": [
+      "CONI",
+      "HETH"
+    ],
+    "common_names": [
+      "Common Nighthawk",
+      "Hermit Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UFU67-93_20190702_211900",
@@ -2496,7 +4424,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "HETH",
-    "common_names": "Hermit Thrush"
+    "common_names": "Hermit Thrush",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-82_20190331_220200",
@@ -2512,8 +4441,15 @@
     "doy": 90,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "GGOW"],
-    "common_names": ["Boreal Owl", "Great Gray Owl"]
+    "species": [
+      "BOOW",
+      "GGOW"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Great Gray Owl"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-36_20190316_205800",
@@ -2530,7 +4466,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GHOW",
-    "common_names": "Great Horned Owl"
+    "common_names": "Great Horned Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-199-07_20190403_025900",
@@ -2547,7 +4484,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "LIBA",
-    "common_names": "Light Background Noise"
+    "common_names": "Light Background Noise",
+    "organization": "CWS-PRA"
   },
   {
     "id": "POPLARR2_20240616_060000",
@@ -2563,8 +4501,37 @@
     "doy": 168,
     "richness": 13,
     "abiotic": "",
-    "species": ["ALFL", "BHVI", "COYE", "DEJU", "MAWA", "MOWA", "OCWA", "SOSP", "SWSP", "UNPA", "WISN", "WTSP", "YEWA"],
-    "common_names": ["Alder Flycatcher", "Blue-headed Vireo", "Common Yellowthroat", "Dark-eyed Junco", "Magnolia Warbler", "Mourning Warbler", "Orange-crowned Warbler", "Song Sparrow", "Swamp Sparrow", "Unidentified Passerine", "White-throated Sparrow", "Wilson's Snipe", "Yellow Warbler"]
+    "species": [
+      "ALFL",
+      "BHVI",
+      "COYE",
+      "DEJU",
+      "MAWA",
+      "MOWA",
+      "OCWA",
+      "SOSP",
+      "SWSP",
+      "UNPA",
+      "WISN",
+      "WTSP",
+      "YEWA"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Blue-headed Vireo",
+      "Common Yellowthroat",
+      "Dark-eyed Junco",
+      "Magnolia Warbler",
+      "Mourning Warbler",
+      "Orange-crowned Warbler",
+      "Song Sparrow",
+      "Swamp Sparrow",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "Wilson's Snipe",
+      "Yellow Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD42-33_20190605_075400",
@@ -2580,8 +4547,17 @@
     "doy": 156,
     "richness": 3,
     "abiotic": "HEWI",
-    "species": ["DEJU", "FOSP", "MOWI"],
-    "common_names": ["Dark-eyed Junco", "Fox Sparrow", "Moderate wind"]
+    "species": [
+      "DEJU",
+      "FOSP",
+      "MOWI"
+    ],
+    "common_names": [
+      "Dark-eyed Junco",
+      "Fox Sparrow",
+      "Moderate wind"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-05-253-06_20200609_031800",
@@ -2597,8 +4573,41 @@
     "doy": 161,
     "richness": 15,
     "abiotic": "",
-    "species": ["AHGU", "AMRO", "CANG", "COLO", "CONI", "CSWA", "DEJU", "ELKK", "HETH", "MYWA", "OCWA", "OSFL", "SPGR", "WISN", "WTSP"],
-    "common_names": ["American Herring Gull", "American Robin", "Canada Goose", "Chestnut-sided Warbler", "Common Loon", "Common Nighthawk", "Dark-eyed Junco", "Elk (wapiti)", "Hermit Thrush", "Myrtle Warbler", "Olive-sided Flycatcher", "Orange-crowned Warbler", "Spruce Grouse", "White-throated Sparrow", "Wilson's Snipe"]
+    "species": [
+      "AHGU",
+      "AMRO",
+      "CANG",
+      "COLO",
+      "CONI",
+      "CSWA",
+      "DEJU",
+      "ELKK",
+      "HETH",
+      "MYWA",
+      "OCWA",
+      "OSFL",
+      "SPGR",
+      "WISN",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Herring Gull",
+      "American Robin",
+      "Canada Goose",
+      "Chestnut-sided Warbler",
+      "Common Loon",
+      "Common Nighthawk",
+      "Dark-eyed Junco",
+      "Elk (wapiti)",
+      "Hermit Thrush",
+      "Myrtle Warbler",
+      "Olive-sided Flycatcher",
+      "Orange-crowned Warbler",
+      "Spruce Grouse",
+      "White-throated Sparrow",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-UXH05-32_20220620_035700",
@@ -2614,8 +4623,27 @@
     "doy": 171,
     "richness": 8,
     "abiotic": "",
-    "species": ["CHSP", "DEJU", "HAWO", "LISP", "MORA", "OSFL", "WTSP", "WWCR"],
-    "common_names": ["Chipping Sparrow", "Dark-eyed Junco", "Hairy Woodpecker", "Lincoln's Sparrow", "Moderate rain", "Olive-sided Flycatcher", "White-throated Sparrow", "White-winged Crossbill"]
+    "species": [
+      "CHSP",
+      "DEJU",
+      "HAWO",
+      "LISP",
+      "MORA",
+      "OSFL",
+      "WTSP",
+      "WWCR"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Dark-eyed Junco",
+      "Hairy Woodpecker",
+      "Lincoln's Sparrow",
+      "Moderate rain",
+      "Olive-sided Flycatcher",
+      "White-throated Sparrow",
+      "White-winged Crossbill"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UCC25-67_20190619_082100",
@@ -2631,8 +4659,25 @@
     "doy": 170,
     "richness": 7,
     "abiotic": "",
-    "species": ["CHSP", "CORA", "DEJU", "LISP", "WISN", "WTSP", "YRWA"],
-    "common_names": ["Chipping Sparrow", "Common Raven", "Dark-eyed Junco", "Lincoln's Sparrow", "White-throated Sparrow", "Wilson's Snipe", "Yellow-rumped Warbler"]
+    "species": [
+      "CHSP",
+      "CORA",
+      "DEJU",
+      "LISP",
+      "WISN",
+      "WTSP",
+      "YRWA"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Common Raven",
+      "Dark-eyed Junco",
+      "Lincoln's Sparrow",
+      "White-throated Sparrow",
+      "Wilson's Snipe",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1241-08_20190608_083000",
@@ -2649,7 +4694,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "WIWA",
-    "common_names": "Wilson's Warbler"
+    "common_names": "Wilson's Warbler",
+    "organization": "CWS-PRA"
   },
   {
     "id": "630--305-2-1_20230604_214100",
@@ -2665,8 +4711,43 @@
     "doy": 155,
     "richness": 16,
     "abiotic": "",
-    "species": ["AMBI", "AMGO", "AMRE", "BAWW", "CANG", "COYE", "FOSP", "LEFL", "PUFI", "RBGR", "UNPA", "UNVI", "VEER", "WISN", "WTSP", "YEWA"],
-    "common_names": ["American Bittern", "American Goldfinch", "American Redstart", "Black-and-white Warbler", "Canada Goose", "Common Yellowthroat", "Fox Sparrow", "Least Flycatcher", "Purple Finch", "Rose-breasted Grosbeak", "Unidentified Passerine", "Unidentified Vireo", "Veery", "White-throated Sparrow", "Wilson's Snipe", "Yellow Warbler"]
+    "species": [
+      "AMBI",
+      "AMGO",
+      "AMRE",
+      "BAWW",
+      "CANG",
+      "COYE",
+      "FOSP",
+      "LEFL",
+      "PUFI",
+      "RBGR",
+      "UNPA",
+      "UNVI",
+      "VEER",
+      "WISN",
+      "WTSP",
+      "YEWA"
+    ],
+    "common_names": [
+      "American Bittern",
+      "American Goldfinch",
+      "American Redstart",
+      "Black-and-white Warbler",
+      "Canada Goose",
+      "Common Yellowthroat",
+      "Fox Sparrow",
+      "Least Flycatcher",
+      "Purple Finch",
+      "Rose-breasted Grosbeak",
+      "Unidentified Passerine",
+      "Unidentified Vireo",
+      "Veery",
+      "White-throated Sparrow",
+      "Wilson's Snipe",
+      "Yellow Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD27-49_20190608_225000",
@@ -2683,7 +4764,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "WWSC",
-    "common_names": "White-winged Scoter"
+    "common_names": "White-winged Scoter",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDG52-43_20190703_222300",
@@ -2699,8 +4781,21 @@
     "doy": 184,
     "richness": 5,
     "abiotic": "",
-    "species": ["COLO", "CONI", "HETH", "UNKN", "UNPA"],
-    "common_names": ["Common Loon", "Common Nighthawk", "Hermit Thrush", "Unidentified Passerine", "Unidentified signal"]
+    "species": [
+      "COLO",
+      "CONI",
+      "HETH",
+      "UNKN",
+      "UNPA"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Unidentified Passerine",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-35_20190615_214600",
@@ -2716,8 +4811,15 @@
     "doy": 166,
     "richness": 2,
     "abiotic": "",
-    "species": ["AMRO", "WISN"],
-    "common_names": ["American Robin", "Wilson's Snipe"]
+    "species": [
+      "AMRO",
+      "WISN"
+    ],
+    "common_names": [
+      "American Robin",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1241-07_20190329_224800",
@@ -2734,7 +4836,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "UNBI",
-    "common_names": "Unidentified Bird"
+    "common_names": "Unidentified Bird",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-79_20190331_200200",
@@ -2751,7 +4854,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GHOW",
-    "common_names": "Great Horned Owl"
+    "common_names": "Great Horned Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1251-05_20190331_015800",
@@ -2768,7 +4872,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "UNKN",
-    "common_names": "Unidentified signal"
+    "common_names": "Unidentified signal",
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB618-326-28_20220617_040700",
@@ -2784,8 +4889,17 @@
     "doy": 168,
     "richness": 3,
     "abiotic": "LIWI",
-    "species": ["CHSP", "CONI", "SWTH"],
-    "common_names": ["Chipping Sparrow", "Common Nighthawk", "Swainson's Thrush"]
+    "species": [
+      "CHSP",
+      "CONI",
+      "SWTH"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Common Nighthawk",
+      "Swainson's Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB638-311-33_20220607_041300",
@@ -2801,8 +4915,27 @@
     "doy": 158,
     "richness": 8,
     "abiotic": "LIWI",
-    "species": ["CHSP", "CONI", "EWPW", "HETH", "RUGR", "SWTH", "UNKN", "WTSP"],
-    "common_names": ["Chipping Sparrow", "Common Nighthawk", "Eastern Whip-poor-will", "Hermit Thrush", "Ruffed Grouse", "Swainson's Thrush", "Unidentified signal", "White-throated Sparrow"]
+    "species": [
+      "CHSP",
+      "CONI",
+      "EWPW",
+      "HETH",
+      "RUGR",
+      "SWTH",
+      "UNKN",
+      "WTSP"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Common Nighthawk",
+      "Eastern Whip-poor-will",
+      "Hermit Thrush",
+      "Ruffed Grouse",
+      "Swainson's Thrush",
+      "Unidentified signal",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB-38190-3-6_20210529_022700",
@@ -2818,8 +4951,19 @@
     "doy": 149,
     "richness": 4,
     "abiotic": "HEWI",
-    "species": ["BCFR", "CANG", "MOBA", "UNKN"],
-    "common_names": ["Boreal Chorus Frog", "Canada Goose", "Moderate Background Noise", "Unidentified signal"]
+    "species": [
+      "BCFR",
+      "CANG",
+      "MOBA",
+      "UNKN"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Canada Goose",
+      "Moderate Background Noise",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV01-70_20210626_033300",
@@ -2835,8 +4979,27 @@
     "doy": 177,
     "richness": 8,
     "abiotic": "",
-    "species": ["CCSP", "CHSP", "CONI", "HETH", "UNKN", "UNTR", "WISN", "WTSP"],
-    "common_names": ["Chipping Sparrow", "Clay-colored Sparrow", "Common Nighthawk", "Hermit Thrush", "Unidentified signal", "Unidentified Trill", "White-throated Sparrow", "Wilson's Snipe"]
+    "species": [
+      "CCSP",
+      "CHSP",
+      "CONI",
+      "HETH",
+      "UNKN",
+      "UNTR",
+      "WISN",
+      "WTSP"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Clay-colored Sparrow",
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Unidentified signal",
+      "Unidentified Trill",
+      "White-throated Sparrow",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFT79-65_20170617_080700",
@@ -2852,8 +5015,37 @@
     "doy": 168,
     "richness": 13,
     "abiotic": "",
-    "species": ["AMRO", "COME", "COYE", "CSWA", "DEJU", "MOWA", "NAWA", "RBGR", "RWBL", "SOSP", "WISN", "WTSP", "YEWA"],
-    "common_names": ["American Robin", "Chestnut-sided Warbler", "Common Merganser", "Common Yellowthroat", "Dark-eyed Junco", "Mourning Warbler", "Nashville Warbler", "Red-winged Blackbird", "Rose-breasted Grosbeak", "Song Sparrow", "White-throated Sparrow", "Wilson's Snipe", "Yellow Warbler"]
+    "species": [
+      "AMRO",
+      "COME",
+      "COYE",
+      "CSWA",
+      "DEJU",
+      "MOWA",
+      "NAWA",
+      "RBGR",
+      "RWBL",
+      "SOSP",
+      "WISN",
+      "WTSP",
+      "YEWA"
+    ],
+    "common_names": [
+      "American Robin",
+      "Chestnut-sided Warbler",
+      "Common Merganser",
+      "Common Yellowthroat",
+      "Dark-eyed Junco",
+      "Mourning Warbler",
+      "Nashville Warbler",
+      "Red-winged Blackbird",
+      "Rose-breasted Grosbeak",
+      "Song Sparrow",
+      "White-throated Sparrow",
+      "Wilson's Snipe",
+      "Yellow Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UDA62-65_20190528_085900",
@@ -2869,8 +5061,23 @@
     "doy": 148,
     "richness": 6,
     "abiotic": "",
-    "species": ["DEJU", "RBGU", "RCKI", "UNBL", "WISN", "WIWA"],
-    "common_names": ["Dark-eyed Junco", "Ring-billed Gull", "Ruby-crowned Kinglet", "Unidentified Blackbird", "Wilson's Snipe", "Wilson's Warbler"]
+    "species": [
+      "DEJU",
+      "RBGU",
+      "RCKI",
+      "UNBL",
+      "WISN",
+      "WIWA"
+    ],
+    "common_names": [
+      "Dark-eyed Junco",
+      "Ring-billed Gull",
+      "Ruby-crowned Kinglet",
+      "Unidentified Blackbird",
+      "Wilson's Snipe",
+      "Wilson's Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-32_20190530_210200",
@@ -2886,8 +5093,27 @@
     "doy": 150,
     "richness": 8,
     "abiotic": "",
-    "species": ["BCFR", "CHSP", "GHOW", "OVEN", "SOSP", "SWSP", "WISN", "WTSP"],
-    "common_names": ["Boreal Chorus Frog", "Chipping Sparrow", "Great Horned Owl", "Ovenbird", "Song Sparrow", "Swamp Sparrow", "White-throated Sparrow", "Wilson's Snipe"]
+    "species": [
+      "BCFR",
+      "CHSP",
+      "GHOW",
+      "OVEN",
+      "SOSP",
+      "SWSP",
+      "WISN",
+      "WTSP"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Chipping Sparrow",
+      "Great Horned Owl",
+      "Ovenbird",
+      "Song Sparrow",
+      "Swamp Sparrow",
+      "White-throated Sparrow",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "667--316-3-7_20230609_224400",
@@ -2903,8 +5129,17 @@
     "doy": 160,
     "richness": 3,
     "abiotic": "",
-    "species": ["LCSP", "UNBI", "WISN"],
-    "common_names": ["LeConte's Sparrow", "Unidentified Bird", "Wilson's Snipe"]
+    "species": [
+      "LCSP",
+      "UNBI",
+      "WISN"
+    ],
+    "common_names": [
+      "LeConte's Sparrow",
+      "Unidentified Bird",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "12-VXM03-55_20210705_220600",
@@ -2920,8 +5155,21 @@
     "doy": 186,
     "richness": 5,
     "abiotic": "",
-    "species": ["HETH", "RBME", "SWTH", "UNPA", "YRWA"],
-    "common_names": ["Hermit Thrush", "Red-breasted Merganser", "Swainson's Thrush", "Unidentified Passerine", "Yellow-rumped Warbler"]
+    "species": [
+      "HETH",
+      "RBME",
+      "SWTH",
+      "UNPA",
+      "YRWA"
+    ],
+    "common_names": [
+      "Hermit Thrush",
+      "Red-breasted Merganser",
+      "Swainson's Thrush",
+      "Unidentified Passerine",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UFU67-65_20190707_211600",
@@ -2937,8 +5185,17 @@
     "doy": 188,
     "richness": 3,
     "abiotic": "",
-    "species": ["BTNW", "CAWA", "OVEN"],
-    "common_names": ["Black-throated Green Warbler", "Canada Warbler", "Ovenbird"]
+    "species": [
+      "BTNW",
+      "CAWA",
+      "OVEN"
+    ],
+    "common_names": [
+      "Black-throated Green Warbler",
+      "Canada Warbler",
+      "Ovenbird"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UCC25-65_20190329_234300",
@@ -2954,8 +5211,15 @@
     "doy": 88,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "UNOW"],
-    "common_names": ["Boreal Owl", "Unidentified Owl"]
+    "species": [
+      "BOOW",
+      "UNOW"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Unidentified Owl"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-55_20190417_015200",
@@ -2971,8 +5235,19 @@
     "doy": 107,
     "richness": 4,
     "abiotic": "",
-    "species": ["CANG", "GHOW", "RUGR", "UNKN"],
-    "common_names": ["Canada Goose", "Great Horned Owl", "Ruffed Grouse", "Unidentified signal"]
+    "species": [
+      "CANG",
+      "GHOW",
+      "RUGR",
+      "UNKN"
+    ],
+    "common_names": [
+      "Canada Goose",
+      "Great Horned Owl",
+      "Ruffed Grouse",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-66_20190315_205700",
@@ -2989,7 +5264,8 @@
     "richness": 0,
     "abiotic": "LIWI",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "563--366-3-7_20240614_064200",
@@ -3005,8 +5281,27 @@
     "doy": 166,
     "richness": 8,
     "abiotic": "",
-    "species": ["DEJU", "GCKI", "NAWA", "OVEN", "SWTH", "YBFL", "YEWA", "YRWA"],
-    "common_names": ["Dark-eyed Junco", "Golden-crowned Kinglet", "Nashville Warbler", "Ovenbird", "Swainson's Thrush", "Yellow-bellied Flycatcher", "Yellow-rumped Warbler", "Yellow Warbler"]
+    "species": [
+      "DEJU",
+      "GCKI",
+      "NAWA",
+      "OVEN",
+      "SWTH",
+      "YBFL",
+      "YEWA",
+      "YRWA"
+    ],
+    "common_names": [
+      "Dark-eyed Junco",
+      "Golden-crowned Kinglet",
+      "Nashville Warbler",
+      "Ovenbird",
+      "Swainson's Thrush",
+      "Yellow-bellied Flycatcher",
+      "Yellow-rumped Warbler",
+      "Yellow Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV01-40_20210614_053100",
@@ -3022,8 +5317,29 @@
     "doy": 165,
     "richness": 9,
     "abiotic": "",
-    "species": ["ALFL", "AMRO", "CANG", "CCSP", "HAWO", "LISP", "MODO", "SWSP", "WTSP"],
-    "common_names": ["Alder Flycatcher", "American Robin", "Canada Goose", "Clay-colored Sparrow", "Hairy Woodpecker", "Lincoln's Sparrow", "Mourning Dove", "Swamp Sparrow", "White-throated Sparrow"]
+    "species": [
+      "ALFL",
+      "AMRO",
+      "CANG",
+      "CCSP",
+      "HAWO",
+      "LISP",
+      "MODO",
+      "SWSP",
+      "WTSP"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "American Robin",
+      "Canada Goose",
+      "Clay-colored Sparrow",
+      "Hairy Woodpecker",
+      "Lincoln's Sparrow",
+      "Mourning Dove",
+      "Swamp Sparrow",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-UXF84-NR1_20210602_020700",
@@ -3039,8 +5355,17 @@
     "doy": 153,
     "richness": 3,
     "abiotic": "",
-    "species": ["BCFR", "MALL", "UNBI"],
-    "common_names": ["Boreal Chorus Frog", "Mallard", "Unidentified Bird"]
+    "species": [
+      "BCFR",
+      "MALL",
+      "UNBI"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Mallard",
+      "Unidentified Bird"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-05-116-06_20170627_022700",
@@ -3056,8 +5381,15 @@
     "doy": 178,
     "richness": 2,
     "abiotic": "",
-    "species": ["UNBI", "UNGU"],
-    "common_names": ["Unidentified Bird", "Unidentified Gull"]
+    "species": [
+      "UNBI",
+      "UNGU"
+    ],
+    "common_names": [
+      "Unidentified Bird",
+      "Unidentified Gull"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UDV65-87_20210626_080300",
@@ -3073,8 +5405,27 @@
     "doy": 177,
     "richness": 8,
     "abiotic": "",
-    "species": ["CORA", "DEJU", "HETH", "RBNU", "TEWA", "WIWR", "WTSP", "YRWA"],
-    "common_names": ["Common Raven", "Dark-eyed Junco", "Hermit Thrush", "Red-breasted Nuthatch", "Tennessee Warbler", "White-throated Sparrow", "Winter Wren", "Yellow-rumped Warbler"]
+    "species": [
+      "CORA",
+      "DEJU",
+      "HETH",
+      "RBNU",
+      "TEWA",
+      "WIWR",
+      "WTSP",
+      "YRWA"
+    ],
+    "common_names": [
+      "Common Raven",
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Red-breasted Nuthatch",
+      "Tennessee Warbler",
+      "White-throated Sparrow",
+      "Winter Wren",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-14-ULE08-56_20210605_084900",
@@ -3090,8 +5441,21 @@
     "doy": 156,
     "richness": 5,
     "abiotic": "",
-    "species": ["AMBI", "EVGR", "OVEN", "UNPA", "UNWA"],
-    "common_names": ["American Bittern", "Evening Grosbeak", "Ovenbird", "Unidentified Passerine", "Unidentified Warbler"]
+    "species": [
+      "AMBI",
+      "EVGR",
+      "OVEN",
+      "UNPA",
+      "UNWA"
+    ],
+    "common_names": [
+      "American Bittern",
+      "Evening Grosbeak",
+      "Ovenbird",
+      "Unidentified Passerine",
+      "Unidentified Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "637--315-3-5_20230608_214000",
@@ -3107,8 +5471,17 @@
     "doy": 159,
     "richness": 3,
     "abiotic": "",
-    "species": ["LIAI", "RCKI", "SWTH"],
-    "common_names": ["Light aircraft", "Ruby-crowned Kinglet", "Swainson's Thrush"]
+    "species": [
+      "LIAI",
+      "RCKI",
+      "SWTH"
+    ],
+    "common_names": [
+      "Light aircraft",
+      "Ruby-crowned Kinglet",
+      "Swainson's Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFB54-51_20210601_235100",
@@ -3124,8 +5497,23 @@
     "doy": 152,
     "richness": 6,
     "abiotic": "",
-    "species": ["LCSP", "SPPE", "SWSP", "UNBI", "UNKN", "UNWO"],
-    "common_names": ["LeConte's Sparrow", "Spring peeper", "Swamp Sparrow", "Unidentified Bird", "Unidentified signal", "Unidentified Woodpecker"]
+    "species": [
+      "LCSP",
+      "SPPE",
+      "SWSP",
+      "UNBI",
+      "UNKN",
+      "UNWO"
+    ],
+    "common_names": [
+      "LeConte's Sparrow",
+      "Spring peeper",
+      "Swamp Sparrow",
+      "Unidentified Bird",
+      "Unidentified signal",
+      "Unidentified Woodpecker"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB746-307-176_20230625_231800",
@@ -3141,8 +5529,17 @@
     "doy": 176,
     "richness": 3,
     "abiotic": "",
-    "species": ["CONI", "RBGU", "WIWR"],
-    "common_names": ["Common Nighthawk", "Ring-billed Gull", "Winter Wren"]
+    "species": [
+      "CONI",
+      "RBGU",
+      "WIWR"
+    ],
+    "common_names": [
+      "Common Nighthawk",
+      "Ring-billed Gull",
+      "Winter Wren"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB671-316-2-1_20230626_214900",
@@ -3158,8 +5555,15 @@
     "doy": 177,
     "richness": 2,
     "abiotic": "",
-    "species": ["HETH", "WTSP"],
-    "common_names": ["Hermit Thrush", "White-throated Sparrow"]
+    "species": [
+      "HETH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Hermit Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1251-09_20190329_225700",
@@ -3176,7 +5580,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "UNBI",
-    "common_names": "Unidentified Bird"
+    "common_names": "Unidentified Bird",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-199-01_20190403_025900",
@@ -3193,7 +5598,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "BOOW",
-    "common_names": "Boreal Owl"
+    "common_names": "Boreal Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-89_20190329_205900",
@@ -3210,7 +5616,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "BAOW",
-    "common_names": "Barred Owl"
+    "common_names": "Barred Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB748-309-7_20230623_065500",
@@ -3226,8 +5633,33 @@
     "doy": 174,
     "richness": 11,
     "abiotic": "",
-    "species": ["CHSP", "FOSP", "HETH", "LEFL", "MAWA", "NOWA", "SWTH", "TEWA", "UNBI", "WIWR", "WTSP"],
-    "common_names": ["Chipping Sparrow", "Fox Sparrow", "Hermit Thrush", "Least Flycatcher", "Magnolia Warbler", "Northern Waterthrush", "Swainson's Thrush", "Tennessee Warbler", "Unidentified Bird", "White-throated Sparrow", "Winter Wren"]
+    "species": [
+      "CHSP",
+      "FOSP",
+      "HETH",
+      "LEFL",
+      "MAWA",
+      "NOWA",
+      "SWTH",
+      "TEWA",
+      "UNBI",
+      "WIWR",
+      "WTSP"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Fox Sparrow",
+      "Hermit Thrush",
+      "Least Flycatcher",
+      "Magnolia Warbler",
+      "Northern Waterthrush",
+      "Swainson's Thrush",
+      "Tennessee Warbler",
+      "Unidentified Bird",
+      "White-throated Sparrow",
+      "Winter Wren"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD24-53_20190603_042200",
@@ -3243,8 +5675,41 @@
     "doy": 154,
     "richness": 15,
     "abiotic": "LIWI",
-    "species": ["AMRO", "CHSP", "COLO", "CORA", "DEJU", "GRAJ", "LIBA", "MYWA", "PAWA", "RESQ", "SACR", "SPGR", "SWTH", "UNPA", "UNVI"],
-    "common_names": ["American Robin", "Chipping Sparrow", "Common Loon", "Common Raven", "Dark-eyed Junco", "Gray Jay", "Light Background Noise", "Myrtle Warbler", "Palm Warbler", "Red Squirrel", "Sandhill Crane", "Spruce Grouse", "Swainson's Thrush", "Unidentified Passerine", "Unidentified Vireo"]
+    "species": [
+      "AMRO",
+      "CHSP",
+      "COLO",
+      "CORA",
+      "DEJU",
+      "GRAJ",
+      "LIBA",
+      "MYWA",
+      "PAWA",
+      "RESQ",
+      "SACR",
+      "SPGR",
+      "SWTH",
+      "UNPA",
+      "UNVI"
+    ],
+    "common_names": [
+      "American Robin",
+      "Chipping Sparrow",
+      "Common Loon",
+      "Common Raven",
+      "Dark-eyed Junco",
+      "Gray Jay",
+      "Light Background Noise",
+      "Myrtle Warbler",
+      "Palm Warbler",
+      "Red Squirrel",
+      "Sandhill Crane",
+      "Spruce Grouse",
+      "Swainson's Thrush",
+      "Unidentified Passerine",
+      "Unidentified Vireo"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VEE65-58_20180607_033400",
@@ -3260,8 +5725,35 @@
     "doy": 158,
     "richness": 12,
     "abiotic": "",
-    "species": ["BCFR", "CANG", "CHSP", "DEJU", "HETH", "LISP", "PAWA", "RCKI", "SWTH", "UNKN", "UNTR", "YRWA"],
-    "common_names": ["Boreal Chorus Frog", "Canada Goose", "Chipping Sparrow", "Dark-eyed Junco", "Hermit Thrush", "Lincoln's Sparrow", "Palm Warbler", "Ruby-crowned Kinglet", "Swainson's Thrush", "Unidentified signal", "Unidentified Trill", "Yellow-rumped Warbler"]
+    "species": [
+      "BCFR",
+      "CANG",
+      "CHSP",
+      "DEJU",
+      "HETH",
+      "LISP",
+      "PAWA",
+      "RCKI",
+      "SWTH",
+      "UNKN",
+      "UNTR",
+      "YRWA"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Canada Goose",
+      "Chipping Sparrow",
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Lincoln's Sparrow",
+      "Palm Warbler",
+      "Ruby-crowned Kinglet",
+      "Swainson's Thrush",
+      "Unidentified signal",
+      "Unidentified Trill",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDF55-33_20200630_035400",
@@ -3277,8 +5769,21 @@
     "doy": 182,
     "richness": 5,
     "abiotic": "LIWI",
-    "species": ["HETH", "LISP", "OCWA", "SAVS", "WWCR"],
-    "common_names": ["Hermit Thrush", "Lincoln's Sparrow", "Orange-crowned Warbler", "Savannah Sparrow", "White-winged Crossbill"]
+    "species": [
+      "HETH",
+      "LISP",
+      "OCWA",
+      "SAVS",
+      "WWCR"
+    ],
+    "common_names": [
+      "Hermit Thrush",
+      "Lincoln's Sparrow",
+      "Orange-crowned Warbler",
+      "Savannah Sparrow",
+      "White-winged Crossbill"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-58_20210701_090300",
@@ -3294,8 +5799,23 @@
     "doy": 182,
     "richness": 6,
     "abiotic": "",
-    "species": ["BOCH", "LIBA", "NOFL", "TEWA", "UNKN", "WTSP"],
-    "common_names": ["Boreal Chickadee", "Light Background Noise", "Northern Flicker", "Tennessee Warbler", "Unidentified signal", "White-throated Sparrow"]
+    "species": [
+      "BOCH",
+      "LIBA",
+      "NOFL",
+      "TEWA",
+      "UNKN",
+      "WTSP"
+    ],
+    "common_names": [
+      "Boreal Chickadee",
+      "Light Background Noise",
+      "Northern Flicker",
+      "Tennessee Warbler",
+      "Unidentified signal",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB618-326-27_20220526_092100",
@@ -3311,8 +5831,23 @@
     "doy": 146,
     "richness": 6,
     "abiotic": "",
-    "species": ["CHSP", "LIBA", "MOWI", "RCKI", "RESQ", "YRWA"],
-    "common_names": ["Chipping Sparrow", "Light Background Noise", "Moderate wind", "Red Squirrel", "Ruby-crowned Kinglet", "Yellow-rumped Warbler"]
+    "species": [
+      "CHSP",
+      "LIBA",
+      "MOWI",
+      "RCKI",
+      "RESQ",
+      "YRWA"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Light Background Noise",
+      "Moderate wind",
+      "Red Squirrel",
+      "Ruby-crowned Kinglet",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "637--315-3-7_20230602_213400",
@@ -3328,8 +5863,19 @@
     "doy": 153,
     "richness": 4,
     "abiotic": "",
-    "species": ["LIBA", "MAWA", "OVEN", "SWTH"],
-    "common_names": ["Light Background Noise", "Magnolia Warbler", "Ovenbird", "Swainson's Thrush"]
+    "species": [
+      "LIBA",
+      "MAWA",
+      "OVEN",
+      "SWTH"
+    ],
+    "common_names": [
+      "Light Background Noise",
+      "Magnolia Warbler",
+      "Ovenbird",
+      "Swainson's Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD27-60_20190608_222800",
@@ -3345,8 +5891,19 @@
     "doy": 159,
     "richness": 4,
     "abiotic": "",
-    "species": ["AMRO", "BCFR", "SPGR", "WISN"],
-    "common_names": ["American Robin", "Boreal Chorus Frog", "Spruce Grouse", "Wilson's Snipe"]
+    "species": [
+      "AMRO",
+      "BCFR",
+      "SPGR",
+      "WISN"
+    ],
+    "common_names": [
+      "American Robin",
+      "Boreal Chorus Frog",
+      "Spruce Grouse",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "12-VXM23-39_20210701_223500",
@@ -3363,7 +5920,8 @@
     "richness": 0,
     "abiotic": "NONE",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UCA41-97_20180704_214500",
@@ -3379,8 +5937,25 @@
     "doy": 185,
     "richness": 7,
     "abiotic": "",
-    "species": ["BAOW", "CHSP", "DEJU", "HETH", "SWSP", "SWTH", "WTSP"],
-    "common_names": ["Barred Owl", "Chipping Sparrow", "Dark-eyed Junco", "Hermit Thrush", "Swainson's Thrush", "Swamp Sparrow", "White-throated Sparrow"]
+    "species": [
+      "BAOW",
+      "CHSP",
+      "DEJU",
+      "HETH",
+      "SWSP",
+      "SWTH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Barred Owl",
+      "Chipping Sparrow",
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Swainson's Thrush",
+      "Swamp Sparrow",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1240-05_20190403_005600",
@@ -3397,7 +5972,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GGOW",
-    "common_names": "Great Gray Owl"
+    "common_names": "Great Gray Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1251-01_20190329_235700",
@@ -3414,7 +5990,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GHOW",
-    "common_names": "Great Horned Owl"
+    "common_names": "Great Horned Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-76_20190327_205500",
@@ -3430,8 +6007,17 @@
     "doy": 86,
     "richness": 3,
     "abiotic": "",
-    "species": ["BAOW", "BOOW", "UNKN"],
-    "common_names": ["Barred Owl", "Boreal Owl", "Unidentified signal"]
+    "species": [
+      "BAOW",
+      "BOOW",
+      "UNKN"
+    ],
+    "common_names": [
+      "Barred Owl",
+      "Boreal Owl",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD25-58_20190611_070800",
@@ -3447,8 +6033,25 @@
     "doy": 162,
     "richness": 7,
     "abiotic": "",
-    "species": ["BHVI", "CANG", "DEJU", "GRAJ", "OSFL", "RCKI", "YRWA"],
-    "common_names": ["Blue-headed Vireo", "Canada Goose", "Dark-eyed Junco", "Gray Jay", "Olive-sided Flycatcher", "Ruby-crowned Kinglet", "Yellow-rumped Warbler"]
+    "species": [
+      "BHVI",
+      "CANG",
+      "DEJU",
+      "GRAJ",
+      "OSFL",
+      "RCKI",
+      "YRWA"
+    ],
+    "common_names": [
+      "Blue-headed Vireo",
+      "Canada Goose",
+      "Dark-eyed Junco",
+      "Gray Jay",
+      "Olive-sided Flycatcher",
+      "Ruby-crowned Kinglet",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD43-43_20190619_071400",
@@ -3464,8 +6067,21 @@
     "doy": 170,
     "richness": 5,
     "abiotic": "",
-    "species": ["CHSP", "COLO", "CORA", "GRAJ", "RCKI"],
-    "common_names": ["Chipping Sparrow", "Common Loon", "Common Raven", "Gray Jay", "Ruby-crowned Kinglet"]
+    "species": [
+      "CHSP",
+      "COLO",
+      "CORA",
+      "GRAJ",
+      "RCKI"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Common Loon",
+      "Common Raven",
+      "Gray Jay",
+      "Ruby-crowned Kinglet"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "POPLARR1_20240613_021700",
@@ -3481,8 +6097,19 @@
     "doy": 165,
     "richness": 4,
     "abiotic": "",
-    "species": ["CONW", "LCSP", "UNKN", "WTSP"],
-    "common_names": ["Connecticut Warbler", "LeConte's Sparrow", "Unidentified signal", "White-throated Sparrow"]
+    "species": [
+      "CONW",
+      "LCSP",
+      "UNKN",
+      "WTSP"
+    ],
+    "common_names": [
+      "Connecticut Warbler",
+      "LeConte's Sparrow",
+      "Unidentified signal",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCF87-46_20200618_035000",
@@ -3498,8 +6125,35 @@
     "doy": 170,
     "richness": 12,
     "abiotic": "",
-    "species": ["ALFL", "BAWW", "CHSP", "HETH", "MAWA", "PAWA", "RCKI", "RUGR", "SWTH", "TEWA", "WTSP", "YBFL"],
-    "common_names": ["Alder Flycatcher", "Black-and-white Warbler", "Chipping Sparrow", "Hermit Thrush", "Magnolia Warbler", "Palm Warbler", "Ruby-crowned Kinglet", "Ruffed Grouse", "Swainson's Thrush", "Tennessee Warbler", "White-throated Sparrow", "Yellow-bellied Flycatcher"]
+    "species": [
+      "ALFL",
+      "BAWW",
+      "CHSP",
+      "HETH",
+      "MAWA",
+      "PAWA",
+      "RCKI",
+      "RUGR",
+      "SWTH",
+      "TEWA",
+      "WTSP",
+      "YBFL"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Black-and-white Warbler",
+      "Chipping Sparrow",
+      "Hermit Thrush",
+      "Magnolia Warbler",
+      "Palm Warbler",
+      "Ruby-crowned Kinglet",
+      "Ruffed Grouse",
+      "Swainson's Thrush",
+      "Tennessee Warbler",
+      "White-throated Sparrow",
+      "Yellow-bellied Flycatcher"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB618-326-49_20220606_081723",
@@ -3515,8 +6169,19 @@
     "doy": 157,
     "richness": 4,
     "abiotic": "",
-    "species": ["CAJA", "CHSP", "DEJU", "YRWA"],
-    "common_names": ["Canada Jay", "Chipping Sparrow", "Dark-eyed Junco", "Yellow-rumped Warbler"]
+    "species": [
+      "CAJA",
+      "CHSP",
+      "DEJU",
+      "YRWA"
+    ],
+    "common_names": [
+      "Canada Jay",
+      "Chipping Sparrow",
+      "Dark-eyed Junco",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB-36498-59_20200615_081600",
@@ -3532,8 +6197,31 @@
     "doy": 167,
     "richness": 10,
     "abiotic": "",
-    "species": ["COLO", "HETH", "LIBA", "NAWA", "RCKI", "UNTR", "UNYE", "WISN", "YBFL", "YRWA"],
-    "common_names": ["Common Loon", "Hermit Thrush", "Light Background Noise", "Nashville Warbler", "Ruby-crowned Kinglet", "Unidentified Trill", "Unidentified Yellowlegs", "Wilson's Snipe", "Yellow-bellied Flycatcher", "Yellow-rumped Warbler"]
+    "species": [
+      "COLO",
+      "HETH",
+      "LIBA",
+      "NAWA",
+      "RCKI",
+      "UNTR",
+      "UNYE",
+      "WISN",
+      "YBFL",
+      "YRWA"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Hermit Thrush",
+      "Light Background Noise",
+      "Nashville Warbler",
+      "Ruby-crowned Kinglet",
+      "Unidentified Trill",
+      "Unidentified Yellowlegs",
+      "Wilson's Snipe",
+      "Yellow-bellied Flycatcher",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "633--313-4-5_20230610_214200",
@@ -3549,8 +6237,29 @@
     "doy": 161,
     "richness": 9,
     "abiotic": "",
-    "species": ["COYE", "MOBA", "PISI", "RTHU", "RWBL", "SWSP", "SWTH", "WIWR", "WTSP"],
-    "common_names": ["Common Yellowthroat", "Moderate Background Noise", "Pine Siskin", "Red-winged Blackbird", "Ruby-throated Hummingbird", "Swainson's Thrush", "Swamp Sparrow", "White-throated Sparrow", "Winter Wren"]
+    "species": [
+      "COYE",
+      "MOBA",
+      "PISI",
+      "RTHU",
+      "RWBL",
+      "SWSP",
+      "SWTH",
+      "WIWR",
+      "WTSP"
+    ],
+    "common_names": [
+      "Common Yellowthroat",
+      "Moderate Background Noise",
+      "Pine Siskin",
+      "Red-winged Blackbird",
+      "Ruby-throated Hummingbird",
+      "Swainson's Thrush",
+      "Swamp Sparrow",
+      "White-throated Sparrow",
+      "Winter Wren"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD24-56_20190604_222800",
@@ -3566,8 +6275,21 @@
     "doy": 155,
     "richness": 5,
     "abiotic": "",
-    "species": ["AMRO", "BCFR", "CONI", "SPGR", "SWTH"],
-    "common_names": ["American Robin", "Boreal Chorus Frog", "Common Nighthawk", "Spruce Grouse", "Swainson's Thrush"]
+    "species": [
+      "AMRO",
+      "BCFR",
+      "CONI",
+      "SPGR",
+      "SWTH"
+    ],
+    "common_names": [
+      "American Robin",
+      "Boreal Chorus Frog",
+      "Common Nighthawk",
+      "Spruce Grouse",
+      "Swainson's Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFV73-110_20170705_222600",
@@ -3583,8 +6305,15 @@
     "doy": 186,
     "richness": 2,
     "abiotic": "",
-    "species": ["SORA", "UNBI"],
-    "common_names": ["Sora", "Unidentified Bird"]
+    "species": [
+      "SORA",
+      "UNBI"
+    ],
+    "common_names": [
+      "Sora",
+      "Unidentified Bird"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB629-307-2-9_20230629_215000",
@@ -3600,8 +6329,17 @@
     "doy": 180,
     "richness": 3,
     "abiotic": "",
-    "species": ["DEJU", "UNBI", "WTSP"],
-    "common_names": ["Dark-eyed Junco", "Unidentified Bird", "White-throated Sparrow"]
+    "species": [
+      "DEJU",
+      "UNBI",
+      "WTSP"
+    ],
+    "common_names": [
+      "Dark-eyed Junco",
+      "Unidentified Bird",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-86_20190329_225800",
@@ -3618,7 +6356,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "BOOW",
-    "common_names": "Boreal Owl"
+    "common_names": "Boreal Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD43-36_20190417_015200",
@@ -3634,8 +6373,15 @@
     "doy": 107,
     "richness": 2,
     "abiotic": "",
-    "species": ["GGOW", "RUGR"],
-    "common_names": ["Great Gray Owl", "Ruffed Grouse"]
+    "species": [
+      "GGOW",
+      "RUGR"
+    ],
+    "common_names": [
+      "Great Gray Owl",
+      "Ruffed Grouse"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-39_20190319_200400",
@@ -3652,7 +6398,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GHOW",
-    "common_names": "Great Horned Owl"
+    "common_names": "Great Horned Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UCV57-127_20180607_060900",
@@ -3668,8 +6415,39 @@
     "doy": 158,
     "richness": 14,
     "abiotic": "LIWI",
-    "species": ["ALFL", "AMBI", "AMRO", "CCSP", "COYE", "LITF", "RUGR", "RWBL", "SEWR", "TEWA", "UNKN", "UNSP", "WISN", "YEWA"],
-    "common_names": ["Alder Flycatcher", "American Bittern", "American Robin", "Clay-colored Sparrow", "Common Yellowthroat", "Light traffic", "Red-winged Blackbird", "Ruffed Grouse", "Sedge Wren", "Tennessee Warbler", "Unidentified signal", "Unidentified Sparrow", "Wilson's Snipe", "Yellow Warbler"]
+    "species": [
+      "ALFL",
+      "AMBI",
+      "AMRO",
+      "CCSP",
+      "COYE",
+      "LITF",
+      "RUGR",
+      "RWBL",
+      "SEWR",
+      "TEWA",
+      "UNKN",
+      "UNSP",
+      "WISN",
+      "YEWA"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "American Bittern",
+      "American Robin",
+      "Clay-colored Sparrow",
+      "Common Yellowthroat",
+      "Light traffic",
+      "Red-winged Blackbird",
+      "Ruffed Grouse",
+      "Sedge Wren",
+      "Tennessee Warbler",
+      "Unidentified signal",
+      "Unidentified Sparrow",
+      "Wilson's Snipe",
+      "Yellow Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB604-326-42_20220628_051300",
@@ -3685,8 +6463,29 @@
     "doy": 179,
     "richness": 9,
     "abiotic": "",
-    "species": ["CEDW", "CHSP", "NAWA", "RESQ", "REVI", "UNWO", "WTSP", "WWCR", "YRWA"],
-    "common_names": ["Cedar Waxwing", "Chipping Sparrow", "Nashville Warbler", "Red-eyed Vireo", "Red Squirrel", "Unidentified Woodpecker", "White-throated Sparrow", "White-winged Crossbill", "Yellow-rumped Warbler"]
+    "species": [
+      "CEDW",
+      "CHSP",
+      "NAWA",
+      "RESQ",
+      "REVI",
+      "UNWO",
+      "WTSP",
+      "WWCR",
+      "YRWA"
+    ],
+    "common_names": [
+      "Cedar Waxwing",
+      "Chipping Sparrow",
+      "Nashville Warbler",
+      "Red-eyed Vireo",
+      "Red Squirrel",
+      "Unidentified Woodpecker",
+      "White-throated Sparrow",
+      "White-winged Crossbill",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "511--355-3-3_20240603_000400",
@@ -3702,8 +6501,21 @@
     "doy": 155,
     "richness": 5,
     "abiotic": "",
-    "species": ["BCFR", "CATO", "GRTF", "SORA", "SPPE"],
-    "common_names": ["Boreal Chorus Frog", "Canadian Toad", "Gray Treefrog", "Sora", "Spring peeper"]
+    "species": [
+      "BCFR",
+      "CATO",
+      "GRTF",
+      "SORA",
+      "SPPE"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Canadian Toad",
+      "Gray Treefrog",
+      "Sora",
+      "Spring peeper"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU59-42_20190619_032300",
@@ -3719,8 +6531,19 @@
     "doy": 170,
     "richness": 4,
     "abiotic": "LIWI",
-    "species": ["COLO", "HETH", "SWTH", "WISN"],
-    "common_names": ["Common Loon", "Hermit Thrush", "Swainson's Thrush", "Wilson's Snipe"]
+    "species": [
+      "COLO",
+      "HETH",
+      "SWTH",
+      "WISN"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Hermit Thrush",
+      "Swainson's Thrush",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB604-326-22_20220619_090900",
@@ -3736,8 +6559,35 @@
     "doy": 170,
     "richness": 12,
     "abiotic": "",
-    "species": ["BHVI", "BLBW", "CEDW", "CORA", "GCKI", "HETH", "MOBA", "NAWA", "OVEN", "UNPA", "UNWA", "WISN"],
-    "common_names": ["Blackburnian Warbler", "Blue-headed Vireo", "Cedar Waxwing", "Common Raven", "Golden-crowned Kinglet", "Hermit Thrush", "Moderate Background Noise", "Nashville Warbler", "Ovenbird", "Unidentified Passerine", "Unidentified Warbler", "Wilson's Snipe"]
+    "species": [
+      "BHVI",
+      "BLBW",
+      "CEDW",
+      "CORA",
+      "GCKI",
+      "HETH",
+      "MOBA",
+      "NAWA",
+      "OVEN",
+      "UNPA",
+      "UNWA",
+      "WISN"
+    ],
+    "common_names": [
+      "Blackburnian Warbler",
+      "Blue-headed Vireo",
+      "Cedar Waxwing",
+      "Common Raven",
+      "Golden-crowned Kinglet",
+      "Hermit Thrush",
+      "Moderate Background Noise",
+      "Nashville Warbler",
+      "Ovenbird",
+      "Unidentified Passerine",
+      "Unidentified Warbler",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFB54-39_20210527_082100",
@@ -3753,8 +6603,15 @@
     "doy": 147,
     "richness": 2,
     "abiotic": "",
-    "species": ["MAWA", "WTSP"],
-    "common_names": ["Magnolia Warbler", "White-throated Sparrow"]
+    "species": [
+      "MAWA",
+      "WTSP"
+    ],
+    "common_names": [
+      "Magnolia Warbler",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "667--319-4-1_20230602_213400",
@@ -3770,8 +6627,19 @@
     "doy": 153,
     "richness": 4,
     "abiotic": "",
-    "species": ["AMRO", "CONI", "HETH", "RUGR"],
-    "common_names": ["American Robin", "Common Nighthawk", "Hermit Thrush", "Ruffed Grouse"]
+    "species": [
+      "AMRO",
+      "CONI",
+      "HETH",
+      "RUGR"
+    ],
+    "common_names": [
+      "American Robin",
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Ruffed Grouse"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1251-07_20190604_234800",
@@ -3787,8 +6655,15 @@
     "doy": 155,
     "richness": 2,
     "abiotic": "",
-    "species": ["CATO", "UNBI"],
-    "common_names": ["Canadian Toad", "Unidentified Bird"]
+    "species": [
+      "CATO",
+      "UNBI"
+    ],
+    "common_names": [
+      "Canadian Toad",
+      "Unidentified Bird"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB785-294-45_20220705_221200",
@@ -3804,8 +6679,19 @@
     "doy": 186,
     "richness": 4,
     "abiotic": "",
-    "species": ["CONI", "DEJU", "SWTH", "YRWA"],
-    "common_names": ["Common Nighthawk", "Dark-eyed Junco", "Swainson's Thrush", "Yellow-rumped Warbler"]
+    "species": [
+      "CONI",
+      "DEJU",
+      "SWTH",
+      "YRWA"
+    ],
+    "common_names": [
+      "Common Nighthawk",
+      "Dark-eyed Junco",
+      "Swainson's Thrush",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU59-36_20190617_212000",
@@ -3821,8 +6707,17 @@
     "doy": 168,
     "richness": 3,
     "abiotic": "",
-    "species": ["CHSP", "DEJU", "HETH"],
-    "common_names": ["Chipping Sparrow", "Dark-eyed Junco", "Hermit Thrush"]
+    "species": [
+      "CHSP",
+      "DEJU",
+      "HETH"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Dark-eyed Junco",
+      "Hermit Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-84_20190331_220200",
@@ -3838,8 +6733,15 @@
     "doy": 90,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "GGOW"],
-    "common_names": ["Boreal Owl", "Great Gray Owl"]
+    "species": [
+      "BOOW",
+      "GGOW"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Great Gray Owl"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1240-07_20190403_015600",
@@ -3856,7 +6758,8 @@
     "richness": 0,
     "abiotic": "LIWI",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-57_20190316_215800",
@@ -3873,7 +6776,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GHOW",
-    "common_names": "Great Horned Owl"
+    "common_names": "Great Horned Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU51-87_20180606_060200",
@@ -3889,8 +6793,37 @@
     "doy": 157,
     "richness": 13,
     "abiotic": "",
-    "species": ["AMRE", "BCFR", "BLBW", "COWW", "NAWA", "OVEN", "PHVI", "RUGR", "UNBI", "WIWA", "WOFR", "WTSP", "YRWA"],
-    "common_names": ["American Redstart", "Blackburnian Warbler", "Boreal Chorus Frog", "Domestic Cow", "Nashville Warbler", "Ovenbird", "Philadelphia Vireo", "Ruffed Grouse", "Unidentified Bird", "White-throated Sparrow", "Wilson's Warbler", "Wood Frog", "Yellow-rumped Warbler"]
+    "species": [
+      "AMRE",
+      "BCFR",
+      "BLBW",
+      "COWW",
+      "NAWA",
+      "OVEN",
+      "PHVI",
+      "RUGR",
+      "UNBI",
+      "WIWA",
+      "WOFR",
+      "WTSP",
+      "YRWA"
+    ],
+    "common_names": [
+      "American Redstart",
+      "Blackburnian Warbler",
+      "Boreal Chorus Frog",
+      "Domestic Cow",
+      "Nashville Warbler",
+      "Ovenbird",
+      "Philadelphia Vireo",
+      "Ruffed Grouse",
+      "Unidentified Bird",
+      "White-throated Sparrow",
+      "Wilson's Warbler",
+      "Wood Frog",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VEG93-57_20190704_070000",
@@ -3906,8 +6839,25 @@
     "doy": 185,
     "richness": 7,
     "abiotic": "",
-    "species": ["BOWA", "CEDW", "FOSP", "GCTH", "HETH", "LISP", "NOWA"],
-    "common_names": ["Bohemian Waxwing", "Cedar Waxwing", "Fox Sparrow", "Gray-cheeked Thrush", "Hermit Thrush", "Lincoln's Sparrow", "Northern Waterthrush"]
+    "species": [
+      "BOWA",
+      "CEDW",
+      "FOSP",
+      "GCTH",
+      "HETH",
+      "LISP",
+      "NOWA"
+    ],
+    "common_names": [
+      "Bohemian Waxwing",
+      "Cedar Waxwing",
+      "Fox Sparrow",
+      "Gray-cheeked Thrush",
+      "Hermit Thrush",
+      "Lincoln's Sparrow",
+      "Northern Waterthrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "POPLARR1_20240613_001700",
@@ -3923,8 +6873,23 @@
     "doy": 165,
     "richness": 6,
     "abiotic": "",
-    "species": ["ALFL", "CONW", "LCSP", "RUGR", "UNKN", "WBBE"],
-    "common_names": ["Alder Flycatcher", "Connecticut Warbler", "LeConte's Sparrow", "Ruffed Grouse", "Unidentified signal", "Woodborer Beetle"]
+    "species": [
+      "ALFL",
+      "CONW",
+      "LCSP",
+      "RUGR",
+      "UNKN",
+      "WBBE"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Connecticut Warbler",
+      "LeConte's Sparrow",
+      "Ruffed Grouse",
+      "Unidentified signal",
+      "Woodborer Beetle"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-05-1469-05_20220620_030900",
@@ -3940,8 +6905,25 @@
     "doy": 171,
     "richness": 7,
     "abiotic": "LIWI",
-    "species": ["AMRO", "COLO", "DEJU", "HETH", "LISP", "SWTH", "WISN"],
-    "common_names": ["American Robin", "Common Loon", "Dark-eyed Junco", "Hermit Thrush", "Lincoln's Sparrow", "Swainson's Thrush", "Wilson's Snipe"]
+    "species": [
+      "AMRO",
+      "COLO",
+      "DEJU",
+      "HETH",
+      "LISP",
+      "SWTH",
+      "WISN"
+    ],
+    "common_names": [
+      "American Robin",
+      "Common Loon",
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Lincoln's Sparrow",
+      "Swainson's Thrush",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB629-307-2-7_20230629_081600",
@@ -3957,8 +6939,31 @@
     "doy": 180,
     "richness": 10,
     "abiotic": "",
-    "species": ["COGR", "CORA", "COYE", "HENO", "REVI", "SWSP", "UNBI", "WISN", "WTSP", "YEWA"],
-    "common_names": ["Common Grackle", "Common Raven", "Common Yellowthroat", "Heavy continuous industrial noise", "Red-eyed Vireo", "Swamp Sparrow", "Unidentified Bird", "White-throated Sparrow", "Wilson's Snipe", "Yellow Warbler"]
+    "species": [
+      "COGR",
+      "CORA",
+      "COYE",
+      "HENO",
+      "REVI",
+      "SWSP",
+      "UNBI",
+      "WISN",
+      "WTSP",
+      "YEWA"
+    ],
+    "common_names": [
+      "Common Grackle",
+      "Common Raven",
+      "Common Yellowthroat",
+      "Heavy continuous industrial noise",
+      "Red-eyed Vireo",
+      "Swamp Sparrow",
+      "Unidentified Bird",
+      "White-throated Sparrow",
+      "Wilson's Snipe",
+      "Yellow Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-VWJ96-37_20210608_085200",
@@ -3974,8 +6979,23 @@
     "doy": 159,
     "richness": 6,
     "abiotic": "",
-    "species": ["CHSP", "DEJU", "MOWI", "UNPA", "WTSP", "YRWA"],
-    "common_names": ["Chipping Sparrow", "Dark-eyed Junco", "Moderate wind", "Unidentified Passerine", "White-throated Sparrow", "Yellow-rumped Warbler"]
+    "species": [
+      "CHSP",
+      "DEJU",
+      "MOWI",
+      "UNPA",
+      "WTSP",
+      "YRWA"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Dark-eyed Junco",
+      "Moderate wind",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-14-ULD13-42_20190531_212900",
@@ -3991,8 +7011,15 @@
     "doy": 151,
     "richness": 2,
     "abiotic": "",
-    "species": ["SWTH", "WTSP"],
-    "common_names": ["Swainson's Thrush", "White-throated Sparrow"]
+    "species": [
+      "SWTH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Swainson's Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UCA41-93_20180612_231300",
@@ -4009,7 +7036,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "SORA",
-    "common_names": "Sora"
+    "common_names": "Sora",
+    "organization": "CWS-PRA"
   },
   {
     "id": "633--313-4-1_20230618_221700",
@@ -4025,8 +7053,37 @@
     "doy": 169,
     "richness": 13,
     "abiotic": "",
-    "species": ["AMRO", "BAWW", "BOGU", "CAWA", "COLO", "COYE", "LEFL", "SWSP", "SWTH", "UNPA", "WTSP", "YBSA", "YEWA"],
-    "common_names": ["American Robin", "Black-and-white Warbler", "Bonaparte's Gull", "Canada Warbler", "Common Loon", "Common Yellowthroat", "Least Flycatcher", "Swainson's Thrush", "Swamp Sparrow", "Unidentified Passerine", "White-throated Sparrow", "Yellow-bellied Sapsucker", "Yellow Warbler"]
+    "species": [
+      "AMRO",
+      "BAWW",
+      "BOGU",
+      "CAWA",
+      "COLO",
+      "COYE",
+      "LEFL",
+      "SWSP",
+      "SWTH",
+      "UNPA",
+      "WTSP",
+      "YBSA",
+      "YEWA"
+    ],
+    "common_names": [
+      "American Robin",
+      "Black-and-white Warbler",
+      "Bonaparte's Gull",
+      "Canada Warbler",
+      "Common Loon",
+      "Common Yellowthroat",
+      "Least Flycatcher",
+      "Swainson's Thrush",
+      "Swamp Sparrow",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "Yellow-bellied Sapsucker",
+      "Yellow Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-38_20190615_214600",
@@ -4042,8 +7099,21 @@
     "doy": 166,
     "richness": 5,
     "abiotic": "",
-    "species": ["AMRO", "MODO", "UNDU", "UNKN", "WISN"],
-    "common_names": ["American Robin", "Mourning Dove", "Unidentified Duck", "Unidentified signal", "Wilson's Snipe"]
+    "species": [
+      "AMRO",
+      "MODO",
+      "UNDU",
+      "UNKN",
+      "WISN"
+    ],
+    "common_names": [
+      "American Robin",
+      "Mourning Dove",
+      "Unidentified Duck",
+      "Unidentified signal",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD43-48_20190417_015200",
@@ -4060,7 +7130,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "LIBA",
-    "common_names": "Light Background Noise"
+    "common_names": "Light Background Noise",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-81_20190328_225700",
@@ -4076,8 +7147,15 @@
     "doy": 87,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "GGOW"],
-    "common_names": ["Boreal Owl", "Great Gray Owl"]
+    "species": [
+      "BOOW",
+      "GGOW"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Great Gray Owl"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-83_20190330_220000",
@@ -4093,8 +7171,15 @@
     "doy": 89,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "SPGR"],
-    "common_names": ["Boreal Owl", "Spruce Grouse"]
+    "species": [
+      "BOOW",
+      "SPGR"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Spruce Grouse"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-14-ULD15-118_20170618_050200",
@@ -4110,8 +7195,21 @@
     "doy": 169,
     "richness": 5,
     "abiotic": "",
-    "species": ["CHSP", "MAWA", "RCKI", "SWTH", "WIWR"],
-    "common_names": ["Chipping Sparrow", "Magnolia Warbler", "Ruby-crowned Kinglet", "Swainson's Thrush", "Winter Wren"]
+    "species": [
+      "CHSP",
+      "MAWA",
+      "RCKI",
+      "SWTH",
+      "WIWR"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Magnolia Warbler",
+      "Ruby-crowned Kinglet",
+      "Swainson's Thrush",
+      "Winter Wren"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-82_20190613_080000",
@@ -4127,8 +7225,35 @@
     "doy": 164,
     "richness": 12,
     "abiotic": "",
-    "species": ["ALFL", "BCFR", "COYE", "NAWA", "OVEN", "RBNU", "REVI", "RWBL", "SOSP", "SWSP", "WIWR", "WTSP"],
-    "common_names": ["Alder Flycatcher", "Boreal Chorus Frog", "Common Yellowthroat", "Nashville Warbler", "Ovenbird", "Red-breasted Nuthatch", "Red-eyed Vireo", "Red-winged Blackbird", "Song Sparrow", "Swamp Sparrow", "White-throated Sparrow", "Winter Wren"]
+    "species": [
+      "ALFL",
+      "BCFR",
+      "COYE",
+      "NAWA",
+      "OVEN",
+      "RBNU",
+      "REVI",
+      "RWBL",
+      "SOSP",
+      "SWSP",
+      "WIWR",
+      "WTSP"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Boreal Chorus Frog",
+      "Common Yellowthroat",
+      "Nashville Warbler",
+      "Ovenbird",
+      "Red-breasted Nuthatch",
+      "Red-eyed Vireo",
+      "Red-winged Blackbird",
+      "Song Sparrow",
+      "Swamp Sparrow",
+      "White-throated Sparrow",
+      "Winter Wren"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1003-04_20170605_033200",
@@ -4144,8 +7269,33 @@
     "doy": 156,
     "richness": 11,
     "abiotic": "",
-    "species": ["ALFL", "AMRO", "COYE", "NAWA", "RBGR", "RWBL", "SEWR", "SWSP", "WISN", "WTSP", "YBSA"],
-    "common_names": ["Alder Flycatcher", "American Robin", "Common Yellowthroat", "Nashville Warbler", "Red-winged Blackbird", "Rose-breasted Grosbeak", "Sedge Wren", "Swamp Sparrow", "White-throated Sparrow", "Wilson's Snipe", "Yellow-bellied Sapsucker"]
+    "species": [
+      "ALFL",
+      "AMRO",
+      "COYE",
+      "NAWA",
+      "RBGR",
+      "RWBL",
+      "SEWR",
+      "SWSP",
+      "WISN",
+      "WTSP",
+      "YBSA"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "American Robin",
+      "Common Yellowthroat",
+      "Nashville Warbler",
+      "Red-winged Blackbird",
+      "Rose-breasted Grosbeak",
+      "Sedge Wren",
+      "Swamp Sparrow",
+      "White-throated Sparrow",
+      "Wilson's Snipe",
+      "Yellow-bellied Sapsucker"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UDV90-33_20210704_000000",
@@ -4161,8 +7311,15 @@
     "doy": 185,
     "richness": 2,
     "abiotic": "",
-    "species": ["COYO", "LIBA"],
-    "common_names": ["Coyote", "Light Background Noise"]
+    "species": [
+      "COYO",
+      "LIBA"
+    ],
+    "common_names": [
+      "Coyote",
+      "Light Background Noise"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-325-05_20170625_094000",
@@ -4178,8 +7335,27 @@
     "doy": 176,
     "richness": 8,
     "abiotic": "",
-    "species": ["BCCH", "BRCR", "HETH", "MOBA", "MOWI", "PHVI", "RESQ", "WTSP"],
-    "common_names": ["Black-capped Chickadee", "Brown Creeper", "Hermit Thrush", "Moderate Background Noise", "Moderate wind", "Philadelphia Vireo", "Red Squirrel", "White-throated Sparrow"]
+    "species": [
+      "BCCH",
+      "BRCR",
+      "HETH",
+      "MOBA",
+      "MOWI",
+      "PHVI",
+      "RESQ",
+      "WTSP"
+    ],
+    "common_names": [
+      "Black-capped Chickadee",
+      "Brown Creeper",
+      "Hermit Thrush",
+      "Moderate Background Noise",
+      "Moderate wind",
+      "Philadelphia Vireo",
+      "Red Squirrel",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "667--319-4-1_20230529_091400",
@@ -4195,8 +7371,29 @@
     "doy": 149,
     "richness": 9,
     "abiotic": "",
-    "species": ["BAWW", "BBWA", "BHVI", "HETH", "RUGR", "SWTH", "UNPA", "WTSP", "YRWA"],
-    "common_names": ["Bay-breasted Warbler", "Black-and-white Warbler", "Blue-headed Vireo", "Hermit Thrush", "Ruffed Grouse", "Swainson's Thrush", "Unidentified Passerine", "White-throated Sparrow", "Yellow-rumped Warbler"]
+    "species": [
+      "BAWW",
+      "BBWA",
+      "BHVI",
+      "HETH",
+      "RUGR",
+      "SWTH",
+      "UNPA",
+      "WTSP",
+      "YRWA"
+    ],
+    "common_names": [
+      "Bay-breasted Warbler",
+      "Black-and-white Warbler",
+      "Blue-headed Vireo",
+      "Hermit Thrush",
+      "Ruffed Grouse",
+      "Swainson's Thrush",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-75_20190605_212200",
@@ -4212,8 +7409,27 @@
     "doy": 156,
     "richness": 8,
     "abiotic": "",
-    "species": ["AMBI", "BCFR", "CHSP", "HETH", "MODO", "SPGR", "SWTH", "WOFR"],
-    "common_names": ["American Bittern", "Boreal Chorus Frog", "Chipping Sparrow", "Hermit Thrush", "Mourning Dove", "Spruce Grouse", "Swainson's Thrush", "Wood Frog"]
+    "species": [
+      "AMBI",
+      "BCFR",
+      "CHSP",
+      "HETH",
+      "MODO",
+      "SPGR",
+      "SWTH",
+      "WOFR"
+    ],
+    "common_names": [
+      "American Bittern",
+      "Boreal Chorus Frog",
+      "Chipping Sparrow",
+      "Hermit Thrush",
+      "Mourning Dove",
+      "Spruce Grouse",
+      "Swainson's Thrush",
+      "Wood Frog"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD27-50_20190608_224600",
@@ -4230,7 +7446,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "UNKN",
-    "common_names": "Unidentified signal"
+    "common_names": "Unidentified signal",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDG52-51_20190703_222300",
@@ -4246,8 +7463,19 @@
     "doy": 184,
     "richness": 4,
     "abiotic": "",
-    "species": ["COLO", "CONI", "HETH", "RCKI"],
-    "common_names": ["Common Loon", "Common Nighthawk", "Hermit Thrush", "Ruby-crowned Kinglet"]
+    "species": [
+      "COLO",
+      "CONI",
+      "HETH",
+      "RCKI"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Ruby-crowned Kinglet"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "593--315-2-3_20230620_214300",
@@ -4263,8 +7491,19 @@
     "doy": 171,
     "richness": 4,
     "abiotic": "",
-    "species": ["BCFR", "COLO", "LIBA", "SWTH"],
-    "common_names": ["Boreal Chorus Frog", "Common Loon", "Light Background Noise", "Swainson's Thrush"]
+    "species": [
+      "BCFR",
+      "COLO",
+      "LIBA",
+      "SWTH"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Common Loon",
+      "Light Background Noise",
+      "Swainson's Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UCC25-65_20190402_015000",
@@ -4281,7 +7520,8 @@
     "richness": 0,
     "abiotic": "LIWI",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-31_20190412_214500",
@@ -4297,8 +7537,15 @@
     "doy": 102,
     "richness": 2,
     "abiotic": "",
-    "species": ["GHOW", "RUGR"],
-    "common_names": ["Great Horned Owl", "Ruffed Grouse"]
+    "species": [
+      "GHOW",
+      "RUGR"
+    ],
+    "common_names": [
+      "Great Horned Owl",
+      "Ruffed Grouse"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-31_20190319_220400",
@@ -4315,7 +7562,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GHOW",
-    "common_names": "Great Horned Owl"
+    "common_names": "Great Horned Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "POPLARR1_20240614_060000",
@@ -4331,8 +7579,45 @@
     "doy": 166,
     "richness": 17,
     "abiotic": "",
-    "species": ["ALFL", "AMRO", "CHSP", "COYE", "LCSP", "LEFL", "MOWA", "NOFL", "PAWA", "SOSP", "SWSP", "UNBI", "UNDU", "UNMA", "UNPA", "WTSP", "YEWA"],
-    "common_names": ["Alder Flycatcher", "American Robin", "Chipping Sparrow", "Common Yellowthroat", "Least Flycatcher", "LeConte's Sparrow", "Mourning Warbler", "Northern Flicker", "Palm Warbler", "Song Sparrow", "Swamp Sparrow", "Unidentified Bird", "Unidentified Duck", "Unidentified Mammal", "Unidentified Passerine", "White-throated Sparrow", "Yellow Warbler"]
+    "species": [
+      "ALFL",
+      "AMRO",
+      "CHSP",
+      "COYE",
+      "LCSP",
+      "LEFL",
+      "MOWA",
+      "NOFL",
+      "PAWA",
+      "SOSP",
+      "SWSP",
+      "UNBI",
+      "UNDU",
+      "UNMA",
+      "UNPA",
+      "WTSP",
+      "YEWA"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "American Robin",
+      "Chipping Sparrow",
+      "Common Yellowthroat",
+      "Least Flycatcher",
+      "LeConte's Sparrow",
+      "Mourning Warbler",
+      "Northern Flicker",
+      "Palm Warbler",
+      "Song Sparrow",
+      "Swamp Sparrow",
+      "Unidentified Bird",
+      "Unidentified Duck",
+      "Unidentified Mammal",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "Yellow Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD65-66_20190605_075000",
@@ -4348,8 +7633,17 @@
     "doy": 156,
     "richness": 3,
     "abiotic": "HEWI",
-    "species": ["CHSP", "OCWA", "WISN"],
-    "common_names": ["Chipping Sparrow", "Orange-crowned Warbler", "Wilson's Snipe"]
+    "species": [
+      "CHSP",
+      "OCWA",
+      "WISN"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Orange-crowned Warbler",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "ASSAPAN1_20240611_031500",
@@ -4365,8 +7659,17 @@
     "doy": 163,
     "richness": 3,
     "abiotic": "",
-    "species": ["OVEN", "SPPE", "WOFR"],
-    "common_names": ["Ovenbird", "Spring peeper", "Wood Frog"]
+    "species": [
+      "OVEN",
+      "SPPE",
+      "WOFR"
+    ],
+    "common_names": [
+      "Ovenbird",
+      "Spring peeper",
+      "Wood Frog"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UDA62-85_20190624_032800",
@@ -4382,8 +7685,25 @@
     "doy": 175,
     "richness": 7,
     "abiotic": "NONE",
-    "species": ["AMRO", "CHSP", "DEJU", "SOSA", "SWSP", "WISN", "WTSP"],
-    "common_names": ["American Robin", "Chipping Sparrow", "Dark-eyed Junco", "Solitary Sandpiper", "Swamp Sparrow", "White-throated Sparrow", "Wilson's Snipe"]
+    "species": [
+      "AMRO",
+      "CHSP",
+      "DEJU",
+      "SOSA",
+      "SWSP",
+      "WISN",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Robin",
+      "Chipping Sparrow",
+      "Dark-eyed Junco",
+      "Solitary Sandpiper",
+      "Swamp Sparrow",
+      "White-throated Sparrow",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-05-324-03_20210629_082200",
@@ -4399,8 +7719,21 @@
     "doy": 180,
     "richness": 5,
     "abiotic": "LIRA",
-    "species": ["MOBA", "TEWA", "UNPA", "WIWR", "WTSP"],
-    "common_names": ["Moderate Background Noise", "Tennessee Warbler", "Unidentified Passerine", "White-throated Sparrow", "Winter Wren"]
+    "species": [
+      "MOBA",
+      "TEWA",
+      "UNPA",
+      "WIWR",
+      "WTSP"
+    ],
+    "common_names": [
+      "Moderate Background Noise",
+      "Tennessee Warbler",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "Winter Wren"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "511--355-3-3_20240610_084300",
@@ -4416,8 +7749,33 @@
     "doy": 162,
     "richness": 11,
     "abiotic": "",
-    "species": ["ALFL", "AMRE", "BAWW", "CANG", "COYE", "CSWA", "GRTF", "NAWA", "RUGR", "VEER", "WTSP"],
-    "common_names": ["Alder Flycatcher", "American Redstart", "Black-and-white Warbler", "Canada Goose", "Chestnut-sided Warbler", "Common Yellowthroat", "Gray Treefrog", "Nashville Warbler", "Ruffed Grouse", "Veery", "White-throated Sparrow"]
+    "species": [
+      "ALFL",
+      "AMRE",
+      "BAWW",
+      "CANG",
+      "COYE",
+      "CSWA",
+      "GRTF",
+      "NAWA",
+      "RUGR",
+      "VEER",
+      "WTSP"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "American Redstart",
+      "Black-and-white Warbler",
+      "Canada Goose",
+      "Chestnut-sided Warbler",
+      "Common Yellowthroat",
+      "Gray Treefrog",
+      "Nashville Warbler",
+      "Ruffed Grouse",
+      "Veery",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-61_20190528_213000",
@@ -4433,8 +7791,19 @@
     "doy": 148,
     "richness": 4,
     "abiotic": "",
-    "species": ["CCSP", "CORA", "HETH", "WTSP"],
-    "common_names": ["Clay-colored Sparrow", "Common Raven", "Hermit Thrush", "White-throated Sparrow"]
+    "species": [
+      "CCSP",
+      "CORA",
+      "HETH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Clay-colored Sparrow",
+      "Common Raven",
+      "Hermit Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDD26-35_20190610_224800",
@@ -4450,8 +7819,23 @@
     "doy": 161,
     "richness": 6,
     "abiotic": "",
-    "species": ["CANG", "COLO", "SPGR", "UNKN", "WISN", "WTSP"],
-    "common_names": ["Canada Goose", "Common Loon", "Spruce Grouse", "Unidentified signal", "White-throated Sparrow", "Wilson's Snipe"]
+    "species": [
+      "CANG",
+      "COLO",
+      "SPGR",
+      "UNKN",
+      "WISN",
+      "WTSP"
+    ],
+    "common_names": [
+      "Canada Goose",
+      "Common Loon",
+      "Spruce Grouse",
+      "Unidentified signal",
+      "White-throated Sparrow",
+      "Wilson's Snipe"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB785-294-48_20220626_221700",
@@ -4467,8 +7851,15 @@
     "doy": 177,
     "richness": 2,
     "abiotic": "",
-    "species": ["REVI", "UNBI"],
-    "common_names": ["Red-eyed Vireo", "Unidentified Bird"]
+    "species": [
+      "REVI",
+      "UNBI"
+    ],
+    "common_names": [
+      "Red-eyed Vireo",
+      "Unidentified Bird"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UFU67-88_20190704_211800",
@@ -4484,8 +7875,21 @@
     "doy": 185,
     "richness": 5,
     "abiotic": "",
-    "species": ["OVEN", "SWTH", "UNKN", "WIWR", "YRWA"],
-    "common_names": ["Ovenbird", "Swainson's Thrush", "Unidentified signal", "Winter Wren", "Yellow-rumped Warbler"]
+    "species": [
+      "OVEN",
+      "SWTH",
+      "UNKN",
+      "WIWR",
+      "YRWA"
+    ],
+    "common_names": [
+      "Ovenbird",
+      "Swainson's Thrush",
+      "Unidentified signal",
+      "Winter Wren",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1240-07_20190403_005600",
@@ -4502,7 +7906,8 @@
     "richness": 0,
     "abiotic": "LIWI",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-65_20190315_225700",
@@ -4519,7 +7924,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GHOW",
-    "common_names": "Great Horned Owl"
+    "common_names": "Great Horned Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU20-62_20190316_215800",
@@ -4536,7 +7942,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "GHOW",
-    "common_names": "Great Horned Owl"
+    "common_names": "Great Horned Owl",
+    "organization": "CWS-PRA"
   },
   {
     "id": "12-VXL35-86_20210624_044000",
@@ -4552,8 +7959,21 @@
     "doy": 175,
     "richness": 5,
     "abiotic": "",
-    "species": ["CHSP", "MOBA", "OCWA", "UNGU", "WWCR"],
-    "common_names": ["Chipping Sparrow", "Moderate Background Noise", "Orange-crowned Warbler", "Unidentified Gull", "White-winged Crossbill"]
+    "species": [
+      "CHSP",
+      "MOBA",
+      "OCWA",
+      "UNGU",
+      "WWCR"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Moderate Background Noise",
+      "Orange-crowned Warbler",
+      "Unidentified Gull",
+      "White-winged Crossbill"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UDB07-58_20190611_044300",
@@ -4569,8 +7989,25 @@
     "doy": 162,
     "richness": 7,
     "abiotic": "",
-    "species": ["ALFL", "CORA", "DEJU", "LISP", "REVI", "SWTH", "WTSP"],
-    "common_names": ["Alder Flycatcher", "Common Raven", "Dark-eyed Junco", "Lincoln's Sparrow", "Red-eyed Vireo", "Swainson's Thrush", "White-throated Sparrow"]
+    "species": [
+      "ALFL",
+      "CORA",
+      "DEJU",
+      "LISP",
+      "REVI",
+      "SWTH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Common Raven",
+      "Dark-eyed Junco",
+      "Lincoln's Sparrow",
+      "Red-eyed Vireo",
+      "Swainson's Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "ASSAPAN1_20240611_021500",
@@ -4586,8 +8023,19 @@
     "doy": 163,
     "richness": 4,
     "abiotic": "",
-    "species": ["AMTO", "BEAV", "SPPE", "UNKN"],
-    "common_names": ["American Beaver", "American Toad", "Spring peeper", "Unidentified signal"]
+    "species": [
+      "AMTO",
+      "BEAV",
+      "SPPE",
+      "UNKN"
+    ],
+    "common_names": [
+      "American Beaver",
+      "American Toad",
+      "Spring peeper",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "12-VXL35-90_20210624_035016",
@@ -4603,8 +8051,23 @@
     "doy": 175,
     "richness": 6,
     "abiotic": "LIWI",
-    "species": ["CHSP", "DEJU", "HETH", "MOBA", "OCWA", "UNGU"],
-    "common_names": ["Chipping Sparrow", "Dark-eyed Junco", "Hermit Thrush", "Moderate Background Noise", "Orange-crowned Warbler", "Unidentified Gull"]
+    "species": [
+      "CHSP",
+      "DEJU",
+      "HETH",
+      "MOBA",
+      "OCWA",
+      "UNGU"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Dark-eyed Junco",
+      "Hermit Thrush",
+      "Moderate Background Noise",
+      "Orange-crowned Warbler",
+      "Unidentified Gull"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-VXJ15-76_20210626_082100",
@@ -4620,8 +8083,15 @@
     "doy": 177,
     "richness": 2,
     "abiotic": "LIWI",
-    "species": ["MOBA", "SWTH"],
-    "common_names": ["Moderate Background Noise", "Swainson's Thrush"]
+    "species": [
+      "MOBA",
+      "SWTH"
+    ],
+    "common_names": [
+      "Moderate Background Noise",
+      "Swainson's Thrush"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-325-09_20170612_093500",
@@ -4637,8 +8107,25 @@
     "doy": 163,
     "richness": 7,
     "abiotic": "HEWI",
-    "species": ["HETH", "LIBA", "MOBA", "REVI", "RUGR", "TEWA", "WTSP"],
-    "common_names": ["Hermit Thrush", "Light Background Noise", "Moderate Background Noise", "Red-eyed Vireo", "Ruffed Grouse", "Tennessee Warbler", "White-throated Sparrow"]
+    "species": [
+      "HETH",
+      "LIBA",
+      "MOBA",
+      "REVI",
+      "RUGR",
+      "TEWA",
+      "WTSP"
+    ],
+    "common_names": [
+      "Hermit Thrush",
+      "Light Background Noise",
+      "Moderate Background Noise",
+      "Red-eyed Vireo",
+      "Ruffed Grouse",
+      "Tennessee Warbler",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "629--309-2-7_20230606_214000",
@@ -4654,8 +8141,25 @@
     "doy": 157,
     "richness": 7,
     "abiotic": "",
-    "species": ["CCSP", "COLO", "COYE", "SWSP", "UNBI", "UNWT", "VEER"],
-    "common_names": ["Clay-colored Sparrow", "Common Loon", "Common Yellowthroat", "Swamp Sparrow", "Unidentified Bird", "Unidentified Waterfowl", "Veery"]
+    "species": [
+      "CCSP",
+      "COLO",
+      "COYE",
+      "SWSP",
+      "UNBI",
+      "UNWT",
+      "VEER"
+    ],
+    "common_names": [
+      "Clay-colored Sparrow",
+      "Common Loon",
+      "Common Yellowthroat",
+      "Swamp Sparrow",
+      "Unidentified Bird",
+      "Unidentified Waterfowl",
+      "Veery"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD78-46_20190609_223400",
@@ -4671,8 +8175,19 @@
     "doy": 160,
     "richness": 4,
     "abiotic": "",
-    "species": ["CHSP", "CONI", "HETH", "WTSP"],
-    "common_names": ["Chipping Sparrow", "Common Nighthawk", "Hermit Thrush", "White-throated Sparrow"]
+    "species": [
+      "CHSP",
+      "CONI",
+      "HETH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB748-309-5_20230624_220400",
@@ -4688,8 +8203,21 @@
     "doy": 175,
     "richness": 5,
     "abiotic": "",
-    "species": ["BAWW", "FOSP", "MAWA", "SWTH", "WTSP"],
-    "common_names": ["Black-and-white Warbler", "Fox Sparrow", "Magnolia Warbler", "Swainson's Thrush", "White-throated Sparrow"]
+    "species": [
+      "BAWW",
+      "FOSP",
+      "MAWA",
+      "SWTH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Black-and-white Warbler",
+      "Fox Sparrow",
+      "Magnolia Warbler",
+      "Swainson's Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UFU67-80_20190704_214800",
@@ -4706,7 +8234,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "HETH",
-    "common_names": "Hermit Thrush"
+    "common_names": "Hermit Thrush",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-199-03_20190403_025900",
@@ -4722,8 +8251,15 @@
     "doy": 93,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "UNKN"],
-    "common_names": ["Boreal Owl", "Unidentified signal"]
+    "species": [
+      "BOOW",
+      "UNKN"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VCD43-36_20190329_231300",
@@ -4739,8 +8275,15 @@
     "doy": 88,
     "richness": 2,
     "abiotic": "",
-    "species": ["UNKN", "UNOW"],
-    "common_names": ["Unidentified Owl", "Unidentified signal"]
+    "species": [
+      "UNKN",
+      "UNOW"
+    ],
+    "common_names": [
+      "Unidentified Owl",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV25-84_20190407_211500",
@@ -4756,8 +8299,15 @@
     "doy": 97,
     "richness": 2,
     "abiotic": "",
-    "species": ["BOOW", "LEOW"],
-    "common_names": ["Boreal Owl", "Long-eared Owl"]
+    "species": [
+      "BOOW",
+      "LEOW"
+    ],
+    "common_names": [
+      "Boreal Owl",
+      "Long-eared Owl"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UFU67-95_20190624_052500",
@@ -4773,8 +8323,23 @@
     "doy": 175,
     "richness": 6,
     "abiotic": "",
-    "species": ["AMRO", "BAOW", "GRAJ", "HETH", "NAWA", "YRWA"],
-    "common_names": ["American Robin", "Barred Owl", "Gray Jay", "Hermit Thrush", "Nashville Warbler", "Yellow-rumped Warbler"]
+    "species": [
+      "AMRO",
+      "BAOW",
+      "GRAJ",
+      "HETH",
+      "NAWA",
+      "YRWA"
+    ],
+    "common_names": [
+      "American Robin",
+      "Barred Owl",
+      "Gray Jay",
+      "Hermit Thrush",
+      "Nashville Warbler",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "06-1210-09_20230607_073100",
@@ -4790,8 +8355,37 @@
     "doy": 158,
     "richness": 13,
     "abiotic": "",
-    "species": ["ALFL", "BAWW", "BLPW", "CATO", "CCSP", "CONW", "COYE", "MAWA", "MOBA", "NOWA", "WTSP", "YBFL", "YRWA"],
-    "common_names": ["Alder Flycatcher", "Black-and-white Warbler", "Blackpoll Warbler", "Canadian Toad", "Clay-colored Sparrow", "Common Yellowthroat", "Connecticut Warbler", "Magnolia Warbler", "Moderate Background Noise", "Northern Waterthrush", "White-throated Sparrow", "Yellow-bellied Flycatcher", "Yellow-rumped Warbler"]
+    "species": [
+      "ALFL",
+      "BAWW",
+      "BLPW",
+      "CATO",
+      "CCSP",
+      "CONW",
+      "COYE",
+      "MAWA",
+      "MOBA",
+      "NOWA",
+      "WTSP",
+      "YBFL",
+      "YRWA"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "Black-and-white Warbler",
+      "Blackpoll Warbler",
+      "Canadian Toad",
+      "Clay-colored Sparrow",
+      "Common Yellowthroat",
+      "Connecticut Warbler",
+      "Magnolia Warbler",
+      "Moderate Background Noise",
+      "Northern Waterthrush",
+      "White-throated Sparrow",
+      "Yellow-bellied Flycatcher",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "563--366-3-7_20240608_004800",
@@ -4807,8 +8401,17 @@
     "doy": 160,
     "richness": 3,
     "abiotic": "",
-    "species": ["AMTO", "UNBI", "UNPA"],
-    "common_names": ["American Toad", "Unidentified Bird", "Unidentified Passerine"]
+    "species": [
+      "AMTO",
+      "UNBI",
+      "UNPA"
+    ],
+    "common_names": [
+      "American Toad",
+      "Unidentified Bird",
+      "Unidentified Passerine"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UFU67-86_20190625_015000",
@@ -4825,7 +8428,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "LIBA",
-    "common_names": "Light Background Noise"
+    "common_names": "Light Background Noise",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFV73-103_20170706_080900",
@@ -4841,8 +8445,27 @@
     "doy": 187,
     "richness": 8,
     "abiotic": "LIWI",
-    "species": ["AMRE", "MAWA", "OVEN", "REVI", "UNPA", "UNWA", "WIWA", "WTSP"],
-    "common_names": ["American Redstart", "Magnolia Warbler", "Ovenbird", "Red-eyed Vireo", "Unidentified Passerine", "Unidentified Warbler", "White-throated Sparrow", "Wilson's Warbler"]
+    "species": [
+      "AMRE",
+      "MAWA",
+      "OVEN",
+      "REVI",
+      "UNPA",
+      "UNWA",
+      "WIWA",
+      "WTSP"
+    ],
+    "common_names": [
+      "American Redstart",
+      "Magnolia Warbler",
+      "Ovenbird",
+      "Red-eyed Vireo",
+      "Unidentified Passerine",
+      "Unidentified Warbler",
+      "White-throated Sparrow",
+      "Wilson's Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFU51-95_20180606_080200",
@@ -4858,8 +8481,45 @@
     "doy": 157,
     "richness": 17,
     "abiotic": "LIWI",
-    "species": ["ALFL", "AMRE", "BCFR", "BHCO", "CORA", "CSWA", "DEJU", "MAWA", "MOBA", "MOWA", "NAWA", "OVEN", "RBGR", "REVI", "RWBL", "UNPA", "UNTR"],
-    "common_names": ["Alder Flycatcher", "American Redstart", "Boreal Chorus Frog", "Brown-headed Cowbird", "Chestnut-sided Warbler", "Common Raven", "Dark-eyed Junco", "Magnolia Warbler", "Moderate Background Noise", "Mourning Warbler", "Nashville Warbler", "Ovenbird", "Red-eyed Vireo", "Red-winged Blackbird", "Rose-breasted Grosbeak", "Unidentified Passerine", "Unidentified Trill"]
+    "species": [
+      "ALFL",
+      "AMRE",
+      "BCFR",
+      "BHCO",
+      "CORA",
+      "CSWA",
+      "DEJU",
+      "MAWA",
+      "MOBA",
+      "MOWA",
+      "NAWA",
+      "OVEN",
+      "RBGR",
+      "REVI",
+      "RWBL",
+      "UNPA",
+      "UNTR"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "American Redstart",
+      "Boreal Chorus Frog",
+      "Brown-headed Cowbird",
+      "Chestnut-sided Warbler",
+      "Common Raven",
+      "Dark-eyed Junco",
+      "Magnolia Warbler",
+      "Moderate Background Noise",
+      "Mourning Warbler",
+      "Nashville Warbler",
+      "Ovenbird",
+      "Red-eyed Vireo",
+      "Red-winged Blackbird",
+      "Rose-breasted Grosbeak",
+      "Unidentified Passerine",
+      "Unidentified Trill"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "637--315-3-9_20230602_213400",
@@ -4875,8 +8535,17 @@
     "doy": 153,
     "richness": 3,
     "abiotic": "",
-    "species": ["SWTH", "UNMA", "YRWA"],
-    "common_names": ["Swainson's Thrush", "Unidentified Mammal", "Yellow-rumped Warbler"]
+    "species": [
+      "SWTH",
+      "UNMA",
+      "YRWA"
+    ],
+    "common_names": [
+      "Swainson's Thrush",
+      "Unidentified Mammal",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB-38190-3-8_20210605_223600",
@@ -4892,8 +8561,29 @@
     "doy": 156,
     "richness": 9,
     "abiotic": "LIWI",
-    "species": ["BCFR", "CANG", "CCSP", "GRTF", "LCSP", "LITF", "VIRA", "WISN", "YERA"],
-    "common_names": ["Boreal Chorus Frog", "Canada Goose", "Clay-colored Sparrow", "Gray Treefrog", "LeConte's Sparrow", "Light traffic", "Virginia Rail", "Wilson's Snipe", "Yellow Rail"]
+    "species": [
+      "BCFR",
+      "CANG",
+      "CCSP",
+      "GRTF",
+      "LCSP",
+      "LITF",
+      "VIRA",
+      "WISN",
+      "YERA"
+    ],
+    "common_names": [
+      "Boreal Chorus Frog",
+      "Canada Goose",
+      "Clay-colored Sparrow",
+      "Gray Treefrog",
+      "LeConte's Sparrow",
+      "Light traffic",
+      "Virginia Rail",
+      "Wilson's Snipe",
+      "Yellow Rail"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB748-309-5_20230624_223400",
@@ -4909,8 +8599,19 @@
     "doy": 175,
     "richness": 4,
     "abiotic": "",
-    "species": ["FOSP", "MAWA", "SWTH", "WTSP"],
-    "common_names": ["Fox Sparrow", "Magnolia Warbler", "Swainson's Thrush", "White-throated Sparrow"]
+    "species": [
+      "FOSP",
+      "MAWA",
+      "SWTH",
+      "WTSP"
+    ],
+    "common_names": [
+      "Fox Sparrow",
+      "Magnolia Warbler",
+      "Swainson's Thrush",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "593--315-2-7_20230620_214300",
@@ -4926,8 +8627,17 @@
     "doy": 171,
     "richness": 3,
     "abiotic": "",
-    "species": ["COLO", "SACR", "UNKN"],
-    "common_names": ["Common Loon", "Sandhill Crane", "Unidentified signal"]
+    "species": [
+      "COLO",
+      "SACR",
+      "UNKN"
+    ],
+    "common_names": [
+      "Common Loon",
+      "Sandhill Crane",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UCC25-58_20190402_015000",
@@ -4944,7 +8654,8 @@
     "richness": 0,
     "abiotic": "LIWI",
     "species": [],
-    "common_names": []
+    "common_names": [],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-06-1241-05_20190329_224800",
@@ -4961,7 +8672,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "UNBI",
-    "common_names": "Unidentified Bird"
+    "common_names": "Unidentified Bird",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UEV13-76_20190327_215500",
@@ -4977,8 +8689,17 @@
     "doy": 86,
     "richness": 3,
     "abiotic": "",
-    "species": ["BAOW", "BOOW", "UNKN"],
-    "common_names": ["Barred Owl", "Boreal Owl", "Unidentified signal"]
+    "species": [
+      "BAOW",
+      "BOOW",
+      "UNKN"
+    ],
+    "common_names": [
+      "Barred Owl",
+      "Boreal Owl",
+      "Unidentified signal"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-12-VXJ38-66_20210608_041800",
@@ -4994,8 +8715,25 @@
     "doy": 159,
     "richness": 7,
     "abiotic": "",
-    "species": ["AMRO", "CANG", "COLO", "DEJU", "SACR", "UNTH", "UNTR"],
-    "common_names": ["American Robin", "Canada Goose", "Common Loon", "Dark-eyed Junco", "Sandhill Crane", "Unidentified Thrush", "Unidentified Trill"]
+    "species": [
+      "AMRO",
+      "CANG",
+      "COLO",
+      "DEJU",
+      "SACR",
+      "UNTH",
+      "UNTR"
+    ],
+    "common_names": [
+      "American Robin",
+      "Canada Goose",
+      "Common Loon",
+      "Dark-eyed Junco",
+      "Sandhill Crane",
+      "Unidentified Thrush",
+      "Unidentified Trill"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB638-311-35_20220627_051300",
@@ -5011,8 +8749,29 @@
     "doy": 178,
     "richness": 9,
     "abiotic": "LIRA",
-    "species": ["CHSP", "GCKI", "HETH", "LIAI", "MAWA", "MOWI", "NAWA", "RESQ", "REVI"],
-    "common_names": ["Chipping Sparrow", "Golden-crowned Kinglet", "Hermit Thrush", "Light aircraft", "Magnolia Warbler", "Moderate wind", "Nashville Warbler", "Red-eyed Vireo", "Red Squirrel"]
+    "species": [
+      "CHSP",
+      "GCKI",
+      "HETH",
+      "LIAI",
+      "MAWA",
+      "MOWI",
+      "NAWA",
+      "RESQ",
+      "REVI"
+    ],
+    "common_names": [
+      "Chipping Sparrow",
+      "Golden-crowned Kinglet",
+      "Hermit Thrush",
+      "Light aircraft",
+      "Magnolia Warbler",
+      "Moderate wind",
+      "Nashville Warbler",
+      "Red-eyed Vireo",
+      "Red Squirrel"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "13-UFU67-86_20190627_015000",
@@ -5029,7 +8788,8 @@
     "richness": 1,
     "abiotic": "",
     "species": "UNBI",
-    "common_names": "Unidentified Bird"
+    "common_names": "Unidentified Bird",
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-UFB54-51_20210602_015100",
@@ -5045,8 +8805,25 @@
     "doy": 153,
     "richness": 7,
     "abiotic": "",
-    "species": ["COYE", "LCSP", "SEWR", "SPPE", "UNTR", "UNWO", "WTSP"],
-    "common_names": ["Common Yellowthroat", "LeConte's Sparrow", "Sedge Wren", "Spring peeper", "Unidentified Trill", "Unidentified Woodpecker", "White-throated Sparrow"]
+    "species": [
+      "COYE",
+      "LCSP",
+      "SEWR",
+      "SPPE",
+      "UNTR",
+      "UNWO",
+      "WTSP"
+    ],
+    "common_names": [
+      "Common Yellowthroat",
+      "LeConte's Sparrow",
+      "Sedge Wren",
+      "Spring peeper",
+      "Unidentified Trill",
+      "Unidentified Woodpecker",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "SKBMS-13-VDF55-32_20200624_081900",
@@ -5062,8 +8839,17 @@
     "doy": 176,
     "richness": 3,
     "abiotic": "",
-    "species": ["AMRO", "RBGU", "YRWA"],
-    "common_names": ["American Robin", "Ring-billed Gull", "Yellow-rumped Warbler"]
+    "species": [
+      "AMRO",
+      "RBGU",
+      "YRWA"
+    ],
+    "common_names": [
+      "American Robin",
+      "Ring-billed Gull",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "MB-25336-63_20200603_082600",
@@ -5079,8 +8865,25 @@
     "doy": 155,
     "richness": 7,
     "abiotic": "",
-    "species": ["ALFL", "AMRO", "CHSP", "LEFL", "MODO", "SPSA", "WTSP"],
-    "common_names": ["Alder Flycatcher", "American Robin", "Chipping Sparrow", "Least Flycatcher", "Mourning Dove", "Spotted Sandpiper", "White-throated Sparrow"]
+    "species": [
+      "ALFL",
+      "AMRO",
+      "CHSP",
+      "LEFL",
+      "MODO",
+      "SPSA",
+      "WTSP"
+    ],
+    "common_names": [
+      "Alder Flycatcher",
+      "American Robin",
+      "Chipping Sparrow",
+      "Least Flycatcher",
+      "Mourning Dove",
+      "Spotted Sandpiper",
+      "White-throated Sparrow"
+    ],
+    "organization": "CWS-PRA"
   },
   {
     "id": "667--319-2-1_20230602_213400",
@@ -5096,7 +8899,24 @@
     "doy": 153,
     "richness": 7,
     "abiotic": "",
-    "species": ["CONI", "HETH", "MAWA", "SWTH", "UNPA", "WTSP", "YRWA"],
-    "common_names": ["Common Nighthawk", "Hermit Thrush", "Magnolia Warbler", "Swainson's Thrush", "Unidentified Passerine", "White-throated Sparrow", "Yellow-rumped Warbler"]
+    "species": [
+      "CONI",
+      "HETH",
+      "MAWA",
+      "SWTH",
+      "UNPA",
+      "WTSP",
+      "YRWA"
+    ],
+    "common_names": [
+      "Common Nighthawk",
+      "Hermit Thrush",
+      "Magnolia Warbler",
+      "Swainson's Thrush",
+      "Unidentified Passerine",
+      "White-throated Sparrow",
+      "Yellow-rumped Warbler"
+    ],
+    "organization": "CWS-PRA"
   }
 ]
