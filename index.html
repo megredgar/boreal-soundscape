@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Boreal Soundscape Atlas</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&family=Hanken+Grotesk:wght@400;500;600&family=Martian+Mono:wght@300;400&display=swap">
@@ -15,6 +17,7 @@
   --mono:"Martian Mono","SFMono-Regular",Menlo,Consolas,monospace;
   color-scheme:dark;
 }
+[hidden]{display:none!important}
 html,body{height:100%;overflow:hidden}
 body{background:radial-gradient(120% 90% at 50% 110%,#0d2a24 0%,#071713 45%,var(--night) 80%);color:var(--mist);font-family:var(--body);font-size:14px}
 #stage{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}
@@ -82,6 +85,43 @@ dt{color:var(--dim)}dd{margin:0;font-variant-numeric:tabular-nums;text-align:rig
 .nn button span.d{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--dim);font-variant-numeric:tabular-nums}
 .nn button:hover{color:var(--aurora)}
 .note{font-family:var(--mono);font-size:9.5px;color:var(--dim);line-height:1.5;margin:0}
+.search{display:flex;align-items:center;gap:4px;border:1px solid var(--faint);border-radius:999px;background:var(--panel);backdrop-filter:blur(6px);padding:3px 4px 3px 13px;width:min(260px,70vw)}
+.search input{all:unset;flex:1;min-width:0;font-family:var(--body);font-size:12.5px;color:var(--mist);padding:4px 0}
+.search input::placeholder{color:var(--dim);font-style:italic}
+.search:focus-within{border-color:var(--aurora)}
+#sp-clear{all:unset;cursor:pointer;color:var(--dim);font-size:16px;line-height:1;padding:2px 8px}
+.sp-count{font-family:var(--mono);font-size:10px;color:var(--aurora);min-height:1em}
+.chips button{all:unset;cursor:pointer;font-size:11.5px;padding:3px 8px;border:1px solid var(--faint);border-radius:999px;color:var(--mist);transition:border-color .2s,color .2s}
+.chips button:hover,.chips button.hit{border-color:var(--aurora);color:var(--aurora)}
+.chips button:focus-visible,#sp-clear:focus-visible,#gal-exit:focus-visible,#cred-close:focus-visible{outline:1px solid var(--aurora);outline-offset:2px}
+.spec-now{font-family:var(--mono);font-size:10.5px;color:var(--aurora);min-height:1.3em;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.act.quiet{font-size:11.5px;padding:7px 12px;color:var(--dim)}
+#dayclock{position:fixed;left:50%;top:calc(22px + env(safe-area-inset-top,0px));transform:translateX(-50%);text-align:center;pointer-events:none;display:flex;flex-direction:column;align-items:center;gap:4px}
+#dc-time{font-family:var(--display);font-weight:300;font-size:clamp(40px,7vw,76px);line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.01em;text-shadow:0 0 30px rgba(134,227,195,.25)}
+.dc-bar{width:min(220px,50vw);height:2px;background:var(--faint);border-radius:1px;overflow:hidden}
+.dc-bar i{display:block;height:100%;width:0;background:var(--aurora)}
+#near-hint{position:fixed;left:50%;bottom:calc(120px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);font-family:var(--mono);font-size:10.5px;color:var(--dim);background:var(--panel);border:1px solid var(--faint);padding:6px 12px;border-radius:999px;pointer-events:none;white-space:nowrap}
+#credits{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(560px,calc(100vw - 32px));max-height:calc(100% - 80px);overflow-y:auto;background:var(--panel);backdrop-filter:blur(12px);border:1px solid var(--faint);border-radius:2px;padding:24px 24px 20px;display:flex;flex-direction:column;gap:16px;z-index:5}
+#credits h2{font-family:var(--display);font-weight:300;font-style:italic;font-size:34px;margin:0;line-height:1}
+#credits p{margin:0;color:var(--dim);line-height:1.55;font-size:13px}
+#credits h3{margin:0 0 6px;font-family:var(--mono);font-weight:300;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+#credits ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:4px 18px;font-size:12.5px}
+#cred-org{grid-template-columns:1fr!important}
+#credits li{display:flex;justify-content:space-between;gap:10px;min-width:0}
+#credits li span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#credits li span.n{font-family:var(--mono);font-size:10px;color:var(--dim);font-variant-numeric:tabular-nums;flex:none}
+.cred-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+#cred-close{all:unset;cursor:pointer;color:var(--dim);font-size:20px;line-height:1;padding:2px 4px}
+#qr{position:fixed;left:max(20px,env(safe-area-inset-left,0px));bottom:calc(20px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:14px;background:var(--panel);border:1px solid var(--faint);padding:12px;border-radius:2px}
+#qr-code{width:104px;height:104px;background:var(--night);display:grid;place-items:center}
+#qr-code img,#qr-code canvas{width:104px!important;height:104px!important;image-rendering:pixelated}
+#qr .qr-text{display:flex;flex-direction:column;gap:4px;max-width:20ch}
+#qr .qr-text b{font-family:var(--display);font-weight:400;font-size:18px;line-height:1.1}
+#qr .qr-text span{font-family:var(--mono);font-size:9.5px;color:var(--dim);word-break:break-all}
+#gal-exit{position:fixed;right:max(16px,env(safe-area-inset-right,0px));top:calc(16px + env(safe-area-inset-top,0px));opacity:.0;transition:opacity .4s}
+body.gallery.moved #gal-exit,#gal-exit:focus-visible{opacity:1}
+body.gallery .controls,body.gallery .foot,body.gallery details,body.gallery .dek{opacity:0;pointer-events:none;transition:opacity .8s}
+body.gallery h1{font-size:clamp(40px,6vw,78px)}
 @media (max-width:720px){
   .ui{grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto 1fr auto;gap:10px}
   .controls{align-items:flex-start;flex-direction:row;flex-wrap:wrap;gap:10px}
@@ -133,6 +173,15 @@ dt{color:var(--dim)}dd{margin:0;font-variant-numeric:tabular-nums;text-align:rig
         <button id="c-zone" aria-pressed="false" data-c="zone">Ecozone</button>
       </div>
     </div>
+    <div class="group">
+      <label class="eyebrow" for="sp-q">Find a species</label>
+      <div class="search">
+        <input id="sp-q" list="sp-list" placeholder="e.g. Common Loon" autocomplete="off" spellcheck="false">
+        <button id="sp-clear" aria-label="Clear search" hidden>×</button>
+      </div>
+      <datalist id="sp-list"></datalist>
+      <span class="sp-count" id="sp-count" aria-live="polite"></span>
+    </div>
   </div>
 
   <div class="spacer"></div>
@@ -145,12 +194,28 @@ dt{color:var(--dim)}dd{margin:0;font-variant-numeric:tabular-nums;text-align:rig
         <button class="act" id="surprise">Surprise me</button>
         <button class="act" id="reset">Step back</button>
       </div>
+      <div class="actions" style="margin-top:8px">
+        <button class="act" id="sweep">Play the day</button>
+        <button class="act" id="near" aria-pressed="false">Listen nearby</button>
+        <button class="act quiet" id="cred-open">Credits</button>
+        <button class="act quiet" id="gal-open">Gallery mode</button>
+      </div>
       <div class="hint">Drag to turn · scroll or pinch to approach · tap a light to listen</div>
     </div>
   </footer>
 </div>
 
 <div id="tip" hidden></div>
+<div id="dayclock" hidden><span class="eyebrow" id="dc-phase">Night</span><div id="dc-time">00:00</div><div class="dc-bar"><i id="dc-fill"></i></div></div>
+<div id="near-hint" hidden>Zoom in closer to hear the recordings around you</div>
+<aside id="credits" hidden aria-labelledby="cred-title">
+  <div class="cred-top"><h2 id="cred-title">Who recorded these</h2><button id="cred-close" aria-label="Close credits">×</button></div>
+  <p id="cred-intro"></p>
+  <div><h3>Organizations</h3><ul id="cred-org"></ul></div>
+  <p>Recordings and tags from <strong>WildTrax</strong>, retrieved with the ABMI <strong>wildrtrax</strong> R package. Curated by Meg Edgar, Bayne Lab, University of Alberta. Built with three.js.</p>
+</aside>
+<div id="qr" hidden><div id="qr-code"></div><div class="qr-text"><b>Explore it on your phone</b><span id="qr-url"></span></div></div>
+<button class="act" id="gal-exit" hidden>Exit gallery</button>
 
 <aside id="label" hidden aria-live="polite">
   <div class="lab-top"><span class="dot" id="lab-dot"></span><span class="mono" id="lab-id"></span><button id="lab-close" aria-label="Close label">×</button></div>
@@ -162,6 +227,7 @@ dt{color:var(--dim)}dd{margin:0;font-variant-numeric:tabular-nums;text-align:rig
     <span class="sax tx t0">0 s</span><span class="sax tx tN" id="spec-dur">30 s</span>
     <span class="sax load" id="spec-load" hidden>Drawing spectrogram…</span>
   </div>
+  <div class="spec-now" id="spec-now"></div>
   <div>
     <span class="eyebrow">Tagged in this clip</span>
     <div class="chips" id="lab-species" style="margin-top:6px"></div>
@@ -182,6 +248,7 @@ dt{color:var(--dim)}dd{margin:0;font-variant-numeric:tabular-nums;text-align:rig
 </aside>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <script>
 (async function(){
 function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
@@ -240,7 +307,8 @@ AREAS.forEach((a,ai)=>{
       const sp=[...pool].sort(()=>R()-.5).slice(0,nsp);
       if(type==='dawn'&&wet&&R()<.5)sp.push(pickOne(R,POOL.marsh));
       P.push({site,areaName:a.name,proj:a.proj,lat,lon,zone:ecozone(lat,lon),doy,hour,type,species:sp,rich:sp.length,abio:ABIO[type]||null,
-        file:null,seed:Math.floor(R()*1e9),size:.85+R()*.5,phase:R()*6.28,year:2022+Math.floor(R()*4)});
+        file:null,tags:[],org:['Bayne Lab, University of Alberta','Canadian Wildlife Service','ABMI'][ai%3],
+        seed:Math.floor(R()*1e9),size:.85+R()*.5,phase:R()*6.28,year:2022+Math.floor(R()*4)});
     }
   }
 });
@@ -264,13 +332,15 @@ async function loadManifest(){
       const p={site:r.location||r.id,areaName:r.area||(r.project_name||('Project '+(r.project_id??''))),proj:r.project_name||String(r.project_id??''),
         lat:+r.lat,lon:+r.lon,zone:ecozone(+r.lat,+r.lon),doy,hour,species:sp,rich:r.richness!=null?+r.richness:sp.length,
         abio:r.abio_label||abioLabel(r.abiotic),file:r.file?('clips/'+r.file):null,year:isNaN(dt)?2025:dt.getFullYear(),
-        seed:Math.floor(R()*1e9),size:.85+R()*.5,phase:R()*6.28};
+        seed:Math.floor(R()*1e9),size:.85+R()*.5,phase:R()*6.28,
+        tags:[].concat(r.tags||[]).map(t=>({code:t.code||'',species:t.species||t.code||'',t:+t.t,dur:+t.dur||0,fmin:+t.fmin,fmax:+t.fmax})).filter(t=>isFinite(t.t)),
+        org:r.organization||r.organization_name||''};
       p.type=r.placeholder_type||synthType(p);return p})}
   catch(e){return null}}
 const P=(await loadManifest())||buildPlaceholder();
 const usingReal=P.some(p=>p.file);
 const N=P.length;
-if(usingReal){const dn=$('data-note');if(dn)dn.innerHTML='<strong>The recordings.</strong> '+N+' thirty-second clips drawn from WildTrax ARU projects, with species from observer tags. Coordinates are rounded for privacy.'}
+if(usingReal){const dn=$('data-note');if(dn)dn.innerHTML='<strong>The recordings.</strong> '+N+' thirty-second clips drawn from WildTrax ARU projects, with species from WildTrax tags. Coordinates are rounded for privacy.'}
 
 /* ---------- layouts ---------- */
 const LON0=-102,LAT0=56.5;
@@ -321,18 +391,18 @@ const canvas=$('stage');
 const renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true});
 renderer.setPixelRatio(Math.min(devicePixelRatio,2));
 const scene=new THREE.Scene(),cam=new THREE.PerspectiveCamera(50,1,.1,200);
-const pos=new Float32Array(N*3),col=new Float32Array(N*3),siz=new Float32Array(N),pha=new Float32Array(N);
+const pos=new Float32Array(N*3),col=new Float32Array(N*3),siz=new Float32Array(N),pha=new Float32Array(N),glw=new Float32Array(N).fill(1);
 P.forEach((p,i)=>{pos.set(p.map,i*3);siz[i]=p.size;pha[i]=p.phase});
 const geo=new THREE.BufferGeometry();
 geo.setAttribute('position',new THREE.BufferAttribute(pos,3));geo.setAttribute('color',new THREE.BufferAttribute(col,3));
-geo.setAttribute('size',new THREE.BufferAttribute(siz,1));geo.setAttribute('phase',new THREE.BufferAttribute(pha,1));
+geo.setAttribute('size',new THREE.BufferAttribute(siz,1));geo.setAttribute('phase',new THREE.BufferAttribute(pha,1));geo.setAttribute('glow',new THREE.BufferAttribute(glw,1));
 const uni={uTime:{value:0},uPix:{value:renderer.getPixelRatio()}};
 const cloud=new THREE.Points(geo,new THREE.ShaderMaterial({uniforms:uni,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,vertexColors:true,
- vertexShader:`attribute float size;attribute float phase;varying vec3 vC;uniform float uTime;uniform float uPix;
-  void main(){vC=color;vec3 p=position+vec3(sin(uTime*.6+phase),cos(uTime*.5+phase*1.3),sin(uTime*.4+phase*.7))*.03;
-  vec4 mv=modelViewMatrix*vec4(p,1.);gl_PointSize=size*uPix*125./-mv.z;gl_Position=projectionMatrix*mv;}`,
- fragmentShader:`varying vec3 vC;void main(){float d=length(gl_PointCoord-.5);float core=smoothstep(.15,.0,d);float halo=smoothstep(.5,.0,d)*.38;
-  float a=core+halo;if(a<.01)discard;gl_FragColor=vec4(vC*(core*1.2+halo),a);}`}));
+ vertexShader:`attribute float size;attribute float phase;attribute float glow;varying vec3 vC;varying float vG;uniform float uTime;uniform float uPix;
+  void main(){vC=color;vG=glow;vec3 p=position+vec3(sin(uTime*.6+phase),cos(uTime*.5+phase*1.3),sin(uTime*.4+phase*.7))*.03;
+  vec4 mv=modelViewMatrix*vec4(p,1.);gl_PointSize=size*uPix*125.*mix(.55,1.,min(glow,1.))*(1.+max(glow-1.,0.)*.9)/-mv.z;gl_Position=projectionMatrix*mv;}`,
+ fragmentShader:`varying vec3 vC;varying float vG;void main(){float d=length(gl_PointCoord-.5);float core=smoothstep(.15,.0,d);float halo=smoothstep(.5,.0,d)*.38*(1.+max(vG-1.,0.)*1.5);
+  float a=(core+halo)*(.1+.9*min(vG,1.));if(a<.005)discard;gl_FragColor=vec4(vC*(core*1.2+halo)*(.35+.65*min(vG,1.)),a);}`}));
 scene.add(cloud);
 
 (function(){const n=900,s=new Float32Array(n*3);for(let i=0;i<n;i++){const r=35+R()*40,t=R()*6.283,ph=Math.acos(2*R()-1);
@@ -432,7 +502,9 @@ function select(i,fly=true){sel=i;const p=P[i],c=colourOf(p,cmode),hex='#'+c.get
   const d=new Date(p.year,0,p.doy),ymd=d.getFullYear()+String(d.getMonth()+1).padStart(2,'0')+String(d.getDate()).padStart(2,'0');
   $('lab-id').textContent=p.site+'_'+ymd+'_'+fmtH(p.hour).replace(':','')+'00';
   $('lab-name').textContent=p.site;$('lab-sub').textContent=p.areaName;
-  $('lab-species').innerHTML=(p.species.length?p.species.map(s=>`<span>${s}</span>`).join(''):'')+(p.abio?`<span class="ab">${p.abio}</span>`:'')||'<span class="ab">Nothing tagged</span>';
+  $('lab-species').innerHTML=(p.species.length?p.species.map(s=>`<button type="button" data-sp="${s.replace(/"/g,'&quot;')}" class="${spMatch.has(s)?'hit':''}" title="Find every recording with this species">${s}</button>`).join(''):'')+(p.abio?`<span class="ab">${p.abio}</span>`:'')||'<span class="ab">Nothing tagged</span>';
+  $('lab-species').querySelectorAll('button').forEach(b=>b.onclick=()=>{setSearch(b.dataset.sp)});
+  $('spec-now').textContent='';
   $('lab-date').textContent=d.getDate()+' '+d.toLocaleString('en-CA',{month:'long'})+' '+p.year;$('lab-time').textContent=fmtH(p.hour);
   $('lab-zone').textContent=ZONES[p.zone].name;$('lab-coord').textContent=p.lat.toFixed(2)+'°N, '+Math.abs(p.lon).toFixed(2)+'°W';
   $('lab-proj').textContent=p.proj;$('lab-note').textContent=p.file?'WildTrax recording · 30 s clip':'Placeholder · the WildTrax clip plays here once loaded';
@@ -450,7 +522,7 @@ function renderNN(){if(sel<0)return;const a=P[sel][view];
 function deselect(){sel=-1;$('label').hidden=true;mk.visible=false;thr.visible=false;goal.tg.set(0,0,0);goal.r=VIEWCAM[view].r;fadeVoice()}
 $('lab-close').onclick=()=>{stopJourney();deselect()};
 $('replay').onclick=()=>{if(sel>=0){clearSpec();play(sel)}};
-addEventListener('keydown',e=>{if(e.key==='Escape'){stopJourney();deselect()}});
+addEventListener('keydown',e=>{if(e.key!=='Escape')return;if(gal){exitGallery();return}if(!$('credits').hidden){$('credits').hidden=true;return}stopJourney();deselect()});
 
 /* ---------- placeholder audio (synthesized) ---------- */
 let ac,master,analyser,noiseBuf,voice=null;
@@ -502,9 +574,9 @@ const SY={
 const bufCache=new Map();
 async function getBuf(url){if(bufCache.has(url))return bufCache.get(url);
   const ab=await(await fetch(url)).arrayBuffer();const b=await ac.decodeAudioData(ab);
-  bufCache.set(url,b);if(bufCache.size>12)bufCache.delete(bufCache.keys().next().value);return b}
+  bufCache.set(url,b);if(bufCache.size>28)bufCache.delete(bufCache.keys().next().value);return b}
 function play(i,offset=0){audio();if(ac.state==='suspended')ac.resume();fadeVoice();voice=ac.createGain();voice.connect(master);
-  const p=P[i],v=voice;
+  const p=P[i],v=voice;v.t0=ac.currentTime;
   if(p.file){v.gain.value=1.4;$('spec-load').hidden=false;
     getBuf(p.file).then(b=>{if(voice!==v)return;
       specImg=specImage(b);specDur=b.duration;$('spec-dur').textContent=Math.round(b.duration)+' s';$('spec-load').hidden=true;
@@ -551,6 +623,7 @@ function drawSpec(){if(sel<0)return;const W=sc.width,H=sc.height;
     sx.globalAlpha=.42;sx.drawImage(specImg,0,0);                      // not yet heard: dimmed
     sx.globalAlpha=1;if(px>0)sx.drawImage(specImg,0,0,px,H,0,0,px,H);  // heard: full brightness
     for(const f of[3000,6000,9000]){const y=H-f/SPEC_FMAX*H;sx.fillStyle='rgba(217,228,223,.07)';sx.fillRect(0,y,W,1)}
+    drawTags(W,H,t,playing);
     if(playing){sx.fillStyle='#86e3c3';sx.fillRect(px-1,0,2,H)}
     return}
   if(!analyser)return;                                                 // placeholder: scroll in live
@@ -558,8 +631,118 @@ function drawSpec(){if(sel<0)return;const W=sc.width,H=sc.height;
   const hz=ac.sampleRate/analyser.fftSize;sx.drawImage(sc,-2,0);
   for(let y=0;y<H;y++){const b=Math.min(fbuf.length-1,Math.round((H-1-y)/H*SPEC_FMAX/hz)),k=fbuf[b]*3;
     sx.fillStyle=`rgb(${LUT[k]},${LUT[k+1]},${LUT[k+2]})`;sx.fillRect(W-2,y,2,1)}}
+// WildTrax tag boxes: when (s) and frequency range (Hz); highlighted if they match the species search
+let nowTxt='';
+function drawTags(W,H,t,playing){const tags=P[sel].tags||[];if(!tags.length){setNow('');return}
+  sx.font='500 17px "Martian Mono",Menlo,monospace';sx.textBaseline='bottom';const now=[];
+  for(const g of tags){const x0=g.t/specDur*W,w=Math.max(4,(g.dur||1)/specDur*W);
+    let lo=g.fmin,hi=g.fmax;const hasF=isFinite(lo)&&isFinite(hi)&&hi>0;if(hasF&&hi<=24){lo*=1000;hi*=1000}
+    const y0=hasF?Math.max(1,H-hi/SPEC_FMAX*H):1,y1=hasF?Math.min(H-1,H-lo/SPEC_FMAX*H):H-1;
+    const hit=spMatch.size&&spMatch.has(g.species),live=playing&&t>=g.t&&t<=g.t+Math.max(g.dur||0,1.5);
+    if(live&&!now.includes(g.species))now.push(g.species);
+    sx.lineWidth=hit||live?3:1.5;sx.strokeStyle=hit?'#86e3c3':live?'#f4d58d':'rgba(217,228,223,.6)';
+    sx.strokeRect(x0,y0,w,Math.max(4,y1-y0));
+    sx.fillStyle=sx.strokeStyle;const ly=y0>20?y0-2:Math.min(H-2,y1+19);sx.fillText(g.code||g.species.slice(0,4).toUpperCase(),x0+1,ly)}
+  setNow(now.length?'Now calling: '+now.join(', '):'')}
+function setNow(txt){if(txt!==nowTxt){nowTxt=txt;$('spec-now').textContent=txt}}
 sc.addEventListener('click',e=>{if(sel<0||!specImg||!P[sel].file)return;const r=sc.getBoundingClientRect();
   play(sel,Math.max(0,Math.min(specDur-.1,(e.clientX-r.left)/r.width*specDur)))});
+
+/* ---------- species search ---------- */
+const ALLSP=[...new Set(P.flatMap(p=>p.species))].sort((a,b)=>a.localeCompare(b));
+$('sp-list').innerHTML=ALLSP.map(s=>`<option value="${s.replace(/"/g,'&quot;')}"></option>`).join('');
+let spMatch=new Set();
+function setSearch(q){$('sp-q').value=q;runSearch()}
+function runSearch(){const q=$('sp-q').value.trim().toLowerCase();$('sp-clear').hidden=!q;
+  if(!q){spMatch=new Set();P.forEach(p=>p.hit=true);$('sp-count').textContent='';refreshChips();return}
+  const exact=ALLSP.filter(s=>s.toLowerCase()===q);spMatch=new Set(exact.length?exact:ALLSP.filter(s=>s.toLowerCase().includes(q)));
+  let n=0;P.forEach(p=>{p.hit=p.species.some(s=>spMatch.has(s));if(p.hit)n++});
+  $('sp-count').textContent=spMatch.size?`${n} recording${n===1?'':'s'} · ${spMatch.size===1?[...spMatch][0]:spMatch.size+' species'}`:'No recordings with that species';
+  refreshChips()}
+function refreshChips(){$('lab-species').querySelectorAll('button').forEach(b=>b.classList.toggle('hit',spMatch.has(b.dataset.sp)))}
+$('sp-q').addEventListener('input',runSearch);
+$('sp-q').addEventListener('keydown',e=>{if(e.key==='Enter'){const hits=P.map((p,i)=>i).filter(i=>spMatch.size&&P[i].hit);if(hits.length){stopJourney();select(hits[Math.floor(Math.random()*hits.length)])}}});
+$('sp-clear').onclick=()=>setSearch('');
+P.forEach(p=>{p.hit=true;p.flash=0});
+
+/* ---------- shared ambient bus (sweep + spatial) ---------- */
+let amb=null;
+function ambBus(){audio();if(!amb){amb=ac.createGain();amb.gain.value=1;amb.connect(master)}return amb}
+function mainBusy(){return voice&&(voice.src?!voice.done:(ac&&ac.currentTime-(voice.t0||0)<5))}
+function startSound(i,g,offset){const p=P[i];
+  if(p.file){return getBuf(p.file).then(b=>{const src=ac.createBufferSource();src.buffer=b;src.connect(g);
+      const off=offset==null?Math.random()*Math.max(0,b.duration-8):offset;src.start(ac.currentTime+.02,off);return src}).catch(()=>{SY[p.type](g,ac.currentTime+.05,mulberry32(p.seed));return null})}
+  SY[p.type](g,ac.currentTime+.05,mulberry32(p.seed+Math.floor(Math.random()*999)));return Promise.resolve(null)}
+const hourDiff=(a,b)=>{const d=Math.abs(a-b)%24;return d>12?24-d:d};
+
+/* ---------- dawn chorus sweep: a day in 96 s ---------- */
+const SWEEP_S=96;let sweep=null;
+function phaseOf(h){return h<3.5?'Night':h<5?'First light':h<8.5?'Dawn chorus':h<12?'Morning':h<17?'Afternoon':h<20.5?'Evening':h<22.5?'Dusk':'Night'}
+function startSweep(){audio();if(ac.state==='suspended')ac.resume();stopJourney();
+  sweep={t0:performance.now(),next:0,recent:[]};$('dayclock').hidden=false;$('sweep').textContent='Stop the day';$('sweep').classList.add('on');hand.visible=true}
+function stopSweep(){if(!sweep)return;sweep=null;$('dayclock').hidden=true;$('sweep').textContent='Play the day';$('sweep').classList.remove('on');hand.visible=false}
+function sweepTick(now){const el=(now-sweep.t0)/1000;if(el>=SWEEP_S){stopSweep();return null}
+  const h=el/SWEEP_S*24;$('dc-time').textContent=fmtH(h);$('dc-phase').textContent=phaseOf(h);$('dc-fill').style.width=(el/SWEEP_S*100).toFixed(2)+'%';
+  if(el>=sweep.next){sweep.next=el+2.3;
+    const cand=P.map((p,i)=>i).filter(i=>hourDiff(P[i].hour,h)<.6&&!sweep.recent.includes(i)&&(!spMatch.size||P[i].hit));
+    if(cand.length){const i=cand[Math.floor(Math.random()*cand.length)];sweep.recent.push(i);if(sweep.recent.length>30)sweep.recent.shift();
+      P[i].flash=1;const g=ac.createGain(),t=ac.currentTime,pk=mainBusy()?.12:.42;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(pk,t+1);
+      g.gain.setValueAtTime(pk,t+4.5);g.gain.linearRampToValueAtTime(0,t+6.5);g.connect(ambBus());
+      startSound(i,g).then(src=>{setTimeout(()=>{try{src&&src.stop()}catch(e){}g.disconnect()},7000)})}}
+  return h}
+$('sweep').onclick=()=>{sweep?stopSweep():startSweep()};
+
+/* clock hand for the season-clock view */
+const hand=lines([0,0,0,0,0,0],.55);hand.material.color=C('#86e3c3');hand.visible=false;scene.add(hand);
+
+/* ---------- spatial sound: hear what's around you ---------- */
+let near=false;const nearV=new Map();let nearAcc=0;const NEAR_R=2.4,NEAR_ZOOM=9.5,NEAR_MAX=5;
+function setNear(on){near=on;$('near').setAttribute('aria-pressed',on);$('near').classList.toggle('on',on);$('near').textContent=on?'Listening nearby':'Listen nearby';
+  if(on){audio();if(ac.state==='suspended')ac.resume()}else{nearV.forEach((v,i)=>dropNear(i));$('near-hint').hidden=true}}
+function dropNear(i){const v=nearV.get(i);if(!v)return;nearV.delete(i);v.g.gain.setTargetAtTime(0,ac.currentTime,.25);clearInterval(v.iv);
+  setTimeout(()=>{try{v.src&&v.src.stop()}catch(e){}v.g.disconnect()},1500)}
+function nearTick(){const close=rig.r<NEAR_ZOOM;$('near-hint').hidden=close;if(!close){nearV.forEach((v,i)=>dropNear(i));return}
+  const c=rig.tg,ds=[];for(let i=0;i<N;i++){if(i===sel)continue;const d=Math.hypot(pos[i*3]-c.x,pos[i*3+1]-c.y,pos[i*3+2]-c.z);if(d<NEAR_R&&P[i].hit)ds.push([i,d])}
+  ds.sort((a,b)=>a[1]-b[1]);const keep=new Map(ds.slice(0,NEAR_MAX));
+  nearV.forEach((v,i)=>{if(!keep.has(i))dropNear(i)});
+  keep.forEach((d,i)=>{let v=nearV.get(i);
+    if(!v){const g=ac.createGain();g.gain.value=0;const pn=ac.createStereoPanner?ac.createStereoPanner():null;if(pn){g.connect(pn);pn.connect(ambBus())}else g.connect(ambBus());
+      v={g,pn,src:null,iv:null};nearV.set(i,v);
+      if(P[i].file)startSound(i,g).then(src=>{if(!src)return;if(nearV.get(i)!==v){try{src.stop()}catch(e){}return}src.loop=true;v.src=src});
+      else{startSound(i,g);v.iv=setInterval(()=>startSound(i,g),5200)}}
+    tmp.set(pos[i*3],pos[i*3+1],pos[i*3+2]).project(cam);
+    const gain=.55*Math.pow(1-d/NEAR_R,1.5)*(mainBusy()?.25:1);v.g.gain.setTargetAtTime(gain,ac.currentTime,.3);
+    if(v.pn)v.pn.pan.setTargetAtTime(Math.max(-1,Math.min(1,tmp.x)),ac.currentTime,.2);P[i].flash=Math.max(P[i].flash,.35)})}
+$('near').onclick=()=>setNear(!near);
+
+/* ---------- credits ---------- */
+function openCredits(){
+  const orgs=[...new Set(P.map(p=>p.org).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  $('cred-intro').textContent=(usingReal?'':'Placeholder data. ')+`These recordings come from ARU projects run by the following organization${orgs.length===1?'':'s'}.`;
+  $('cred-org').innerHTML=orgs.length?orgs.map(o=>`<li><span title="${o}">${o}</span></li>`).join(''):'<li><span>Organization names appear here once the manifest includes them.</span></li>';
+  $('credits').hidden=false}
+$('cred-open').onclick=openCredits;$('cred-close').onclick=()=>{$('credits').hidden=true};
+
+/* ---------- gallery mode: tours itself for events ---------- */
+let gal=null,qrMade=false,moveT=null;
+const wait=(ms,tok)=>new Promise(res=>{const t=setTimeout(res,ms);tok.cancel.push(()=>{clearTimeout(t);res()})});
+function makeQR(){if(qrMade)return;qrMade=true;const url=location.href.split('#')[0];$('qr-url').textContent=url.replace(/^https?:\/\//,'');
+  try{if(window.QRCode)new QRCode($('qr-code'),{text:url,width:208,height:208,colorDark:'#d9e4df',colorLight:'#05100e',correctLevel:QRCode.CorrectLevel.M});else $('qr-code').hidden=true}catch(e){$('qr-code').hidden=true}}
+async function galleryLoop(tok){const views=['map','clock','comm'];let round=0;
+  while(!tok.dead){const v=views[round%3];setView(v);await wait(3500,tok);if(tok.dead)break;
+    if(round%2===1){startSweep();await wait(SWEEP_S*1000+800,tok);stopSweep();if(tok.dead)break}
+    const pool=P.map((p,i)=>i).filter(i=>P[i].species.length||!usingReal);
+    for(let k=0;k<4&&!tok.dead;k++){select(pool[Math.floor(Math.random()*pool.length)]);goal.th+=.7;await wait(13000,tok)}
+    if(tok.dead)break;deselect();await wait(2500,tok);round++}}
+function enterGallery(){audio();if(ac.state==='suspended')ac.resume();stopJourney();$('credits').hidden=true;makeQR();
+  document.body.classList.add('gallery');$('qr').hidden=false;$('gal-exit').hidden=false;
+  try{document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen().catch(()=>{})}catch(e){}
+  gal={dead:false,cancel:[]};galleryLoop(gal)}
+function exitGallery(){if(!gal)return;gal.dead=true;gal.cancel.forEach(f=>f());gal=null;stopSweep();deselect();
+  document.body.classList.remove('gallery','moved');$('qr').hidden=true;$('gal-exit').hidden=true;
+  try{document.fullscreenElement&&document.exitFullscreen()}catch(e){}}
+$('gal-open').onclick=enterGallery;$('gal-exit').onclick=exitGallery;
+addEventListener('pointermove',()=>{if(!gal)return;document.body.classList.add('moved');clearTimeout(moveT);moveT=setTimeout(()=>document.body.classList.remove('moved'),2500)});
 
 /* ---------- journey: one night at one site, then across the land ---------- */
 let jTimer=null;
@@ -568,7 +751,7 @@ function buildJourney(){ // a 24 h walk around the clock, hopping between areas
   const out=[],slots=[[1.5,4],[4,6],[6,8],[8,18],[20.5,22.5],[22.5,24]];
   slots.forEach(([a,b])=>{const pool=P.map((p,i)=>i).filter(i=>P[i].hour>=a&&P[i].hour<b);if(pool.length)out.push(pool[Math.floor(Math.random()*pool.length)])});return out}
 function journey(list,k){if(k>=list.length){stopJourney();return}select(list[k]);goal.th+=view==='clock'?0:.45;jTimer=setTimeout(()=>journey(list,k+1),5600)}
-$('journey').onclick=()=>{if(jTimer){stopJourney();return}$('journey').textContent='Stop journey';$('journey').classList.add('on');journey(buildJourney(),0)};
+$('journey').onclick=()=>{if(jTimer){stopJourney();return}stopSweep();$('journey').textContent='Stop journey';$('journey').classList.add('on');journey(buildJourney(),0)};
 $('surprise').onclick=()=>{stopJourney();select(Math.floor(Math.random()*N))};
 $('reset').onclick=()=>{stopJourney();deselect();goal.ph=VIEWCAM[view].ph};
 document.querySelectorAll('#view button[data-v]').forEach(b=>b.onclick=()=>setView(b.dataset.v));
@@ -583,6 +766,14 @@ function frame(){const dt=clock.getDelta();uni.uTime.value+=reduce?0:dt;
   const k=reduce?1:.05;mapMix+=((view==='map'?1:0)-mapMix)*k;clockMix+=((view==='clock'?1:0)-clockMix)*k;
   mapGuide.material.opacity=.12*mapMix;stalks.material.opacity=view==='map'?.18*Math.pow(mT,4):0;clockGuide.material.opacity=.16*clockMix;
   if(!reduce&&performance.now()-lastInteract>3500&&!ptrs.size)goal.th+=.0008;
+  const nowMs=performance.now(),sh=sweep?sweepTick(nowMs):null;
+  for(let i=0;i<N;i++){const p=P[i];let g=1;if(spMatch.size)g*=p.hit?1:.07;
+    if(sh!=null){const d=hourDiff(p.hour,sh);g*=.14+.86*Math.exp(-(d*d)/(2*.5*.5))}
+    if(p.flash>0){g=Math.max(g,1)+p.flash*.9;p.flash=Math.max(0,p.flash-dt*.35)}
+    glw[i]+=(g-glw[i])*(reduce?1:Math.min(1,dt*6))}
+  geo.attributes.glow.needsUpdate=true;
+  if(sh!=null&&view==='clock'){const a=sh/24*Math.PI*2,r=rOf(D1)+.6,hp=hand.geometry.attributes.position;hp.array.set([0,0,0,r*Math.sin(a),0,-r*Math.cos(a)]);hp.needsUpdate=true;hand.material.opacity=.55}else hand.material.opacity=0;
+  if(near&&ac){nearAcc+=dt;if(nearAcc>.2){nearAcc=0;nearTick()}}
   if(sel>=0){const m=mk.geometry.attributes.position;m.array.set(pos.subarray(sel*3,sel*3+3));m.needsUpdate=true;
     const l=thr.geometry.attributes.position;nnIdx.forEach((j,k)=>{l.array.set(pos.subarray(sel*3,sel*3+3),k*6);l.array.set(pos.subarray(j*3,j*3+3),k*6+3)});l.needsUpdate=true;drawSpec()}
   placeCam();renderer.render(scene,cam);
